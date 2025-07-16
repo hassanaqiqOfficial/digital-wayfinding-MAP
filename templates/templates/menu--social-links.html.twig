@@ -1,0 +1,22 @@
+<div class="social_nav" itemscope itemtype="http://schema.org/Organization">
+	<link itemprop="url" href="//www.bwi.com">
+
+	<div class="social_nav_header">
+		<h2 class="social_nav_title">Connect With Us</h2>
+	</div>
+
+	<div class="social_nav_list">
+		{% for link in items %}
+		<div class="social_nav_item {{ link.title|lower }}">
+			<a class="social_nav_link" href="{{ link.url }}" target="_blank" itemprop="sameAs">
+				<span class="social_nav_icon">
+					<svg aria-hidden="true" class="symbol symbol_{{ link.title|lower }}">
+						<use xlink:href="#{{ link.title|lower }}"></use>
+					</svg>
+				</span>
+				<span class="social_nav_label">{{ link.title }}</span>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>

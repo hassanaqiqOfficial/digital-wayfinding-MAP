@@ -1,0 +1,25 @@
+{% extends "_base.twig" %}
+
+{% set pageTitle = "Style Guide Feature" %}
+
+{% block page_feature %}
+
+  <h4>Spotlight with Image</h4>
+  {% include '../partials/components/feature/spotlight.twig' with {
+    image: 8,
+    title: "Flying With Us",
+    caption: "Find out how easy it is to get in and get going."
+  } %}
+
+  <h4>Spotlight Without an Image</h4>
+  {% include '../partials/components/feature/spotlight.twig' with {
+    title: "Flying With Us",
+    caption: "Find out how easy it is to get in and get going."
+  } %}
+
+  <h4>Homepage Video</h4>
+  {% include '../partials/components/feature/highlight.twig' with {
+		title: "Your Gateway to the<br/>Baltimore-Washington Region",
+		caption: "BWI Marshall Airport makes travel easy to and from the Baltimore-Washington area with plenty of direct flights, simple ways to get around the region, terrific amenities, and even some fun with our Observation Gallery, art exhibits and bike and cardio trails."
+	} %}
+{% endblock %}

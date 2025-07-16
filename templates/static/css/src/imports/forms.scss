@@ -1,0 +1,74 @@
+/* ==========================================================================
+	Forms
+============================================================================= */
+
+form {}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+legend {}
+
+@mixin label() {}
+
+label {
+	@include label_text;
+}
+
+@mixin input() {
+	@include proxima(300);
+
+	appearance: none;
+	border: 1px solid #E3E3E3;
+	border-radius: 4px;
+	color: $dark;
+	font-size: 16px;
+	padding: 16px 20px;
+
+	&::placeholder {
+		color: $dark;
+	}
+}
+
+input,
+textarea,
+select {
+	@include input;
+}
+
+select {
+	width: 100%;
+
+	background: #fff;
+}
+
+input::-ms-clear {
+	width: 0;
+	height: 0;
+}
+
+textarea {
+	display: block;
+	resize: vertical;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=url],
+input[type=number],
+input[type=date],
+textarea {}
+
+.typography {
+
+	input,
+	textarea,
+	label,
+	select {
+		@include focus_outline_none;
+	}
+}

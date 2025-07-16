@@ -1,0 +1,69 @@
+/* ==========================================================================
+	Drupal Overrides
+============================================================================= */
+
+#toolbar-administration {
+	background: #2d2d2d;
+	
+	.toolbar-bar {
+		overflow: hidden;
+	}
+}
+
+body.toolbar-horizontal {
+	.header {
+		top: 79px;
+	}
+}
+
+body.toolbar-vertical {
+	.header {
+		top: 39px;
+	}
+}
+
+.drupal_tabs {
+	display: none;
+
+	@media #{$min_md} {
+		border-bottom: 1px solid #333;
+		display: block;
+		height: 40px;
+		margin: 0 0 25px 0;
+		padding: 0 !important;
+	}
+}
+
+.drupal_tab {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+
+	&:before {
+		display: none !important;
+	}
+
+	a {
+		@include proxima(700);
+
+		background: #FFF;
+		border: 1px solid #333;
+		color: #000;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+		margin: 0 5px 0 0;
+		padding: 0 10px;
+
+		&.is-active {
+			border-bottom-color: #FFF;
+		}
+
+		.no-touchevents &:hover {
+			border-bottom-color: #333;
+			box-shadow: none !important;
+			background: #333;
+			color: #FFF;
+		}
+	}
+}

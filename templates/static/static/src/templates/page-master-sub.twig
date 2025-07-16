@@ -1,0 +1,115 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		image: 8,
+		title: "Flying With Us",
+		caption: "Find out how easy it is to get in and get going."
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		"Flights",
+		"Security",
+		"Baggage",
+		"Lost & Found",
+		"International Travelers",
+		"Accessibility",
+		"Corporate & General Aviation",
+		"About BWI"
+	] %}
+{% endblock %}
+
+{% set pageTitle = "Master Sub" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "Easy Come, Easy Go" %}
+{% endblock %}
+
+{% block typography %}
+	<p>Traveling through BWI Marshall is terrifically easy, both <a href="">arriving</a> and <a href="">departing</a>. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+
+	<p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "framed",
+		background: 3,
+		title: "Inspiring Destinations",
+		caption: "and the convenient non-stop flights you’re looking for.",
+		link: "Exciting Destinations",
+		subCaption: "<a href>London</a> is a diverse and exciting city with some of the world's best sights, attractions and activities."
+	} %}
+
+	{% include '../partials/components/full-width/callouts.twig' with {
+		callouts: [
+			{
+				title: "Flights",
+				image: 4,
+				caption: "Check the status of all arrivals and departures.",
+				link: "Flight Information"
+			},
+			{
+				title: "Security",
+				image: 5,
+				caption: "Learn how to expedite your screening experience when traveling at participating airports.",
+				link: "TSA PreCheck"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/blockquote.twig' with {
+		description: "Terrific! BWI makes flying much easier than it often is. It's easy to get there, easy to find things, and security is the fastest and most logical I've ever seen.",
+		image: 9,
+		name: "James Perring",
+		position: "Attorney"
+	} %}
+
+	{% include '../partials/components/full-width/stats.twig' with {
+		title: "Facts & Stats",
+		caption: "Donec ullamcorper nulla non metus auctor fringilla.",
+		stats: [
+			{
+				number: "22.5M",
+				caption: "Passengers traveling through BWI Marshall in 2014."
+			},
+			{
+				number: "70",
+				caption: "Direct flights. It’s easy to just go at BWI Thurgood Marshall."
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/services.twig' with {
+		title: "Services",
+		background: 10,
+		services: [
+			{
+				title: "Baggage",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Lost & Found",
+				caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium."
+			},
+			{
+				title: "International Travelers",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Accessibility",
+				caption: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec vive."
+			},
+			{
+				title: "Corporate & General Aviation",
+				caption: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget lib."
+			},
+			{
+				title: "About BWI",
+				caption: "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamco."
+			}
+		]
+	} %}
+{% endblock %}

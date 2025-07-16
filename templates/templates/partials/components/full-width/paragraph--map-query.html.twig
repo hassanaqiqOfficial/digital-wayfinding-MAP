@@ -1,0 +1,43 @@
+{% set images = image_style(content.field_image, ['square_xsml']) %}
+
+<section class="info theme_framed">
+	<div class="row">
+		<div class="info_wrapper">
+			<img class="info_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.square_xsml }}">
+
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						<span class="info_ribbon_bubble">
+							<span class="info_ribbon_icon">
+								<svg aria-hidden="true" class="symbol symbol_traveler symbol_red">
+									<use xlink:href="#traveler"></use>
+								</svg>
+							</span>
+						</span>
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+						<p class="info_caption">{{ content.field_description_plain[0]["#context"]["value"] }}</p>
+					</div>
+				</header>
+				<div class="info_items">
+					<div class="fs-dropdown_wrapper info_dropdown_wrapper">
+						<select class="js-dropdown info_dropdown" data-dropdown-options='{ "links": true, "label": "{{ content.field_subtitle[0]["#context"]["value"] }}" }'>
+							{% for link in content.field_links %}
+								{% if link["#title"] %}
+									 <option value="{{ link["#url"] }}">{{ link["#title"] }}</option>
+								{% endif %}
+							{% endfor %}
+						</select>
+						<span class="fs-dropdown_icon info_dropdown_icon">
+							<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+								<use xlink:href="#caret_down"></use>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

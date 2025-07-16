@@ -1,0 +1,14 @@
+{
+    "name": "sunny/digitalsignage",
+    "description": "this is an advanced level of digital signage wayfinder",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sunny",
+            "email": "hassan.aqiqali@gmail.com"
+        }
+    ],
+    "require": {
+      "twig/twig" : "^3.0"
+    }
+}

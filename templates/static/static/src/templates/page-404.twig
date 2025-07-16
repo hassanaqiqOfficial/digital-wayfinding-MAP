@@ -1,0 +1,18 @@
+{% extends "_base.twig" %}
+
+{% set pageTitle = "Page not Found" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		title: "Page Not Found",
+		caption: "We can't find what you're looking for. Can we help you travel to where you need to be?"
+	} %}
+{% endblock %}
+
+{% block layout %}
+	{% set layout = "full" %}
+{% endblock %}
+
+{% block in_content_callouts %}
+	{% include "../partials/components/in-content/google-cse.twig" %}
+{% endblock %}

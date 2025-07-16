@@ -1,0 +1,17 @@
+<section class="callouts{% if theme %} theme_{{theme}}{% endif %}">
+	<div class="row">
+		<div class="callouts_wrapper">
+			{% for callout in callouts %}
+				<article class="callout">
+					<h2 class="callout_title">{{callout.title}}</h2>
+					<a class="callout_image_link" href="">{{site.image("callout", img.wide.xsml, callout.image)}}</a>
+					<p class="callout_caption">{{callout.caption}}</p>
+					<a class="callout_link" href="#" aria-title="Open page for more info on {{callout.title}}">
+						<span>{{callout.link}}</span>
+						{{site.symbol("arrow_right", "red")}}
+					</a>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</section>

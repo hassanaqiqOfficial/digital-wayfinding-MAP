@@ -1,0 +1,33 @@
+{
+    "updated": "*as of <time>12:30pm</time>",
+    "lots": {
+        "Hourly": {
+            "available": 744,
+            "class": "available",
+            "total": 1404,
+            "percentage": 53,
+            "status": "Available"
+        },
+        "Daily": {
+            "available": 5,
+            "class": "lot-full",
+            "total": 1404,
+            "percentage": 0,
+            "status": "Lot Full"
+        },
+        "Express": {
+            "available": 1244,
+            "class": "mostly-open",
+            "total": 1404,
+            "percentage": 89,
+            "status": "Mostly Open"
+        },
+        "Long-Term": {
+            "available": 1312,
+            "class": "mostly-full",
+            "total": 6004,
+            "percentage": 22,
+            "status": "Mostly Full"
+        }
+    }
+}

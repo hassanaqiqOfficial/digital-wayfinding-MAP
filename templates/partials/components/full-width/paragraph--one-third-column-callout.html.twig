@@ -1,0 +1,15 @@
+{% set images = image_style(content.field_image, ['wide_xsml']) %}
+
+<article class="fact">
+	<a class="fact_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+		<img class="fact_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.wide_xsml }}">
+	</a>
+	<h4 class="fact_title">{{ content.field_title[0]["#context"]["value"] }}</h4>
+	<div class="fact_caption">{{ content.field_description }}</div>
+	<a class="fact_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+		<span>{{ content.field_link[0]["#title"] }}</span>
+		<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+			<use xlink:href="#arrow_right"></use>
+		</svg>
+	</a>
+</article>

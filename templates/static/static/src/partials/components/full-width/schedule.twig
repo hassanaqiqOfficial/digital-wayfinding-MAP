@@ -1,0 +1,171 @@
+<section class="schedule" id="schedule">
+  <div class="row">
+    {% set switches = [
+      "Arrivals",
+			"Departures"
+    ] %}
+    <div class="schedule_body">
+      <div class="schedule_switches">
+        {% for switch in switches %}
+          <button class="js-swap schedule_switch" data-swap-group="schedule_switch" data-swap-target=".schedule_section_{{loop.index}}" data-swap-options='{"collapse": false}'{% if loop.first %} data-swap-active="true"{% endif %}>{{switch}}</button>
+        {% endfor %}
+      </div>
+      {{site.dropdown("schedule", [
+        "Arrivals",
+        "Departures"
+      ])}}
+      <div class="schedule_airline_switcher type_airline">
+        <select class="schedule_airline_switcher_select"></select>
+      </div>
+      {% set departures = [
+        {
+          schedule: "12:55pm",
+          update: "12:55pm",
+          to: "San Juan",
+          airline: "Southwest Airlines",
+          flight: "SWA567",
+          gate: "A11",
+          status: "Departed"
+        },
+        {
+          schedule: "12:57pm",
+          update: "12:49pm",
+          to: "Tampa",
+          airline: "Spirit Airlines",
+          flight: "NK835",
+          gate: "A3",
+          status: "On Time"
+        },
+        {
+          schedule: "1:00pm",
+          update: "1:00pm",
+          to: "Hartford",
+          airline: "Norwegian",
+          flight: "SWA1490",
+          gate: "A6",
+          status: "Boarding"
+        },
+        {
+          schedule: "1:00pm",
+          update: "1:00pm",
+          to: "Fort Myers",
+          airline: "jeyBlue",
+          flight: "SWA4413",
+          gate: "INT",
+          status: "Delayed"
+        },
+        {
+          schedule: "1:00pm",
+          update: "1:00pm",
+          to: "Fort Myers",
+          airline: "Delta Air Lines",
+          flight: "SWA4413",
+          gate: "INT",
+          status: "Delayed"
+        },
+        {
+          schedule: "1:00pm",
+          update: "1:00pm",
+          to: "Fort Myers",
+          airline: "American Airlines",
+          flight: "SWA4413",
+          gate: "INT",
+          status: "Delayed"
+        },
+        {
+          schedule: "1:00pm",
+          update: "1:00pm",
+          to: "Fort Myers",
+          airline: "Air Canada",
+          flight: "SWA4413",
+          gate: "INT",
+          status: "Delayed"
+        }
+      ] %}
+
+      {% set departureHeaders = [
+        {
+          name: "Sched.",
+          condensed: true
+        },
+        {
+          name: "Update",
+          condensed: true
+        },
+        {
+          name: "To",
+          condensed: true
+        },
+        {
+          name: "Airline",
+          condensed: false
+        },
+        {
+          name: "Flight #",
+          condensed: true
+        },
+        {
+          name: "Gate",
+          condensed: false
+        },
+        {
+          name: "Baggage Claim",
+          condensed: false
+        },
+        {
+          name: "Status",
+          condensed: false
+        }
+      ] %}
+      {% for i in 1..2 %}
+        <div class="schedule_section schedule_section_{{i}}">
+          <div class="schedule_list">
+            <table class="schedule_table schedule_table_lg">
+              <tr class="schedule_header_row">
+                {% for header in departureHeaders %}
+                  <th class="schedule_header contains_action{% if header.condensed %} header_condensed{% endif %} type_{{header.name|lower}}">
+                    {% if header.name|lower == "airline" %}
+                      <select class="schedule_header_select">
+                      </select>
+                    {% else %}
+                      <span class="schedule_header_label">{% if i == 1 and header.name == "To" %}From{% else %}{{header.name}}{% endif %}</span>
+                      {{site.symbol("carets", "gray")}}
+                    {% endif %}
+                  </th>
+                {% endfor %}
+              </tr>
+            </table>
+            <table class="schedule_table schedule_table_sm">
+              <tr class="schedule_header_row">
+                {% for header in departureHeaders %}
+                  {% if header.condensed %}
+                    <th class="schedule_header contains_action header_condensed type_{{header.name|lower}}">
+                      {% if header.name|lower == "airline" %}
+                        <select class="schedule_header_select">
+                        </select>
+                      {% else %}
+                        <span class="schedule_header_label">{% if i == 1 and header.name == "To" %}From{% else %}{{header.name}}{% endif %}</span>
+                        {{site.symbol("carets", "gray")}}
+                      {% endif %}
+                    </th>
+                  {% endif %}
+                {% endfor %}
+              </tr>
+            </table>
+            <div class="schedule_no_results not-visible">
+              {% if i == 1 %}
+              <p>There are currently no flights scheduled to arrive at BWI for the airline you selected.</p>
+              {% else %}
+              <p>There are currently no flights scheduled to depart from BWI for the airline you selected.</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="schedule_details"></div>
+    </div>
+  </div>
+</section>
+<script>
+	var FlightData = {% include '../../../flight-data.json' %};
+</script>

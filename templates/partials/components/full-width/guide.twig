@@ -1,0 +1,86 @@
+<section class="guide">
+	<div class="row">
+		<header class="guide_header">
+			<h2 class="guide_title">{{title}}</h2>
+		</header>
+		<div class="guide_select">
+			{{site.dropdown("guide_select", choices)}}
+		</div>
+		<div class="guide_tabs">
+			{% for choice in choices %}
+				<button class="js-swap guide_tab_button guide_tab_button_{{loop.index}}" data-swap-target=".guide_item_{{loop.index}}" data-swap-group="guide_item_group" data-swap-options='{"collapse": false}'>{{choice}}</button>
+			{% endfor %}
+		</div>
+	</div>
+	{% for item in items %}
+		<div class="guide_item guide_item_{{loop.index}}">
+			<div class="row">
+				<header class="guide_item_header">
+					<h3 class="guide_item_title">{{item.title}}</h3>
+				</header>
+				<div class="guide_item_links">
+					{% for link in item.links %}
+						<a class="guide_item_link" href="">
+							<span>{{link}}</span>
+							{{site.symbol("arrow_right", "gray")}}
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="guide_item_body">
+				{% include '../full-width/info.twig' with {
+					dimension: img.portraitClassic.xsml,
+					image: 1,
+					symbol: "car",
+					title: "Where to Park",
+					caption: "It’s easier to park than ever. We have four great options to provide you with the most convenient fit!",
+					links: [
+						{
+							name: "Hourly Garage",
+							detail: "Walk to the Terminal",
+							cost: "$4 per hour / $22 a day"
+						},
+						{
+							name: "Daily Garage",
+							detail: "5 min shuttle ride",
+							cost: "$12 a day"
+						},
+						{
+							name: "Express",
+							detail: "5 min shuttle ride",
+							cost: "$10 a day"
+						},
+						{
+							name: "Long Term",
+							detail: "10 min shuttle ride",
+							cost: "$8 a day"
+						}
+					]
+				} %}
+
+				{% include '../full-width/destinations.twig' with {
+					class: "framed",
+					modifier: "alternate",
+					background: 3,
+					title: "Find Your Fun",
+					caption: "There’s a lot to do at BWI Marshal Airport. Get the lay of the land and make the most out of your journey.",
+					dropdown: {
+						choices: airlines
+					}
+				} %}
+
+				{% include '../full-width/info.twig' with {
+					dimension: img.square.xsml,
+					image: 2,
+					symbol: "officer",
+					title: "Security Information",
+					caption: "Before flying, check guidelines for security and baggage.",
+					links: [
+						"TSA Guidelines",
+						"Baggage Guidelines"
+					]
+				} %}
+			</div>
+		</div>
+	{% endfor %}
+</section>

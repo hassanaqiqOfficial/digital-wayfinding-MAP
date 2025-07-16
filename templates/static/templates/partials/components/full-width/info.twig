@@ -1,0 +1,39 @@
+<section class="info{% if class %} theme_{{class}}{% endif %}">
+	<div class="row">
+		<div class="info_wrapper">
+			{{site.image("info", dimension, image)}}
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						{{site.symbol(symbol, "red")}}
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{title}}</h2>
+						<p class="info_caption">{{caption}}</p>
+					</div>
+				</header>
+				<div class="info_items">
+					{% if links %}
+						{% for link in links %}
+							<div class="info_item{% if link.name %} info_item_grouped{% endif %}">
+								<a class="info_item_link" href="">
+									<span>{% if link.name %}{{link.name}}{% else %}{{link}}{% endif %}</span>
+									{{site.symbol("arrow_right", "red")}}
+								</a>
+								{% if link.detail %}
+									<p class="info_item_detail">{{link.detail}}</p>
+								{% endif %}
+								{% if link.cost %}
+									<p class="info_item_cost">{{link.cost}}</p>
+								{% endif %}
+							</div>
+						{% endfor %}
+					{% endif %}
+					{% if dropdown %}
+						{{site.dropdown("info", dropdown)}}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

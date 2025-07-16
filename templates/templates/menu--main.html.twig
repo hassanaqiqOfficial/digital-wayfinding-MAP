@@ -1,0 +1,56 @@
+<nav class="js-main-nav main_nav main_nav_lg" aria-label="Site Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<div class="main_nav_header">
+		<h2 class="main_nav_title">Site Navigation</h2>
+	</div>
+
+	<div class="main_nav_list" role="navigation">
+		{% for link in items %}
+			{% if loop.index < 4 %}
+				<div class="js-nav-item-{{ loop.index }} main_nav_item{% if link.in_active_trail %} active{% endif %}" itemprop="url">
+					<div class="main_nav_item_wrapper">
+						<a class="main_nav_link" href="{{ link.url }}" itemprop="name"{% if link.url.options.external %} target="_blank"{% endif %}>{{ link.title }}</a>
+						{% if link.below %}
+						<span class="main_nav_indicator">
+							<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+								<use xlink:href="#caret_down"></use>
+							</svg>
+						</span>
+
+						<button class="js-swap main_nav_toggle" data-swap-target=".js-nav-item-{{ loop.index }}" data-swap-group="main_nav">
+							<span>Expand Navigation</span>
+							<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+								<use xlink:href="#caret_down"></use>
+							</svg>
+						</button>
+						{% endif %}
+					</div>
+
+					{% if link.below %}
+					<div class="main_nav_children">
+						<div class="main_nav_children_wrapper">
+							{% for child in link.below %}
+							<div class="main_nav_child_item" itemprop="url">
+								<a class="main_nav_child_link" href="{{ child.url }}" itemprop="name"{% if child.url.options.external %} target="_blank"{% endif %}>
+									<span>{{ child.title }}</span>
+									<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+										<use xlink:href="#arrow_right"></use>
+									</svg>
+								</a>
+
+								{% if child.below %}
+								<div class="main_nav_sub_children">
+									{% for subChild in child.below %}
+									<a class="main_nav_sub_child_link" href="{{ subChild.url }}"{% if subChild.url.options.external %} target="_blank"{% endif %}>{{ subChild.title }}</a>
+									{% endfor %}
+								</div>
+								{% endif %}
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+					{% endif %}
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</nav>

@@ -1,0 +1,12 @@
+{% set n = pages %}
+
+<div class="pagination_block">
+	<nav class="pagination">
+		{% for i in 1..n %}
+		<a href="#{{i}}" class="pagination_link">
+			<span class="pagination_link_label">Open Page</span>
+			<span class="pagination_link_page">{{i}}</span>
+		</a>
+		{% endfor %}
+	</nav>
+</div>

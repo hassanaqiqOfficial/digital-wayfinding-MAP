@@ -1,0 +1,14 @@
+<div class="site_search{% if modifier %} site_search_{{modifier}}{% endif %}" id="search{% if modifier %}_{{modifier}}{% endif %}" itemscope itemtype="http://schema.org/WebSite" role="search">
+  <meta itemprop="url" content="//bwiairport.com">
+  <form method="get" action="{{ www_root }}search/site" class="site_search_form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+    <meta itemprop="target" content="//bwiairport.com/search?q={q}">
+    <label class="site_search_label" for="search_term_string{% if modifier %}_{{modifier}}{% endif %}">Search</label>
+    <input aria-live="polite" class="site_search_input" itemprop="query-input" type="search" id="search_term_string{% if modifier %}_{{modifier}}{% endif %}" name="q" placeholder="{% if placeholder %}Search...{% else %}Search{% endif %}">
+    <button class="site_search_button" type="submit" title="submit" aria-label="submit">
+      <span>{% if buttonText %}{{buttonText}}{% else %}submit{% endif %}</span>
+      <svg aria-hidden="true" class="symbol symbol_search symbol_white">
+        <use xlink:href="#search"></use>
+      </svg>
+    </button>
+  </form>
+</div>

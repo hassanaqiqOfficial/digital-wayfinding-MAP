@@ -1,0 +1,218 @@
+<section class="map">
+	<header class="map_header map_header_sm">
+		<h1 class="map_title">Explore BWI</h1>
+	</header>
+	<div class="map_wrapper">
+		<div class="map_content">
+			<div class="map_site" id="map"></div>
+			<button class="map_lightbox_close"><span class="map_lightbox_close_icon"><svg class="symbol symbol_close symbol_white"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></span></button>
+			<div class="map_lightbox"></div>
+			<div class="map_tools">
+				<button class="map_view_reset">
+					<span class="map_view_reset_icon">{{site.symbol("arrow_left", "white")}}</span>
+					<span class="map_view_reset_label">Filters</span>
+				</button>
+				<div class="map_view_states">
+					<div class="map_view_state_wrapper">
+						<span class="map_view_state_label">Showing</span>
+						<span class="map_view_state map_view_state_category"></span>
+					</div>
+					<div class="map_view_state_wrapper">
+						<span class="map_view_state_label">Near</span>
+						<span class="map_view_state map_view_state_near"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="map_filters_near">
+			{% set near = [
+				{
+					title: "<span>Select an </span>Airline",
+					type: "airline",
+					options: [
+						"<span>Select an </span>Airline",
+						"American",
+						"Spirit"
+					]
+				},
+				{
+					title: "<span>Select a </span>Concourse",
+					type: "concourse",
+					options: [
+						"<span>Select a </span>Concourse",
+						"Concourse A",
+						"Concourse B",
+						"Concourse C",
+						"Concourse D",
+						"Concourse E"
+					]
+				}
+			] %}
+			<span class="map_near_label">Show What's Near</span>
+			<div class="map_near_wrapper">
+				{% for item in near %}
+					<div class="map_near_filter">
+						<button class="js-swap map_near_switch" data-swap-target=".map_near_menu_{{loop.index}}" data-swap-group="map_near_filters">
+							<span class="map_near_switch_title">{{item.title}}</span>
+							<span class="map_near_switch_icon">{{site.symbol("caret_down", "red")}}</span>
+						</button>
+						<menu class="js-scrollbar map_near_menu map_near_menu_{{loop.index}} map_near_{{item.type}}">
+							{% for option in item.options %}
+								<button class="map_near_option">
+									<span class="map_near_option_label">{{option}}</span>
+								</button>
+							{% endfor %}
+						</menu>
+					</div>
+				{% endfor %}
+				<div class="map_near_filter">
+					<input class="map_near_input" placeholder="Gate #" type="text" />
+				</div>
+			</div>
+		</div>
+		<div class="map_filters_level">
+			<button class="js-swap map_level_button" data-level="upper" data-swap-group="map_level_group" data-swap-active="true" data-swap-options='{"collapse": false}'>
+				<span class="map_level_quantity">
+					<span class="map_level_quantity_label">00</span>
+				</span>
+				<span class="map_level_label">Upper Level</span>
+			</button>
+			<button class="js-swap map_level_button" data-level="lower" data-swap-group="map_level_group" data-swap-options='{"collapse": false}'>
+				<span class="map_level_quantity">
+					<span class="map_level_quantity_label">00</span>
+				</span>
+				<span class="map_level_label">Lower Level</span>
+			</button>
+		</div>
+	</div>
+	<div class="map_aside">
+		<header class="map_header map_header_lg">
+			{% include '../../logo.twig' with {
+				modifier: "wayfinder"
+			} %}
+			<h1 class="map_title">Explore BWI</h1>
+		</header>
+		<div class="map_locales">
+			<h4 class="map_locales_title">Filter By</h4>
+			{% for locale in locales %}
+				<div class="map_locale">
+					<button class="js-swap map_locale_button" data-swap-target=".map_places_{{loop.index}}" data-swap-group="map_locale_group">
+						<span class="map_locale_icon">{{site.symbol(locale.icon)}}</span>
+						<span class="map_locale_label">{{locale.label}}</span>
+						<span class="map_locale_switch">View Map</span>
+						<span class="map_locale_indicator">{{site.symbol("caret_down", "red")}}</span>
+					</button>
+					<div class="map_places map_places_{{loop.index}}">
+						{% for place in locale.places %}
+							<button class="map_place" data-id="{{loop.index}}" data-airline="{{place.airline}}" data-concourse="{{place.concourse}}" data-gate="{{place.gate}}" data-level="{{place.level}}">
+								<span class="map_place_name">{{place.name}}</span>
+								<span class="map_place_gate">{{place.gate}}</span>
+							</button>
+						{% endfor %}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="map_files">
+			<h4 class="map_files_title">View PDF Maps</h4>
+			<a class="map_file_link" href="#">
+				<span>Upper Level PDF</span>
+				{{site.symbol("arrow_right", "red")}}
+			</a>
+			<a class="map_file_link" href="#">
+				<span>Lower Level PDF</span>
+				{{site.symbol("arrow_right", "red")}}
+			</a>
+		</div>
+	</div>
+</section>
+<script>
+	var MapData = [
+		{
+			category: 'Transportation',
+			symbol: 'car'
+		},
+		{
+			category: 'Food & Drink',
+			symbol: 'utensils',
+			points: [
+				{
+					coordinates: [1200, 1200],
+					attr: {
+						category: 'Food & Drink',
+						layer: 'lower',
+						title: 'Auntie Anne\'s Pretzels',
+						airline: 'American',
+						gate: 'D01',
+						concourse: 'Concourse A',
+						labels: [
+							'Post Security',
+							'Concourse A/B'
+						],
+						hours: 'Daily - 5:00 am - 10:00 pm',
+						phone: '410-850-8919',
+						image: 1,
+						caption: 'Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Morbi leo risus, porta.',
+						link: '#'
+					}
+				},
+				{
+					coordinates: [800, 800],
+					attr: {
+						category: 'Food & Drink',
+						layer: 'upper',
+						title: 'Dunkin\' Donuts',
+						airline: 'American',
+						gate: 'D02',
+						concourse: 'Concourse B',
+						labels: [
+							'Post Security',
+							'Concourse A/B'
+						],
+						hours: 'Daily - 5:00 am - 10:00 pm',
+						phone: '410-850-8919',
+						image: 2,
+						caption: 'Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Morbi leo risus, porta.',
+						link: '#'
+					}
+				},
+				{
+					coordinates: [700, 700],
+					attr: {
+						category: 'Food & Drink',
+						layer: 'upper',
+						title: 'Craze Burgers',
+						airline: 'Spirit',
+						gate: 'D03',
+						concourse: 'Concourse B',
+						labels: [
+							'Post Security',
+							'Concourse A/B'
+						],
+						hours: 'Daily - 5:00 am - 10:00 pm',
+						phone: '410-850-8919',
+						image: 3,
+						caption: 'Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Morbi leo risus, porta.',
+						link: '#'
+					}
+				}
+			]
+		},
+		{
+			category: 'Shopping',
+			symbol: 'bag'
+		},
+		{
+			category: 'Where to Relax',
+			symbol: 'sofa'
+		},
+		{
+			category: 'Fitness',
+			symbol: 'gym'
+		},
+		{
+			category: 'Restrooms',
+			symbol: 'restrooms'
+		}
+	];
+</script>

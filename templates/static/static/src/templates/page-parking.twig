@@ -1,0 +1,116 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		title: "Parking",
+		caption: "Easy Come, Easy Go — Easy Park"
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		"Hourly",
+		"Express",
+		"Short-Term",
+		"Long-Term",
+		"Valet",
+		"Cell Phone Lot"
+	] %}
+{% endblock %}
+
+{% set pageTitle = "Parking" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "" %}
+{% endblock %}
+
+{% block typography %}
+	<h2>Easy Come, Easy Go</h2>
+	<p>We offer four different park-and-fly options: Hourly Garage, Daily Garage, Express Parking and Long Term Parking. If you’re picking someone up, consider our Cell Phone Lot. Find the right fit for your travel plans. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus eget enim eget ullamcorper. Nulla nunc lorem, ullamcorper vehicula odio eget, ornare elementum nibh.</p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/listing.twig' with {
+		listings: [
+			{
+				title: "Parking Options",
+				caption: "Our four parking options are ready to serve you depending on your budget and timeframe — try our Hourly Garage, Daily Garage, Express Parking or Long Term Parking.",
+				link: "Parking Information"
+			},
+			{
+				title: "Picking Up",
+				caption: "If you’re picking someone up, we recommend our Cell Phone Lot to pick someone up curbside, or our Hourly Garage to meet them at their exit to Baggage Claim.",
+				link: "Arriving at BWI"
+			},
+			{
+				title: "Dropping Off",
+				caption: "Drop-offs are easy at the airline entrances on our Upper Level. Just follow the signs for Departures as you approach the airport, then find the right airline sign.",
+				link: "Departing from BWI"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/parking.twig' with {
+		title: "Parking Options and Availability",
+		titleLabel: "* as of 3:45pm",
+		caption: "It’s easier to park than ever. We have four great options to provide you with the most convenient fit!",
+		parking: [
+			{
+				number: 0,
+				type: "Hourly",
+				status: "Lot Full",
+				cost: "$4 per hour / $22 a day",
+				caption: "Our closest parking option, this covered garage allows you to use the Pay-n-Go System to exit efficiently."
+			},
+			{
+				number: 55,
+				type: "Daily",
+				status: "Available",
+				cost: "$12 a day",
+				caption: "Our Daily Garage allows for covered parking and frequent shuttles between the terminal and garage."
+			},
+			{
+				number: 17,
+				type: "Express",
+				status: "Mostly Full",
+				cost: "$10 a day",
+				caption: "Express Parking provides shuttles that pick you up and drop you off right at your parking space."
+			},
+			{
+				number: 90,
+				type: "Long Term A",
+				status: "Mostly Open",
+				cost: "$8 a day",
+				caption: "Long Term Parking is the most economical, providing frequent shuttles and covered shelter stops."
+			},
+			{
+				number: 90,
+				type: "Long Term B",
+				status: "Mostly Open",
+				cost: "$8 a day",
+				caption: "Long Term Parking is the most economical, providing frequent shuttles and covered shelter stops."
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/planning.twig' with {
+		title: "Estimated Shuttle Times",
+		titleLabel: "* as of 3:45pm",
+		symbol: "clock",
+		items: [
+			{
+				title: "From Daily Parking",
+				caption: "Every 5 Minutes"
+			},
+			{
+				title: "From Long-Term Parking",
+				caption: "Every 15 Minutes"
+			},
+			{
+				title: "From Express Parking",
+				caption: "Every 10 Minutes"
+			}
+		],
+		caption: "Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus."
+	} %}
+{% endblock %}

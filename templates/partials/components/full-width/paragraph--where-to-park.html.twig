@@ -1,0 +1,30 @@
+{% set images = image_style(content.field_image, ['portrait_classic_sml']) %}
+
+<section class="info">
+	<div class="row">
+		<div class="info_wrapper">
+			<img class="info_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.portrait_classic_sml }}">
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						<span class="info_ribbon_bubble">
+							<span class="info_ribbon_icon">
+								<svg aria-hidden="true" class="symbol symbol_car symbol_red">
+									<use xlink:href="#car"></use>
+								</svg>
+							</span>
+						</span>
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+						<p class="info_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+					</div>
+				</header>
+
+				<div class="info_items">
+					{{ content.field_parking_links }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

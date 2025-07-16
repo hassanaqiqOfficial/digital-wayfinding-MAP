@@ -1,0 +1,47 @@
+{% set images = image_style(content.field_image, ['square_sml', 'square_med']) %}
+
+<section class="plan theme_white">
+	<div class="row">
+		<div class="plan_callout">
+			<div class="js-background plan_background" data-background-options='{"source": { "0px:": "{{ images.square_sml }}", "740px": "{{ images.square_med }}" } }'></div>
+
+			<div class="plan_callout_body">
+				<h4 class="plan_callout_title">{{ content.field_image_overlay_title[0]["#context"]["value"] }}</h4>
+				<h5 class="plan_callout_caption">{{ content.field_image_overlay_subtitle[0]["#context"]["value"] }}</h5>
+				<p class="plan_callout_description">{{ content.field_image_overlay_description[0]["#context"]["value"] }}</p>
+				<a class="plan_callout_link" href="{{ content.field_image_overlay_link[0]["#url"] }}"{% if content.field_open_in_new_window_2[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+					<span>{{ content.field_image_overlay_link[0]["#title"] }}</span>
+					<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+						<use xlink:href="#arrow_right"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="plan_body">
+			<header class="plan_header">
+				<div class="plan_ribbon">
+					 <span class="plan_ribbon_icon">
+						 <svg aria-hidden="true" class="symbol symbol_clock symbol_red">
+							 <use xlink:href="#clock"></use>
+						 </svg>
+					</span>
+				</div>
+				<div class="plan_heading">
+					<h2 class="plan_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+				</div>
+			</header>
+			<div class="plan_items">
+				{{ content.field_static_panel_statistics }}
+			</div>
+			<footer class="plan_details">
+				<p class="plan_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+				<a class="plan_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+					<span>{{ content.field_link[0]["#title"] }}</span>
+					<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+						<use xlink:href="#arrow_right"></use>
+					</svg>
+				</a>
+			</footer>
+		</div>
+	</div>
+</section>

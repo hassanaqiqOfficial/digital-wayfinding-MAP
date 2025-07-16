@@ -1,0 +1,91 @@
+/* ==========================================================================
+  Language Disclaimer
+============================================================================= */
+
+.language_disclaimer {
+  height: 100%;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000004;
+
+  background: rgba(#000, .75);
+  opacity: 0;
+  overflow-y: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition:
+    opacity .25s,
+    visibility .25s;
+
+  @media #{$min_xl} {
+    padding: 40px 0;
+  }
+
+  &.show_disclaimer {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+}
+
+  .language_disclaimer_inner {
+    position: relative;
+
+    background: #fff;
+    padding: 20px;
+
+    @media #{$min_xl} {
+      padding: 40px;
+    }
+  }
+
+    .language_disclaimer_close {
+      height: 40px;
+      width: 40px;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      cursor: pointer;
+      transition: transform .25s;
+
+      &:focus,
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+
+      .language_disclaimer_icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    .language_disclaimer_title {
+      @include heading_2;
+
+      margin: 0 0 20px;
+      padding-right: 40px;
+    }
+
+    .language_disclaimer_caption {
+      @include body_text;
+
+
+      margin-bottom: 30px;
+    }
+
+    .language_disclaimer_footer {}
+
+      .language_disclaimer_link {
+        @include button_inline;
+        @include button_bordered_red;
+      }

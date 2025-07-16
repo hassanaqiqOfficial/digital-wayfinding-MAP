@@ -1,0 +1,25 @@
+{% set images = image_style(content.field_background_image, ['wide_med', 'wide_lrg']) %}
+<section class="destination{% if content.field_theme[0]["#markup"] == "Framed" %} theme_framed{% endif %}">
+	{% if content.field_theme[0]["#markup"] == "Framed" %}<div class="row">{% endif %}
+		<div class="destination_wrapper">
+			<div class="js-background destination_background" data-background-options='{ "source": { "0px": "{{ images.wide_med }}", "980px": "{{ images.wide_lrg }}" } }'></div>
+
+			<div class="destination_body">
+				<div class="destination_details">
+					<h2 class="destination_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+					<p class="destination_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+					<a class="destination_link" href="{{ content.field_link[0]["#url"] }}"  aria-title="Open page for more info on {{ content.field_link[0]["#title"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+						<span>{{ content.field_link[0]["#title"] }}</span>
+						<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+							<use xlink:href="#arrow_right"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="destination_subcaption">
+				<p class="destination_subcaption_text">{{ content.field_background_image_caption }}</p>
+			</div>
+		</div>
+	{% if content.field_theme[0]["#markup"] == "Framed" %}</div>{% endif %}
+</section>

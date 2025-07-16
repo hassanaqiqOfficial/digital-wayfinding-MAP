@@ -1,0 +1,163 @@
+/* ==========================================================================
+	Planning
+============================================================================= */
+
+.plan {
+	@include padded_lg;
+
+	background: $beige;
+
+	&.theme_white {
+		background: #fff;
+	}
+}
+
+.plan_callout {
+	@include offset-top;
+
+	position: relative;
+
+	margin-bottom: 40px;
+	padding: 25% 20px 20px;
+
+	@media #{$min_md} {
+		width: 50%;
+
+		float: left;
+
+		margin-bottom: 0;
+	}
+}
+
+.plan_callout_body {
+	max-width: 400px;
+
+	position: relative;
+
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(#000, .2);
+	padding: 20px;
+
+	@media #{$min_xl} {
+		padding: 40px;
+	}
+}
+
+.plan_callout_title {
+	@include heading_4;
+
+	color: $red;
+	margin: 0 0 3px;
+}
+
+.plan_callout_caption {
+	@include proxima(700);
+
+	font-size: 14px;
+	line-height: (24 / 14);
+	margin: 0;
+}
+
+.plan_callout_description {
+	@include body_text_small;
+
+	color: $dark;
+	margin: 5px 0 15px;
+}
+
+.plan_callout_link {
+	@include button_plain;
+	@include gray_arrowed_link;
+}
+
+.plan_body {
+
+	@media #{$min_md} {
+		width: 50%;
+
+		float: left;
+
+		padding-left: 40px;
+	}
+
+	@media #{$min_xl} {
+		padding-left: 110px;
+	}
+}
+
+.plan_header {}
+
+.plan_ribbon {
+	@include bordered_ribbon;
+}
+
+.plan_heading {}
+
+.plan_title {
+	@include heading_3;
+
+	color: $black;
+	margin: 0 0 25px;
+}
+
+.plan_title_label {
+	color: rgba(#000, .7);
+	display: block;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.plan_items {}
+
+.plan_item {
+	margin-bottom: 20px;
+
+	@media #{$min_sm} {
+		width: 49%;
+
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	@media #{$min_md} {
+		width: 100%;
+	}
+
+	@media #{$min_lg} {
+		width: 49%;
+
+		margin-bottom: 30px;
+	}
+}
+
+.plan_item_title {
+	@include heading_6;
+
+	color: $red;
+	margin: 0 0 5px;
+}
+
+.plan_item_caption {
+	@include body_text;
+
+	color: $dark;
+	margin: 0;
+}
+
+.plan_details {
+	border-top: 3px solid #d8d8d8;
+	padding-top: 5px;
+}
+
+.plan_caption {
+	@include body_text_small;
+}
+
+.plan_link {
+	@include button_inline;
+	@include button_bordered_red;
+	@include arrowed_link;
+
+	background: none;
+}

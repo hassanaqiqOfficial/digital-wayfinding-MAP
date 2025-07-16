@@ -1,0 +1,25 @@
+<section class="facts">
+	<div class="row">
+		<header class="facts_header">
+			<h2 class="facts_title">{{title}}</h2>
+			<p class="facts_caption">{{caption}}</p>
+		</header>
+		<div class="js-carousel facts_wrapper" data-carousel-options='{
+			"contained": false,
+			"controls": false,
+			"pagination": false
+		}'>
+			{% for fact in facts %}
+				<article class="fact">
+					<a class="fact_image_link"href="">{{site.image("fact", img.wide.xxsml, fact.image)}}</a>
+					<h4 class="fact_title">{{fact.title}}</h4>
+					<p class="fact_caption">{{fact.caption}}</p>
+					<a class="fact_link" href="#" aria-title="Open page for more info on {{fact.title}}">
+						<span>{{fact.link}}</span>
+						{{site.symbol("arrow_right", "gray")}}
+					</a>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</section>

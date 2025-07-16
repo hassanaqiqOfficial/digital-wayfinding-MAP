@@ -1,0 +1,170 @@
+/* ==========================================================================
+	Alert
+============================================================================= */
+
+.alert {
+	max-height: 0;
+	width: auto;
+
+	margin: 0 -30px;
+	opacity: 0;
+	transform: scale(.95);
+	visibility: hidden;
+	transition:
+		max-height .25s,
+		opacity .25s,
+		padding .25s,
+		transform .25s,
+		visibility .25s;
+
+	@media #{$min_sm} {
+		width: 100%;
+
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 30;
+
+		margin: 0;
+	}
+
+	@media #{$min_xl} {
+		top: 140px;
+	}
+
+	.theme_home & {
+
+		@media #{$min_lg} {
+			padding-right: 250px;
+		}
+	}
+
+	.theme_default & {
+		position: relative;
+		top: auto;
+	}
+
+	&.show_alert {
+		max-height: 300px;
+		opacity: 1;
+		transform: scale(1);
+		visibility: visible;
+
+		.theme_default & {
+			padding: 30px 0;
+		}
+	}
+}
+
+.alert_body {
+	position: relative;
+
+	background: #fff;
+	box-shadow: 0 0 .25em 0 rgba(0, 0, 0, .25);
+}
+
+.alert_close {
+	height: 30px;
+	width: 30px;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 0 rgba(#000, .5);
+	cursor: pointer;
+	overflow: hidden;
+	transform:
+		translate(-10px, 10px)
+		scale(1);
+	transition:
+		background .25s,
+		transform .25s;
+
+	@media #{$min_sm} {
+		transform:
+			translate(25%, -25%)
+			scale(1);
+	}
+
+	&:focus,
+	&:hover {
+		background: $light;
+		transform:
+			translate(-10px, 10px)
+			scale(1.15);
+
+		@media #{$min_sm} {
+			transform:
+				translate(25%, -25%)
+				scale(1.15);
+		}
+	}
+}
+
+.alert_close_label {
+	@include visually_hide;
+}
+
+.alert_close_icon {}
+
+.alert_header {
+	position: relative;
+	padding: 10px 50px 10px 55px;
+
+	@media #{$min_md} {
+		padding: 23px 30px 23px 70px;
+	}
+}
+
+.alert_indicator {
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: #F8E71C;
+	padding: 10px;
+
+	@media #{$min_md} {
+		padding: 25px 18px;
+	}
+}
+
+.alert_title {
+	@include proxima(400);
+
+	font-size: 12px;
+	line-height: (20 / 12);
+	margin: 0;
+
+	@media #{$min_sm} {
+		font-size: 14px;
+		line-height: (22 / 14);
+	}
+
+	@media #{$min_md} {
+		font-size: 16px;
+		line-height: (24 / 16);
+	}
+
+	@media #{$min_xl} {
+		font-size: 21px;
+		line-height: (32 / 21);
+	}
+
+	a {
+		color: $red;
+		text-decoration: underline;
+
+		&:focus,
+		&:hover {
+			background: #000;
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 100" style="enable-background:new 0 0 70 100;" xml:space="preserve">
+  <style type="text/css">
+    .pinfill {fill: #B13586;}
+    .pinhole {fill: #FFFFFF;}
+  </style>
+  <g>
+    <path class="pinfill" d="M35,0C15.7,0,0,15.6,0,34.9V35c0,26.2,35,65,35,65s35-38.7,35-65C70,15.7,54.4,0,35,0L35,0z"/>
+  </g>
+  <path class="pinhole" d="M35,47.5c-6.9,0-12.5-5.6-12.5-12.5c0-6.9,5.6-12.5,12.5-12.5c6.9,0,12.5,5.6,12.5,12.5
+	C47.5,41.9,41.9,47.5,35,47.5z"/>
+</svg>

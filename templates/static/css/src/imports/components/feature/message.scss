@@ -1,0 +1,17 @@
+// Section comment block
+// =============================================================================
+
+.site_message {
+  @include padded_md;
+
+  background: #eee;
+  display: none;
+
+  .font_size_large & {
+    display: block;
+  }
+}
+
+  .site_message_description {
+    @include body_text;
+  }

@@ -1,0 +1,463 @@
+/* ==========================================================================
+	Info
+============================================================================= */
+
+.info {
+	@include clearfix;
+
+	&:not(.theme_inline) {
+		@include padded_lg;
+	}
+
+	&.theme_inline {
+		padding: 0 0 20px;
+
+		@media #{$min_md} {
+			padding-top: 20px;
+		}
+	}
+}
+
+.info_image {
+	width: 120px;
+
+	float: right;
+
+	box-shadow: 0 0 30px 0 rgba(#000, .2);
+	display: none;
+	margin-bottom: 25px;
+
+	@media print {
+		float: none;
+	}
+
+	@media screen and (min-width: 400px) {
+		display: block;
+	}
+
+	@media #{$min_md} {
+		width: 35%;
+
+		position: relative;
+	}
+
+	.theme_home & {
+
+		@media #{$min_xl} {
+			opacity: 0;
+			transform: scale(.95);
+			transform-origin: 25% top;
+			transition:
+				opacity .25s .5s,
+				transform .25s .5s;
+		}
+	}
+
+	.reveal & {
+
+		@media #{$min_xl} {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+}
+
+.info_wrapper {
+	position: relative;
+
+	.theme_framed & {
+
+		@media #{$min_xl} {
+			padding: 0 100px;
+		}
+	}
+}
+
+.info_body {
+	position: relative;
+	z-index: 2;
+
+	.info_image + & {
+
+		@media #{$min_md} {
+			width: 65%;
+			float: left;
+		}
+	}
+
+	@media #{$min_lg} {
+		padding-top: 40px;
+	}
+
+	.theme_inline & {
+
+		@media #{$min_lg} {
+			padding-top: 20px;
+		}
+	}
+}
+
+.info_header {
+
+	.info_image + .info_body & {
+
+		@media screen and (min-width: 400px) {
+			width: calc(100% - 120px);
+
+			padding-right: 30px;
+		}
+
+		@media #{$min_md} {
+			width: 100%;
+		}
+	}
+}
+
+.info_ribbon {
+	@include bordered_ribbon;
+
+	.info_image + .info_body & {
+
+		@media screen and (min-width: 400px) {
+			width: calc(100% + 50px);
+		}
+
+		@media #{$min_lg} {
+			width: calc(100% + 60px);
+		}
+	}
+}
+
+.info_ribbon_bubble {
+
+	.theme_inline & {
+		height: 30px;
+		width: 30px;
+
+		position: relative;
+
+		background: $red;
+		border-radius: 50%;
+	}
+}
+
+.info_ribbon_icon {
+
+	.theme_inline & {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		transform: translate(-50%, -50%);
+	}
+
+	svg {
+
+		.theme_inline & {
+			fill: #fff;
+		}
+	}
+}
+
+.info_heading {
+
+	.theme_home & {
+
+		@media #{$min_xl} {
+			opacity: 0;
+			transform: scale(.85);
+			transform-origin: left top;
+			transition:
+				opacity .25s .1s,
+				transform .25s .1s;
+		}
+	}
+
+	.reveal & {
+
+		@media #{$min_xl} {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+}
+
+.info_title {
+	@include heading_2;
+
+	color: $black;
+	margin: 0 0 5px;
+}
+
+.info_caption {
+	@include body_text;
+
+	margin: 0 0 20px;
+
+	.theme_framed & {
+		max-width: 450px;
+	}
+}
+
+.info_form {
+
+	.info_image + .info_body & {
+
+		@media screen and (min-width: 400px) {
+			width: calc(100% - 120px);
+
+			padding-right: 20px;
+		}
+
+		@media #{$min_md} {
+			width: 100%;
+		}
+	}
+}
+
+.info_form_row {
+
+	@media #{$min_lg} {
+		clear: both;
+	}
+
+	> .fs-dropdown {
+		margin-bottom: 20px;
+	}
+}
+
+.info_form_input,
+.info_form_radios {
+	width: 100%;
+
+	margin-bottom: 10px;
+
+	.column_two & {
+
+		@media #{$min_lg} {
+			width: 48%;
+			width: calc(50% - 10px);
+
+			float: left;
+
+			margin-right: 10px;
+		}
+	}
+}
+
+.info_form_input_wrapper {
+	position: relative;
+}
+
+.info_form_input_clear {
+	height: 100%;
+	width: 50px;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	cursor: pointer;
+	margin-top: -5px;
+
+	&.hidden {
+		display: none;
+	}
+}
+
+.info_form_input_clear_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+
+	svg {
+		fill: $red;
+	}
+}
+
+.info_dropdown_wrapper,
+.info_form_search {
+	display: block;
+
+	.column_two & {
+		width: 100%;
+
+		@media #{$min_lg} {
+			width: 48%;
+			width: calc(50% - 10px);
+
+			float: left;
+
+			margin-left: 10px;
+		}
+	}
+}
+
+.info_items {
+	clear: both;
+	margin-top: 20px;
+}
+
+.info_item {
+
+	&_grouped {
+		margin-bottom: 20px;
+
+		@media screen and (min-width: 450px) {
+			width: 49%;
+
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		@media #{$min_sm} {
+			width: 42%;
+
+			margin: 10px 4% 25px 0;
+		}
+
+		@media #{$min_lg} {
+			width: auto;
+
+			margin-right: 10%;
+		}
+
+		@media #{$min_xl} {
+			width: 32%;
+		}
+	}
+
+	.theme_home & {
+
+		@media #{$min_xl} {
+			opacity: 0;
+			transform-origin: left top;
+		}
+
+		@for $i from 1 through 4 {
+
+			&:nth-child(#{$i}) {
+
+				@media #{$min_xl} {
+					transform: scale(.75);
+					transition:
+						opacity .25s .05 * $i + .1s,
+						transform.25s .05 * $i + .1s;
+				}
+			}
+		}
+	}
+
+	.reveal &:nth-child(n) {
+
+		@media #{$min_xl} {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+}
+
+.info_item_link {
+	@include button_block_alternate;
+	@include button_bordered_red;
+	@include arrowed_link;
+
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 10px;
+
+	@media screen and (min-width: 400px) {
+		margin-right: 8px;
+	}
+
+	.info_item_grouped & {
+		display: block;
+	}
+}
+
+.info_item_link_search {
+	background: #000;
+	box-shadow: none;
+	color: #fff;
+	opacity: .25;
+	pointer-events: none;
+	transition: 
+		background .25s,	
+		opacity .25s;
+
+	.show_remaining_inputs & {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	span {
+		position: relative;
+		
+		&:after {
+			height: 2px;
+			width: 100%;
+
+			position: absolute;
+			top: 100%;
+			left: 0;
+
+			background: $red;
+			content: "";
+			transform-origin: left center;
+			transform: scaleX(0);
+			transition: transform .25s;
+		}
+	}
+
+	&:focus,
+	&:hover {
+		background: #000;
+
+		span {
+
+			&:after {
+				transform: scaleX(1);
+			}
+		}
+		
+		.symbol {
+			fill: $red;
+		}
+	}
+}
+
+.info_item_detail {
+	@include proxima;
+
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 0 2px;
+	padding-right: 5px;
+
+	@media screen and (min-width: 400px) {
+		display: block;
+	}
+}
+
+.info_item_cost {
+	@include proxima(700);
+
+	display: inline-block;
+	font-size: 14px;
+	margin: 0;
+
+	@media screen and (min-width: 400px) {
+		display: block;
+	}
+}
+
+.info_dropdown_wrapper {
+	margin-bottom: 10px;
+
+	@media #{$min_sm} {
+		display: inline-block;
+	}
+}

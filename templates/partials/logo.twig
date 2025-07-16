@@ -1,0 +1,12 @@
+{#
+	Logo markup as defined by Google structured data
+	https://developers.google.com/structured-data/customize/logos
+
+	1. Change meta to schema logo.
+#}
+
+<h1 class="logo{% if modifier %} logo_{{modifier}}{% endif %}" itemscope itemtype="http://schema.org/Organization">
+	<a class="logo_link" itemprop="url" href="{{ www_root }}">Baltimore Washing International Thurgood Marshal Airport</a>
+	<meta content="{{ static_root }}images/logo-schema.png" itemprop="logo">
+	<img class="logo_print" src="{{ static_root }}images/src/logo.svg" alt="">
+</h1>

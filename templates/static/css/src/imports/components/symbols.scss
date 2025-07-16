@@ -1,0 +1,83 @@
+/* ==========================================================================
+	Symbols
+============================================================================= */
+
+.symbol {
+	transition: fill .25s;
+
+	@media print {
+		display: none;
+	}
+
+	$symbol-colors: (
+		(red, $red),
+		(dark, $dark),
+		(gray, #D7D7D7),
+		(white, #fff)
+	);
+
+	@each $label, $color in $symbol-colors {
+
+		&_#{$label} {
+			fill: $color;
+		}
+	}
+
+	$symbols: (
+		(airplane, 17px, 13px),
+		(amenities, 29px, 25px),
+		(alert, 20px, 20px),
+		(arrow_left, 11px, 8px),
+		(arrow_right, 11px, 8px),
+		(bag, 26px, 27px),
+		(car, 29px, 24px),
+		(caret_down, 10px, 6px),
+		(carets, 7px, 15px),
+		(chevron_up, 15px, 9px),
+		(clock, 35px, 35px),
+		(close, 10px, 10px),
+		(gym, 31px, 28px),
+		(home, 22px, 22px),
+		(facebook, 20px, 20px),
+		(facilities, 34px, 25px),
+		(twitter, 20px, 18px),
+		(youtube, 26px, 18px),
+		(instagram, 29px, 29px),
+		(exclamation, 4px, 13px),
+		(officer, 26px, 28px),
+		(parking, 10px, 13px),
+		(pie, 35px, 35px),
+		(plus, 14px, 14px),
+		(restrooms, 27px, 25px),
+		(search, 14px, 14px),
+		(sofa, 29px, 22px),
+		(sorter, 7px, 15px),
+		(tickets, 26px, 26px),
+		(traveler, 36px, 32px),
+		(utensils, 22px, 26px)
+	);
+
+	@each $label, $w, $h in $symbols {
+
+		&_#{$label} {
+			height: $h;
+			width: $w;
+		}
+	}
+
+	&_facebook {
+		fill: #3A5998;
+	}
+
+	&_twitter {
+		fill: #1DA1F2;
+	}
+
+	&_youtube {
+		fill: #D81327;
+	}
+
+	&_instagram {
+		background: url('./../../images/src/icons/instagram.svg') no-repeat 50% 50%;
+	}
+}

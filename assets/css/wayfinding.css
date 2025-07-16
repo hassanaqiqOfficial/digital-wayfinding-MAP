@@ -1,0 +1,206 @@
+.visually-hidden {
+  display: none;
+}
+html,
+body.wayfinding > div.views-element-container,
+.wayfinding-wrapper,
+#wayfinding {
+  height: 100%;
+}
+body.wayfinding {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.wayfinding-wrapper .images-wrapper {
+  position: relative;
+}
+.wayfinding-wrapper.orientation-portrait .images-wrapper {
+  width: 100%;
+}
+.wayfinding-wrapper.orientation-portrait .images .background svg,
+.wayfinding-wrapper.orientation-portrait .images .background img {
+  width: 100%;
+  height: auto;
+}
+.wayfinding-wrapper.orientation-portrait .legend-wrapper .legend {
+  width: 100%;
+}
+.wayfinding-wrapper.orientation-landscape .images-wrapper {
+  float: left;
+}
+.wayfinding-wrapper.orientation-landscape .images-wrapper,
+.wayfinding-wrapper.orientation-landscape .images-wrapper .images,
+.wayfinding-wrapper.orientation-landscape .images-wrapper .images .background {
+  height: 100%;
+}
+.wayfinding-wrapper.orientation-landscape .images .background svg,
+.wayfinding-wrapper.orientation-landscape .images .background img {
+  height: 100%;
+  width: auto;
+}
+.wayfinding-wrapper.orientation-landscape .legend-wrapper.before {
+  float: left;
+  height: 100%;
+  padding-right: .5rem;
+}
+.wayfinding-wrapper.orientation-landscape .legend-wrapper.after {
+  overflow-x: hidden;
+  height: 100%;
+  padding-left: .5rem;
+}
+.wayfinding-wrapper .images {
+  position: relative;
+}
+.wayfinding-wrapper .images .background .pin svg,
+.wayfinding-wrapper .images .background .pin img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.25rem;
+  height: auto;
+}
+.wayfinding-wrapper .images .destinations svg,
+.wayfinding-wrapper .images .destinations img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.wayfinding-wrapper .images .destinations .destination {
+  display: none;
+}
+.wayfinding-wrapper .images .destinations .destination.show {
+  display: block;
+}
+
+.wayfinding-wrapper .legend-wrapper {
+  overflow-y: auto;
+}
+.wayfinding-wrapper .legend-wrapper .wayfinding-tabs {
+  background-color: #ddd;
+  padding: .125rem;
+  height: 2rem;
+}
+.wayfinding-wrapper .legend-wrapper .wayfinding-tabs h1 {
+  float: left;
+  padding: 0 .25rem;
+  margin: 0;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.wayfinding-wrapper .legend-wrapper .wayfinding-tabs .wayfinding-tab {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: .25rem;
+  background-color: #bbb;
+}
+.wayfinding-wrapper .legend-wrapper .wayfinding-tabs .wayfinding-tab.active {
+  background-color: #999;
+  color: #fff;
+}
+.wayfinding-wrapper .legend-wrapper .wayfinding-tabs .wayfinding-tab:not(.active):hover {
+  cursor: pointer;
+}
+.wayfinding-wrapper .legend-wrapper .legend {
+  display: none;
+}
+.wayfinding-wrapper .legend-wrapper .legend.active {
+  display: block;
+}
+
+.wayfinding-wrapper .legend-wrapper .legend .source {
+  padding: .125rem;
+}
+.wayfinding-wrapper .legend-wrapper .legend .source.active {
+  background-color: #bbb;
+}
+.wayfinding-wrapper .legend-wrapper .legend .source:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.wayfinding-wrapper svg .wayfinding-show {
+  display: block !important;
+}
+
+.wayfinding-wrapper .widgets .widget {
+  display: none;
+  position: absolute;
+}
+.wayfinding-wrapper .widgets .widget.show {
+  display: block;
+}
+.wayfinding-wrapper .widgets .widget.route {
+  right: 0;
+  bottom: 0;
+}
+.wayfinding-wrapper .widgets .widget.route img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.wayfinding-wrapper .wayfinding-close {
+  display: none;
+}
+
+.wayfinding-wrapper #popup-content-wrapper .popup-content-background {
+  display: none;
+}
+.wayfinding-wrapper #popup-content-wrapper .popup-content-background.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: .7;
+}
+.wayfinding-wrapper #popup-content-wrapper .popup-content-close {
+  display: none;
+}
+.wayfinding-wrapper #popup-content-wrapper .popup-content-close.show {
+  display: block;
+  position: fixed;
+  top: .25rem;
+  right: .25rem;
+  background-color: white;
+  border: 3px solid black;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1004;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+}
+.wayfinding-wrapper #popup-content-wrapper .popup-content-close.show:hover {
+  cursor: pointer;
+}
+.wayfinding-wrapper .popup-content {
+  display: none;
+}
+.wayfinding-wrapper .popup-content.show {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wayfinding-wrapper #popup-content-wrapper .popup-content.show {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: .25rem;
+  z-index: 999;
+}

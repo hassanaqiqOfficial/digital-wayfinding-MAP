@@ -1,0 +1,48 @@
+{% set colorGroups = [
+	[
+		{
+			name: "red",
+			text: "#fff",
+			hex: "#DA1A32"
+		},
+		{
+			name: "black",
+			text: "#fff",
+			hex: "#111"
+		},
+		{
+			name: "mist",
+			text: "#111",
+			hex: "#E9F1F5"
+		},
+		{
+			name: "beige",
+			text: "#111",
+			hex: "#FCF4ED"
+		},
+		{
+			name: "dark_gray",
+			text: "#fff",
+			hex: "#414141"
+		},
+		{
+			name: "light_gray",
+			text: "#111",
+			hex: "#F2F2F2"
+		}
+	]
+] %}
+
+{% for group in colorGroups %}
+	<div class="cr_color_blocks">
+		<div class="cr_color_block_row">
+			{% for color in group %}
+				<div class="cr_color_block_cell">
+					<div class="cr_color_block" style="background: {{color.hex}}; color: {{color.text}}">
+						<div class="cr_color_block_content">{{color.hex}}</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endfor %}

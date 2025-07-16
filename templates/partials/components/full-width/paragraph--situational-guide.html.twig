@@ -1,0 +1,20 @@
+<div class="row">
+	<header class="guide_item_header">
+		<h3 class="guide_item_title">{{ content.field_description }}</h3>
+	</header>
+	<div class="guide_item_links">
+		{% for link in content.field_links %}
+			{% if link["#url"] %}
+			<a class="guide_item_link" href="{{ link["#url"] }}" aria-title="Open page for more info on {{ link["#title"] }}">
+			<span>{{ link["#title"] }}</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+					<use xlink:href="#arrow_right"></use>
+			</svg>
+			</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>
+<div class="guide_item_body">
+	{{ content.field_blocks }}
+</div>

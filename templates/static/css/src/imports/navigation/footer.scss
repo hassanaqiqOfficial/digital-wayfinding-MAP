@@ -1,0 +1,95 @@
+/* ==========================================================================
+	Footer Navigation
+============================================================================= */
+
+.footer_nav {
+
+	&_sm {
+		background: $black;
+		color: #fff;
+		padding: 30px 20px;
+	}
+}
+
+.footer_nav_header {}
+
+.footer_nav_title {
+	@include faded_label;
+}
+
+.footer_nav_list {
+
+	@media screen and (min-width: 380px) {
+		@include columns(2);
+	}
+}
+
+.footer_nav_item {}
+
+.footer_nav_link {
+	@include heading_7;
+	@include arrowed_link;
+
+	color: inherit;
+	display: block;
+	padding: 10px 0;
+
+	&:focus,
+	&:hover {
+
+		svg {
+			animation: take-off 2s infinite;
+		}
+	}
+
+	svg {
+		offset-distance: 0;
+		offset-path: path("m5, 2 c10, 0 10, 0 20, -10");
+		transition:
+			fill .25s,
+			offset-distance .25s,
+			transform .25s;
+	}
+}
+
+.footer_nav_link_label {
+	position: relative;
+
+	&:after {
+		height: 2px;
+		width: 100%;
+
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		background: $red;
+		content: "";
+		transform: scaleX(0);
+		transform-origin: left center;
+		transition: transform .35s;
+
+		.footer_nav_link:hover &,
+		.footer_nav_link:focus & {
+			transform: scaleX(1);
+		}
+	}
+}
+
+@keyframes take-off {
+
+	85%,
+	100% {
+		fill: #fff;
+		offset-distance: 100%;
+		transform: scale(1.25);
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

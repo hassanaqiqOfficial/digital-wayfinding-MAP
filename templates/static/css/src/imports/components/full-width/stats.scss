@@ -1,0 +1,88 @@
+/* ==========================================================================
+	Stats
+============================================================================= */
+
+.stats {
+	@include margined_lg;
+}
+
+.stats_header {}
+
+.stats_ribbon {
+	@include bordered_ribbon;
+}
+
+.stats_title {
+	@include heading_2;
+
+	color: $black;
+	margin: 0 0 5px;
+}
+
+.stats_caption {
+	@include body_text;
+
+	color: $dark;
+	margin: 0 0 30px;
+}
+
+.stats_body {
+	@include clearfix;
+}
+
+.stat {
+	margin-bottom: 40px;
+
+	@media #{$min_sm} {
+		width: 45%;
+
+		float: left;
+
+		margin-right: 5%;
+	}
+
+	@media #{$min_lg} {
+		display: flex;
+	}
+
+	@media #{$min_xl} {
+		align-items: flex-end;
+	}
+
+	&:last-child,
+	&:nth-last-child(2) {
+
+		@media #{$min_sm} {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.stat_quantity {
+	@include heading_1;
+
+	color: $red;
+	margin: 0;
+
+	@media print {
+		@include heading_2;
+	}
+
+	@media #{$min_lg} {
+		padding-right: 30px;
+	}
+
+	@media #{$min_xl} {
+		font-size: 90px;
+	}
+}
+
+.stat_caption {
+	@include heading_5;
+
+	margin: 0;
+
+	@media #{$min_xl} {
+		padding: 12px 0;
+	}
+}

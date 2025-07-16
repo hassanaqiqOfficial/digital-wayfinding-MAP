@@ -1,0 +1,68 @@
+/* ==========================================================================
+	Carousel
+============================================================================= */
+
+.fs-carousel-item {
+
+	&.fs-carousel-visible {}
+}
+
+
+/* ==========================================================================
+	Controls
+============================================================================= */
+
+.fs-carousel-controls {}
+
+.fs-carousel-control {
+
+	&.fs-carousel-visible {}
+
+	&.fs-carousel-control_previous {}
+
+	&.fs-carousel-control_next {}
+}
+
+
+/* Control Themes
+============================================================================= */
+
+.theme {
+
+	.fs-carousel-controls {}
+
+	.fs-carousel-control {
+
+		&.fs-carousel-visible {}
+
+		&.fs-carousel-control_previous {}
+
+		&.fs-carousel-control_next {}
+	}
+}
+
+
+/* ==========================================================================
+	Pagination
+============================================================================= */
+
+.fs-carousel-pagination {}
+
+.fs-carousel-page {
+
+	&.fs-carousel-active {}
+}
+
+
+/* Pagination Themes
+============================================================================= */
+
+.theme {
+
+	.fs-carousel-pagination {}
+
+	.fs-carousel-page {
+
+		&.fs-carousel-active {}
+	}
+}

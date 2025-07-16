@@ -1,0 +1,23 @@
+{% set images = image_style(content.field_image, ['full_xsml']) %}
+
+<article class="listing_item">
+	<a href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %} aria-title="Open page for more info on {{ content.field_title[0]["#context"]["value"] }}"><img class="listing_item_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.full_xsml }}"></a>
+	<div class="listing_item_body">
+		<h2 class="listing_item_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+		<p class="listing_item_caption">{{ content.field_blurb[0]["#context"]["value"] }}</p>
+		<a class="listing_item_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %} aria-title="Open page for more info on {{ content.field_title[0]["#context"]["value"] }}">
+			<span>{{ content.field_link[0]["#title"] }}</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+		{% if content.field_second_link[0]["#url"] %}
+		<a class="listing_item_link" href="{{ content.field_second_link[0]["#url"] }}"{% if content.field_open_in_new_window_2[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+			<span>{{ content.field_second_link[0]["#title"] }}</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+		{% endif %}
+	</div>
+</article>

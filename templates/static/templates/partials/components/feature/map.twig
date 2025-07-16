@@ -1,0 +1,65 @@
+<section class="map">
+	<header class="map_header map_header_sm">
+		<h1 class="map_title">Explore BWI</h1>
+	</header>
+	<div class="map_wrapper">
+		<div class="map_content">
+			<div class="map_site" id="map"></div>
+			<div class="map_lightbox"></div>
+		</div>
+		<div class="map_filters_near">
+			<span class="map_near_label">Show What's Near</span>
+			<div class="map_near_wrapper map_near_wrapper_sm">
+				{{site.dropdown("map_near_airline map_near", ["Airline", "American", "Spirit"])}}
+				{{site.dropdown("map_near_concourse map_near", ["Concourse", "A", "B", "C", "D", "E"])}}
+				{{site.dropdown("map_near_gate map_near", ["Gate", "D01", "D02", "D03", "D04", "D05", "D06", "D07", "D08"])}}
+			</div>
+			<div class="map_near_wrapper map_near_wrapper_lg">
+				{{site.dropdown("map_near_airline map_near", ["Select an Airline", "American", "Spirit"])}}
+				{{site.dropdown("map_near_concourse map_near", ["Select a Concourse", "A", "B", "C", "D", "E"])}}
+				{{site.dropdown("map_near_gate map_near", ["Select a Gate", "D01", "D02", "D03", "D04", "D05", "D06", "D07", "D08"])}}
+			</div>
+		</div>
+		<div class="map_filters_level">
+			<button class="js-swap map_level_button" data-level="upper" data-swap-group="map_level_group" data-swap-active="true" data-swap-options='{"collapse": false}'>
+				<span class="map_level_quantity">
+					<span class="map_level_quantity_label">00</span>
+				</span>
+				<span class="map_level_label">Upper Level</span>
+			</button>
+			<button class="js-swap map_level_button" data-level="lower" data-swap-group="map_level_group" data-swap-options='{"collapse": false}'>
+				<span class="map_level_quantity">
+					<span class="map_level_quantity_label">00</span>
+				</span>
+				<span class="map_level_label">Lower Level</span>
+			</button>
+		</div>
+	</div>
+	<div class="map_aside">
+		<header class="map_header map_header_lg">
+			{% include '../../logo.twig' with {
+				modifier: "wayfinding"
+			} %}
+			<h1 class="map_title">Explore BWI</h1>
+		</header>
+		<div class="map_locales">
+			{% for locale in locales %}
+				<div class="map_locale">
+					<button class="js-swap map_locale_button" data-swap-target=".map_places_{{loop.index}}" data-swap-group="map_locale_group">
+						<span class="map_locale_icon">{{site.symbol(locale.icon)}}</span>
+						<span class="map_locale_label">{{locale.label}}</span>
+						<span class="map_locale_indicator">{{site.symbol("caret_down", "red")}}</span>
+					</button>
+					<div class="map_places map_places_{{loop.index}}">
+						{% for place in locale.places %}
+							<button class="map_place" data-id="{{loop.index}}" data-airline="{{place.airline}}" data-concourse="{{place.concourse}}" data-gate="{{place.gate}}" data-level="{{place.level}}">
+								<span class="map_place_name">{{place.name}}</span>
+								<span class="map_place_gate">{{place.gate}}</span>
+							</button>
+						{% endfor %}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

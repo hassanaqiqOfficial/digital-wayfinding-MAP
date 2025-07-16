@@ -1,0 +1,30 @@
+{% set images = image_style(content.field_background_image, ['wide_med', 'wide_lrg']) %}
+
+<section class="destination theme_framed theme_alternate">
+	<div class="row">
+		<div class="destination_wrapper">
+			<div class="js-background destination_background" data-background-options='{ "source": { "0px": "{{ images.wide_med }}", "980px": "{{ images.wide_lrg }}" } }'></div>
+
+			<div class="destination_body">
+				<div class="destination_details">
+					<h2 class="destination_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+					<p class="destination_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+					<div class="fs-dropdown_wrapper destination_dropdown_wrapper">
+						<select class="js-dropdown destination_dropdown" data-dropdown-options='{ "label": "{{ content.field_dropdown_title[0]["#context"]["value"] }}", "links": true }'>
+							{% for link in content.field_links %}
+								{% if link["#url"] %}
+									<option value="{{ link["#url"] }}">{{ link["#title"] }}</option>
+								{% endif %}
+							{% endfor %}
+						</select>
+						<span class="fs-dropdown_icon destination_dropdown_icon">
+							<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+								<use xlink:href="#caret_down"></use>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

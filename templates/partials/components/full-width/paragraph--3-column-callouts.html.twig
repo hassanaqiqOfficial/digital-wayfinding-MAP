@@ -1,0 +1,15 @@
+<section class="facts">
+	<div class="row">
+		<header class="facts_header">
+			<h2 class="facts_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+			<p class="facts_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+		</header>
+		<div class="js-carousel facts_wrapper" data-carousel-options='{
+			"contained": false,
+			"controls": false,
+			"pagination": false
+		}'>
+			{{ content.field_triple_callouts }}
+		</div>
+	</div>
+</section>

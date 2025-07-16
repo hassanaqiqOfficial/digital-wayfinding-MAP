@@ -1,0 +1,31 @@
+<section class="services">
+	{% include "../shared/background.twig" with {
+		class: "services",
+		sources: {
+			"0px": img.wide.md,
+			"980px": img.ultrawide.xlrg
+		},
+		image: image
+	} %}
+	<div class="row">
+		<header class="services_header">
+			<h2 class="services_title">{{title}}</h2>
+		</header>
+		<div class="js-carousel services_wrapper" data-carousel-options='{
+			"contained": false,
+			"controls": false,
+			"pagination": false
+		}'>
+			{% for service in services %}
+				<div class="service">
+					<h3 class="service_title">{{service.title}}</h3>
+					<p class="service_caption">{{service.caption}}</p>
+					<a class="service_link" href="#" aria-title="Open page for more info on {{service.title}}">
+						<span>More Info</span>
+						{{site.symbol("arrow_right", "gray")}}
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

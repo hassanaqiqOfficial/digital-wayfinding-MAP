@@ -1,0 +1,80 @@
+/* ==========================================================================
+	Logo
+============================================================================= */
+
+.logo {
+	margin: 0;
+
+	&_header {
+		width: 70%;
+		width: calc(100% - 90px);
+
+		@media #{$min_lg} {
+			max-width: 250px;
+			width: 100%;
+
+			float: left;
+		}
+
+		@media #{$min_xl} {
+			max-width: 330px;
+		}
+	}
+
+	&_footer {
+		max-width: 330px;
+
+		margin-bottom: 30px;
+
+		@media #{$min_md} {
+			margin-bottom: 50px;
+		}
+	}
+}
+
+.logo_link {
+	width: 100%;
+
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: transparent;
+	display: block;
+	overflow: hidden;
+	user-select: none;
+	white-space: nowrap;
+
+	@media print {
+		display: none;
+	}
+
+	.logo_header & {
+		height: 40px;
+
+		background-image: url('../images/src/logo.svg');
+
+		@media #{$min_xl} {
+			height: 50px;
+		}
+	}
+
+	.logo_footer & {
+		height: 50px;
+
+		background-image: url('../images/src/logo_alternate.svg');
+	}
+
+	.logo_wayfinder & {
+		height: 40px;
+
+		background-image: url('../images/src/logo_condensed.svg');
+	}
+}
+
+.logo_print {
+	display: none;
+
+	@media print {
+		display: block;
+	}
+}

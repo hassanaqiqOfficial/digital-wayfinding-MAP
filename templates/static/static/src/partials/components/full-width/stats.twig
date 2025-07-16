@@ -1,0 +1,19 @@
+<section class="stats">
+	<div class="row">
+		<header class="stats_header">
+			<div class="stats_ribbon">
+				<span class="stats_ribbon_icon">{{site.symbol("pie", "red")}}</span>
+			</div>
+			<h2 class="stats_title">{{title}}</h2>
+			<p class="stats_caption">{{caption}}</p>
+		</header>
+		<div class="stats_body">
+			{% for stat in stats %}
+				<div class="stat">
+					<h3 class="stat_quantity">{{stat.number}}</h3>
+					<p class="stat_caption">{{stat.caption}}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

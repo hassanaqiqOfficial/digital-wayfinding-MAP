@@ -1,0 +1,14 @@
+{% extends "_base.twig" %}
+
+{% set pageTitle = "Style Guide In Content" %}
+
+{% block in_content_callouts %}
+  <h4>Arrivals and Departures Form</h4>
+  {% include '../partials/components/full-width/info.twig' with {
+    class: "inline",
+    dimension: img.square.xsml,
+    image: 2,
+    symbol: "airplane",
+    form: true
+  } %}
+{% endblock %}

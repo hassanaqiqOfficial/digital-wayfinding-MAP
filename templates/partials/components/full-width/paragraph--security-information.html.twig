@@ -1,0 +1,40 @@
+{% set images = image_style(content.field_image, ['square_xsml']) %}
+
+<section class="info">
+	<div class="row">
+		<div class="info_wrapper">
+			<img class="info_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.square_xsml }}">
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						<span class="info_ribbon_bubble">
+							<span class="info_ribbon_icon">
+								<svg aria-hidden="true" class="symbol symbol_officer symbol_red">
+									<use xlink:href="#officer"></use>
+								</svg>
+							</span>
+						</span>
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+						<p class="info_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+					</div>
+				</header>
+				<div class="info_items">
+					{% for link in content.field_links %}
+						{% if link["#url"] %}
+							<div class="info_item">
+								<a class="info_item_link" href="{{ link["#url"] }}">
+									<span>{{ link["#title"] }}</span>
+									<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+										<use xlink:href="#arrow_right"></use>
+									</svg>
+								</a>
+							</div>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

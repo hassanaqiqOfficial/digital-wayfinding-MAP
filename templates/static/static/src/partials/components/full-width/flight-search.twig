@@ -1,0 +1,39 @@
+<div class="flight_search_block">
+	<div class="row">
+		{% include "../../navigation/breadcrumb.twig" with {
+			links: breadcrumbNavLinks
+		} %}
+		<div class="flight_search_details">
+			<h1 class="flight_search_details_title">{{title}}</h1>
+			<div class="flight_search_details_body">
+				<div class="flight_search_caption">{{caption}}</div>
+				<nav class="flight_search_explore">
+					<span class="flight_search_explore_label">Explore This Section:</span>
+					<ul class="flight_search_explore_list">
+						{% for link in links %}
+							<li class="flight_search_explore_item">
+								<a class="flight_search_explore_link" href="#">
+									<span>{{link}}</span>
+									{{site.symbol("arrow_right", "gray")}}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<form class="flight_search info_form" action="#" method="get">
+			<div class="flight_search_body">
+				<div class="flight_search_field">
+					<div class="flight_search_field_wrapper">
+						<input type="search" placeholder="Search by Flight #" class="flight_search_input info_form_input" aria-label="Search by Flight #" />
+					</div>
+					<button class="info_item_link info_item_link_search flight_search_submit">
+						<span>Search</span>
+						{{site.symbol("arrow_right", "red")}}
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

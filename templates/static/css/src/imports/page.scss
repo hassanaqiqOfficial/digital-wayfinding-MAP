@@ -1,0 +1,217 @@
+/* ==========================================================================
+	Page
+============================================================================= */
+
+.page_wrapper {
+
+	@media print {
+		padding-bottom: 0 !important;
+	}
+
+	@media #{$max_lg} {
+		padding-bottom: 0 !important;
+	}
+
+	[data-whatinput="keyboard"] & {
+
+		@media #{$min_lg} {
+			padding-bottom: 0 !important;
+		}
+	}
+}
+
+.page {
+	position: relative;
+	z-index: 20;
+
+	background: #fff;
+	padding-top: (80 / 16) * 1em;
+
+	@media print {
+		padding-top: 0;
+	}
+
+	@media #{$min_xl} {
+		padding-top: (100 / 16) * 1em;
+	}
+
+	.theme_home & {
+		overflow: hidden;
+
+		@media #{$min_lg} {
+			box-shadow: inset -250px 0 0 0 #f2f2f2;
+			padding-right: 250px;
+		}
+	}
+
+	.theme_wayfinding & {
+		position: static;
+
+		@media #{$min_md} {
+			padding-top: 0;
+		}
+	}
+}
+
+.page_feature {
+
+	// .theme_default & {
+	// 	display: none;
+
+	// 	@media #{$min_md} {
+	// 		display: block;
+	// 	}
+	// }
+}
+
+.page_header {}
+
+.page_title_alternate {
+
+	.typography & {
+		color: $red;
+		margin-top: 20px;
+		margin-bottom: 17px;
+	}
+}
+
+.page_title {
+	margin-bottom: 0;
+
+	@media #{$min_md} {
+		margin-bottom: 20px;
+	}
+}
+
+.page_content {
+
+	&_expanded {
+
+		@media #{$min_md} {
+			padding-top: 50px;
+		}
+
+		@media print {
+			padding-top: 0;
+		}
+	}
+}
+
+.subnav_cell {
+
+	@media #{$min_md} {
+		width: 40%;
+
+		float: left;
+
+		padding-right: 20px;
+	}
+
+	@media #{$min_lg} {
+		width: (3.5 / 12 * 100%);
+	}
+
+	.empty_subnav & {
+		display: none;
+	}
+
+	&_sm {
+
+		@media #{$min_md} {
+			display: none;
+		}
+	}
+
+	&_lg {
+		display: none;
+
+		@media #{$min_md} {
+			display: block;
+		}
+	}
+}
+
+.content_cell {
+
+	@media #{$min_md} {
+		width: 60%;
+
+		float: left;
+	}
+
+	@media #{$min_lg} {
+		width: (8.5 / 12 * 100%);
+	}
+
+	.empty_subnav & {
+
+		@media #{$min_md} {
+			width: 85%;
+
+			float: none;
+
+			margin: 0 auto;
+		}
+
+		@media #{$min_lg} {
+			width: 72%;
+		}
+	}
+}
+
+.main_content {
+	@include focus_outline_none;
+
+	padding-bottom: 40px;
+
+	@media #{$min_md} {
+		padding-bottom: 20px;
+	}
+}
+
+.in_content_callouts {}
+
+.sidebar_cell {
+	clear: right;
+}
+
+.sidebar {}
+
+.full_width_callouts {}
+
+
+/* Skip Link
+============================================================================= */
+
+.skip_link {
+	@include button;
+	@include button_white;
+
+	position: fixed;
+	top: 0;
+	left: 50%;
+	z-index: 400;
+
+	display: block;
+	padding: 20px;
+	text-align: center;
+	transform: translate(-50%, -200%);
+	transition:
+		transform .35s,
+		top .35s,
+		background .15s;
+
+	&:focus,
+	&:active {
+		transform: translate(-50%, 200%);
+	}
+
+	.no-csstransforms & {
+		top: -100%;
+
+		&:focus,
+		&:active {
+			top: 0;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+body.wayfinding-popup-open {
+  overflow: hidden;
+}
+#wayfinding-popup {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+#wayfinding-popup .wayfinding-popup-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: .7;
+}
+#wayfinding-popup .wayfinding-popup-content-wrapper {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  background-color: white;
+}
+#wayfinding-popup .wayfinding-popup-content-wrapper .wayfinding-popup-content,
+#wayfinding-popup .wayfinding-popup-content-wrapper .wayfinding-popup-content .views-element-container {
+  height: 100%;
+  width: 100%;
+}
+
+#wayfinding-popup .wayfinding-popup-content-wrapper .loading {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: grey;
+}
+#wayfinding-popup .wayfinding-close {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  background-image: url("../img/close.svg");
+  background-size: 32px 32px;
+}
+#wayfinding-popup .wayfinding-close:hover {
+  cursor: pointer;
+}

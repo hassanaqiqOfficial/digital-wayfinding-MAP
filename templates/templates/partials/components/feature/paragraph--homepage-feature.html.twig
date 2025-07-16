@@ -1,0 +1,26 @@
+{% set images = image_style(content.field_background_image, ['wide_xxsml', 'wide_xlrg']) %}
+<div class="highlight">
+	<div class="js-background highlight_poster_background" data-background-options='{
+		"source": "{{ images.wide_xxsml }}"
+	}'></div>
+	{% if content.field_video_url[0]["#context"]["value"] %}
+	<div class="js-background highlight_background_video" data-background-options='{"source": {
+"poster": "{{ images.wide_xlrg }}", "mp4": "{{ content.field_video_url[0]["#context"]["value"] }}"}}'></div>
+	{% endif %}
+	<div class="highlight_wrapper">
+		<div class="row">
+			<div class="highlight_body">
+				<h1 class="highlight_title">{{ content.field_title[0]["#context"]["value"] }}</h1>
+				<div class="highlight_caption">{{ content.field_description }}</div>
+				{% if content.field_link[0]["#url"] %}
+				<a class="highlight_link" href="{{ content.field_link[0]["#url"] }}">
+					<span>{{ content.field_link[0]["#title"] }}</span>
+					<svg class="symbol symbol_arrow_right symbol_red">
+						<use xlink:href="#arrow_right"></use>
+					</svg>
+				</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>

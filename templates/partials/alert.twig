@@ -1,0 +1,22 @@
+<section class="js-alert alert" role="alert" data-time="{{ alert.id }}">
+	<div class="row">
+		<div class="alert_body">
+			<button class="js-alert-close alert_close">
+				<span class="alert_close_label">Close Alert</span>
+				<span class="alert_close_icon">
+					<svg aria-hidden="true" class="symbol symbol_close symbol_dark">
+						<use xlink:href="#close"></use>
+					</svg>
+				</span>
+			</button>
+			<header class="alert_header">
+				<span class="alert_indicator">
+					<svg aria-hidden="true" class="symbol symbol_alert symbol_dark">
+						<use xlink:href="#alert"></use>
+					</svg>
+				</span>
+				<h2 class="alert_title">{{ alert.message }}</h2>
+			</header>
+		</div>
+	</div>
+</section>

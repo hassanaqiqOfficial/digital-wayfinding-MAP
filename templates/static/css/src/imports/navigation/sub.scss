@@ -1,0 +1,247 @@
+/* ==========================================================================
+	Sub Navigation
+============================================================================= */
+
+.sub_nav {
+	position: relative;
+
+	@media print {
+		display: none;
+	}
+
+	@media #{$min_md} {
+		border-left: 3px solid $red;
+	}
+
+	@media #{$min_lg} {
+		padding: 14px 0;
+	}
+}
+
+.sub_nav_header {}
+
+.sub_nav_title {
+	@include visually_hide;
+}
+
+.sub_nav_handle_wrapper {
+	position: relative;
+
+	@media #{$min_md} {
+		display: none;
+	}
+}
+
+.sub_nav_handle {
+	position: relative;
+
+	&.fs-navigation-enabled {
+		@include button_block;
+		@include proxima(700);
+
+		background: $black;
+		border-radius: 0;
+		color: #fff;
+		font-size: 16px;
+		padding-right: 60px;
+		text-align: left;
+
+		@media #{$min_md} {
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+	}
+
+	&.fs-navigation-open {}
+}
+
+.sub_nav_handle_icon {
+	position: absolute;
+	top: 50%;
+	right: 25px;
+
+	color: #fff;
+	display: block;
+	pointer-events: none;
+	transform:
+		translate(0, -50%)
+		rotate(0);
+
+	&:before {
+		height: 20px;
+		width: 20px;
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		border: 1px solid #fff;
+		border-radius: 50%;
+		content: "";
+		transform:
+			translate(-50%, -50%)
+			scale(0);
+		transition: transform .25s
+	}
+
+	&:after {
+		content: "+";
+		display: block;
+		transform:
+			translate(-1px, -1px)
+			scaleX(1)
+			rotate(0);
+		transition: transform .25s
+	}
+
+	.fs-navigation-open + & {
+
+		&:before {
+			transform:
+				translate(-50%, -50%)
+				scale(1);
+		}
+
+		&:after {
+			transform:
+				translate(-1px, -1px)
+				scaleX(-1)
+				rotate(45deg);
+		}
+	}
+}
+
+
+/* Sub Nav Links
+============================================================================= */
+
+.sub_nav_list {
+	@include focus_outline_none();
+
+	@media #{$max_md} {
+		width: 100%;
+
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 20;
+
+		background: #F2F2F2;
+		padding: 20px 0;
+	}
+
+	@media #{$min_md} {
+		background: none;
+	}
+}
+
+.sub_nav_item {}
+
+.sub_nav_link {
+	@include expander;
+	@include proxima(700);
+
+	color: $red;
+	display: block;
+	font-size: 16px;
+	line-height: (24 / 16);
+	padding: 10px 20px;
+
+	@media #{$min_md} {
+		color: $black;
+	}
+
+	@media #{$min_lg} {
+		padding: 16px 20px 16px 32px;
+	}
+
+	&:focus,
+	&:hover,
+	&.active {
+		color: $black;
+
+		@media #{$min_md} {
+			color: $red;
+		}
+	}
+}
+
+.sub_nav_link_label {
+	display: inline-block;
+}
+
+.sub_nav_link_icon {
+	float: right;
+
+	margin-top: -2px;
+
+	@media #{$min_md} {
+		display: none;
+	}
+
+	&:after {
+		display: none;
+	}
+
+	svg {
+
+		.sub_nav_link:focus &,
+		.sub_nav_link:hover & {
+			fill: $red;
+		}
+	}
+}
+
+.sub_nav_children {
+	margin-top: -8px;
+	padding: 0 20px;
+
+	@media #{$min_lg} {
+		padding-left: 32px;
+	}
+}
+
+.sub_nav_child_item {}
+
+.sub_nav_child_link {
+	@include proxima;
+
+	border-radius: 4px;
+	color: $dark;
+	display: inline-block;
+	padding: 11px 15px;
+
+	&:focus,
+	&:hover {
+		color: $red;
+	}
+
+	&.active {
+		background: $light;
+		color: $red;
+	}
+}
+
+// Grandchildren
+// =============================================================================
+
+.sub_nav_grandchildren {
+	padding: 0px 10px 10px;
+}
+
+.sub_nav_grandchild_item {}
+
+.sub_nav_grandchild_link {
+  @include proxima;
+
+  color: $dark;
+  display: block;
+  padding: 11px 15px;
+  transition: color .25s;
+
+  &:focus,
+	&.active,
+  &:hover {
+    color: $red;
+  }
+}

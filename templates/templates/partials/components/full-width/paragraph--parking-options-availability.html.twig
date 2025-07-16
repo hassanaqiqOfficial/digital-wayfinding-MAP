@@ -1,0 +1,24 @@
+{% set data_file = directory ~ "/cache/parking-availability.json" %}
+{% set data = json_load(data_file) %}
+{% set last_update = data["updated"] %}
+<section class="parking js-parking" data-file="{{ www_root }}{{ data_file }}">
+	<div class="row">
+		<header class="parking_header">
+			<div class="parking_ribbon">
+				<span class="parking_ribbon_icon">
+					<svg aria-hidden="true" class="symbol symbol_car symbol_red">
+						<use xlink:href="#car"></use>
+					</svg>
+				</span>
+			</div>
+			<h2 class="parking_title">
+				{{ content.field_title[0]["#context"]["value"] }}
+				<span class="parking_title_label js-parking_time">{{ last_update|raw }}</span>
+			</h2>
+			<p class="parking_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+		</header>
+		<div class="parking_body">
+			{{ content.field_parking_lots }}
+		</div>
+	</div>
+</section>

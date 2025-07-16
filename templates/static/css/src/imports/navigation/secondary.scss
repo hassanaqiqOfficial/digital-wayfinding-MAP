@@ -1,0 +1,68 @@
+/* ==========================================================================
+	Secondary Navigation Common
+============================================================================= */
+
+.secondary_nav {
+	display: inline-block;
+
+	&_lg {
+		padding: 0;
+
+		@media #{$max_lg} {
+			display: none;
+		}
+
+		@media #{$min_lg} {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}
+
+.secondary_nav_header {}
+
+.secondary_nav_title {
+	@include visually_hide;
+}
+
+.secondary_nav_list {}
+
+.secondary_nav_item {
+	display: inline-block;
+}
+
+.secondary_nav_link {
+	@include proxima;
+	@include expander;
+
+	color: $dark;
+	display: block;
+	font-size: 13px;
+	padding: 12px 20px 12px 0;
+
+	@media #{$min_lg} {
+		padding: 13px 5px;
+	}
+
+	@media screen and (min-width: 1080px) {
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+
+	@media #{$min_xl} {
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+	&:focus,
+	&:hover {
+		color: $red;
+	}
+
+	span {
+
+		&:after {
+			transform-origin: center center;
+		}
+	}
+}

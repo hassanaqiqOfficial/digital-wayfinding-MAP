@@ -1,0 +1,5558 @@
+<?xml version="1.0"?>
+<rows transformed="1">
+	<row id="1902816" adi="D" schedule="2017-08-24T08:00:00" actual="2017-08-24T12:00:00" change="2017-08-24T04:17:54.160">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>385</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903861" adi="D" schedule="2017-08-24T08:10:00" actual="2017-08-24T08:54:00" change="2017-08-24T09:06:37.313">
+		<line>Alaska</line>
+		<linecode>AS</linecode>
+		<number>739</number>
+		<logo>Alaska_156x28_FIDs.jpg</logo>
+		<bulletlogo>Bullet-AlaskaAir.gif</bulletlogo>
+		<gate>D20</gate>
+		<claim>9</claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1902643" adi="D" schedule="2017-08-24T08:35:00" actual="2017-08-24T09:08:00" change="2017-08-24T09:09:17.060">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2041</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C1</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903209" adi="D" schedule="2017-08-24T08:45:00" actual="2017-08-24T08:45:00" change="2017-08-24T08:55:55.610">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1607</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A1</gate>
+		<claim></claim>
+		<city code="CUN">Cancun</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903225" adi="D" schedule="2017-08-24T08:45:00" actual="2017-08-24T08:45:00" change="2017-08-24T08:41:47.260">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1710</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="AUS">Austin</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903411" adi="A" schedule="2017-08-24T08:45:00" actual="2017-08-24T08:30:00" change="2017-08-24T08:51:08.353">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1513</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim>1</claim>
+		<city code="BUF">Buffalo</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903084" adi="D" schedule="2017-08-24T08:50:00" actual="2017-08-24T08:50:00" change="2017-08-24T08:47:50.453">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>162</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="PBI">West Palm Beach</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903114" adi="D" schedule="2017-08-24T08:50:00" actual="2017-08-24T08:50:00" change="2017-08-24T08:51:28.063">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>460</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903203" adi="D" schedule="2017-08-24T08:50:00" actual="2017-08-24T08:50:00" change="2017-08-24T08:47:30.210">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1554</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="SJU">San Juan</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1902700" adi="A" schedule="2017-08-24T08:54:00" actual="2017-08-24T08:36:00" change="2017-08-24T08:38:09.003">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1737</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="AR">Arrived</status>
+	</row>
+	<row id="1901938" adi="A" schedule="2017-08-24T08:55:00" actual="2017-08-24T08:55:00" change="2017-08-22T03:00:01.767">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>503</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="DUJ">DuBois</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901937" adi="D" schedule="2017-08-24T09:00:00" actual="2017-08-24T09:00:00" change="2017-08-22T03:00:01.717">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>609</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="HGR">Hagerstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901959" adi="A" schedule="2017-08-24T09:00:00" actual="2017-08-24T09:00:00" change="2017-08-22T03:00:02.500">
+		<line>Contour Airlines</line>
+		<linecode>LF</linecode>
+		<number>3101</number>
+		<logo>Contour_156x28.png</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C2</gate>
+		<claim>8</claim>
+		<city code="MCN">Macon</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902356" adi="D" schedule="2017-08-24T09:00:00" actual="2017-08-24T09:00:00" change="2017-08-24T08:56:11.267">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2572</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D21</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1902463" adi="D" schedule="2017-08-24T09:00:00" actual="2017-08-24T09:00:00" change="2017-08-24T09:01:47.103">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1301</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903315" adi="A" schedule="2017-08-24T09:00:00" actual="2017-08-24T08:50:00" change="2017-08-24T09:09:34.143">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>267</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="BDL">Hartford</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903359" adi="A" schedule="2017-08-24T09:00:00" actual="2017-08-24T08:50:00" change="2017-08-24T09:11:27.397">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>565</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim>5</claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903082" adi="D" schedule="2017-08-24T09:05:00" actual="2017-08-24T09:05:00" change="2017-08-24T08:57:56.460">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>127</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903319" adi="A" schedule="2017-08-24T09:05:00" actual="2017-08-24T09:05:00" change="2017-08-24T08:51:07.690">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>317</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="CHS">Charleston,SC</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903255" adi="D" schedule="2017-08-24T09:10:00" actual="2017-08-24T09:10:00" change="2017-08-24T09:09:07.637">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1945</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903341" adi="A" schedule="2017-08-24T09:15:00" actual="2017-08-24T08:55:00" change="2017-08-24T09:04:59.217">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>528</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim>1</claim>
+		<city code="JAX">Jacksonville</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903389" adi="A" schedule="2017-08-24T09:15:00" actual="2017-08-24T09:00:00" change="2017-08-24T09:08:30.960">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1222</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim>2</claim>
+		<city code="SDF">Louisville</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1902370" adi="A" schedule="2017-08-24T09:20:00" actual="2017-08-24T09:15:00" change="2017-08-24T09:17:55.647">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2608</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="AR">Arrived</status>
+	</row>
+	<row id="1903127" adi="D" schedule="2017-08-24T09:20:00" actual="2017-08-24T09:18:00" change="2017-08-24T09:25:22.033">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>512</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903134" adi="D" schedule="2017-08-24T09:20:00" actual="2017-08-24T09:20:00" change="2017-08-24T09:15:00.827">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>539</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B6</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1901939" adi="D" schedule="2017-08-24T09:25:00" actual="2017-08-24T09:25:00" change="2017-08-22T03:00:01.773">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>504</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="DUJ">DuBois</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903193" adi="D" schedule="2017-08-24T09:25:00" actual="2017-08-24T09:19:00" change="2017-08-24T09:25:22.163">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1513</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1901940" adi="A" schedule="2017-08-24T09:30:00" actual="2017-08-24T09:30:00" change="2017-08-22T03:00:01.830">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>925</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="LNS">Lancaster</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901960" adi="D" schedule="2017-08-24T09:30:00" actual="2017-08-24T09:30:00" change="2017-08-22T03:00:02.520">
+		<line>Contour Airlines</line>
+		<linecode>LF</linecode>
+		<number>3102</number>
+		<logo>Contour_156x28.png</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C2</gate>
+		<claim></claim>
+		<city code="MCN">Macon</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903314" adi="A" schedule="2017-08-24T09:30:00" actual="2017-08-24T09:05:00" change="2017-08-24T09:21:40.307">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>232</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim>7</claim>
+		<city code="AUS">Austin</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1902352" adi="D" schedule="2017-08-24T09:35:00" actual="2017-08-24T09:35:00" change="2017-08-24T09:33:12.563">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1737</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903343" adi="A" schedule="2017-08-24T09:35:00" actual="2017-08-24T09:35:00" change="2017-08-24T09:20:39.233">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>531</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim>6</claim>
+		<city code="MCI">Kansas City</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903446" adi="A" schedule="2017-08-24T09:35:00" actual="2017-08-24T09:15:00" change="2017-08-24T09:37:35.310">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1812</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim>7</claim>
+		<city code="RSW">Ft. Myers</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1901973" adi="A" schedule="2017-08-24T09:38:00" actual="2017-08-24T09:24:00" change="2017-08-24T09:26:22.823">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>387</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim>10</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="AR">Arrived</status>
+	</row>
+	<row id="1903143" adi="D" schedule="2017-08-24T09:40:00" actual="2017-08-24T09:40:00" change="2017-08-24T09:09:48.257">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>565</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="BD">Boarding</status>
+	</row>
+	<row id="1903340" adi="A" schedule="2017-08-24T09:40:00" actual="2017-08-24T09:20:00" change="2017-08-24T09:26:56.327">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>519</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim>1</claim>
+		<city code="IND">Indianapolis</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903515" adi="A" schedule="2017-08-24T09:40:00" actual="2017-08-24T09:28:00" change="2017-08-24T09:35:37.297">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>427</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim>12</claim>
+		<city code="BOS">Boston</city>
+		<status code="AR">Arrived</status>
+	</row>
+	<row id="1901964" adi="A" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:45:00" change="2017-08-22T03:00:02.660">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7350</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim></claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903092" adi="D" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:45:00" change="2017-08-24T09:40:54.607">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>267</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="DP">Departed</status>
+	</row>
+	<row id="1903098" adi="D" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:45:00" change="2017-08-24T09:15:36.363">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>317</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="RSW">Ft. Myers</city>
+		<status code="BD">Boarding</status>
+	</row>
+	<row id="1903350" adi="A" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:20:00" change="2017-08-24T09:35:44.483">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>547</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim>6</claim>
+		<city code="MSY">New Orleans</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903388" adi="A" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:40:00" change="2017-08-24T09:36:48.027">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1185</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim>5</claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="OG">On Ground</status>
+	</row>
+	<row id="1903444" adi="A" schedule="2017-08-24T09:45:00" actual="2017-08-24T09:30:00" change="2017-08-24T09:39:47.750">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1801</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim>4</claim>
+		<city code="BNA">Nashville</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903355" adi="A" schedule="2017-08-24T09:50:00" actual="2017-08-24T09:40:00" change="2017-08-24T09:38:54.290">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>553</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim>2</claim>
+		<city code="PBI">West Palm Beach</city>
+		<status code="OG">On Ground</status>
+	</row>
+	<row id="1903383" adi="A" schedule="2017-08-24T09:50:00" actual="2017-08-24T09:35:00" change="2017-08-24T09:36:02.497">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>963</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim>5</claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1903422" adi="A" schedule="2017-08-24T09:50:00" actual="2017-08-24T09:35:00" change="2017-08-24T09:37:53.547">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1576</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim>5</claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="IN">At Gate</status>
+	</row>
+	<row id="1901941" adi="D" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:55:00" change="2017-08-22T03:00:01.850">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>926</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="LNS">Lancaster</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903122" adi="D" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:55:00" change="2017-08-24T09:29:23.887">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>490</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="BD">Boarding</status>
+	</row>
+	<row id="1903172" adi="D" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:55:00" change="2017-08-24T09:28:28.617">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1222</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="BD">Boarding</status>
+	</row>
+	<row id="1903307" adi="A" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:40:00" change="2017-08-24T09:37:07.850">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>157</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim>1</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="OG">On Ground</status>
+	</row>
+	<row id="1903463" adi="A" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:50:00" change="2017-08-24T09:33:11.200">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1955</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim>2</claim>
+		<city code="MEM">Memphis</city>
+		<status code="IR">Landing</status>
+	</row>
+	<row id="1903467" adi="A" schedule="2017-08-24T09:55:00" actual="2017-08-24T09:50:00" change="2017-08-24T09:35:07.347">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1977</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim>4</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="IR">Landing</status>
+	</row>
+	<row id="1902374" adi="D" schedule="2017-08-24T10:00:00" actual="2017-08-24T10:00:00" change="2017-08-23T17:05:07.697">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2608</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902822" adi="A" schedule="2017-08-24T10:00:00" actual="2017-08-24T10:00:00" change="2017-08-24T08:46:11.870">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>781</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim>13</claim>
+		<city code="DTW">Detroit</city>
+		<status code="EN"></status>
+	</row>
+	<row id="1902812" adi="A" schedule="2017-08-24T10:02:00" actual="2017-08-24T09:36:00" change="2017-08-24T09:38:45.497">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>305</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim>13</claim>
+		<city code="BOS">Boston</city>
+		<status code="AR">Arrived</status>
+	</row>
+	<row id="1901965" adi="D" schedule="2017-08-24T10:05:00" actual="2017-08-24T10:05:00" change="2017-08-22T03:00:02.703">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7353</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim></claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903091" adi="D" schedule="2017-08-24T10:10:00" actual="2017-08-24T10:10:00" change="2017-08-24T09:39:39.187">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>232</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="BD">Boarding</status>
+	</row>
+	<row id="1903331" adi="A" schedule="2017-08-24T10:10:00" actual="2017-08-24T10:15:00" change="2017-08-24T09:29:54.103">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>479</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim>7</claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902687" adi="A" schedule="2017-08-24T10:11:00" actual="2017-08-24T10:18:00" change="2017-08-24T08:56:00.067">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3427</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C1</gate>
+		<claim>9</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903324" adi="A" schedule="2017-08-24T10:15:00" actual="2017-08-24T10:00:00" change="2017-08-24T09:41:20">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>406</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="BUF">Buffalo</city>
+		<status code="IR">Landing</status>
+	</row>
+	<row id="1901990" adi="A" schedule="2017-08-24T10:19:00" actual="2017-08-24T10:02:00" change="2017-08-24T09:20:22.997">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3798</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D21</gate>
+		<claim>14</claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903323" adi="A" schedule="2017-08-24T10:20:00" actual="2017-08-24T10:10:00" change="2017-08-24T09:30:39.767">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>398</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="BOS">Boston</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1903519" adi="D" schedule="2017-08-24T10:22:00" actual="2017-08-24T10:22:00" change="2017-08-23T10:22:45.923">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>626</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902040" adi="A" schedule="2017-08-24T10:25:00" actual="2017-08-24T10:04:00" change="2017-08-24T09:31:13.360">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>4076</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902697" adi="A" schedule="2017-08-24T10:25:00" actual="2017-08-24T10:23:00" change="2017-08-24T09:15:18.643">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2525</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903238" adi="D" schedule="2017-08-24T10:25:00" actual="2017-08-24T10:25:00" change="2017-08-23T08:30:38.110">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1812</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903460" adi="A" schedule="2017-08-24T10:25:00" actual="2017-08-24T10:15:00" change="2017-08-24T09:30:59.803">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1933</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim>1</claim>
+		<city code="PBI">West Palm Beach</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1901974" adi="D" schedule="2017-08-24T10:29:00" actual="2017-08-24T10:29:00" change="2017-08-24T04:28:48.530">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>310</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902819" adi="A" schedule="2017-08-24T10:29:00" actual="2017-08-24T10:36:00" change="2017-08-24T08:23:30.527">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>410</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim>13</claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="EN"></status>
+	</row>
+	<row id="1901983" adi="A" schedule="2017-08-24T10:30:00" actual="2017-08-24T10:15:00" change="2017-08-24T09:15:15.163">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3732</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903437" adi="A" schedule="2017-08-24T10:30:00" actual="2017-08-24T10:20:00" change="2017-08-24T09:32:25.600">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1759</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim>1</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1903129" adi="D" schedule="2017-08-24T10:40:00" actual="2017-08-24T10:40:00" change="2017-08-23T08:17:50.217">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>519</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903135" adi="D" schedule="2017-08-24T10:40:00" actual="2017-08-24T10:40:00" change="2017-08-24T04:57:31.427">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>547</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903204" adi="D" schedule="2017-08-24T10:40:00" actual="2017-08-24T10:40:00" change="2017-08-23T08:27:25.323">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1576</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="CLE">Cleveland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903256" adi="D" schedule="2017-08-24T10:40:00" actual="2017-08-24T10:40:00" change="2017-08-23T08:31:54.667">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1955</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903428" adi="A" schedule="2017-08-24T10:40:00" actual="2017-08-24T10:35:00" change="2017-08-24T09:35:52.557">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1620</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim>7</claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1901989" adi="D" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:45:00" change="2017-08-24T03:58:44.393">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3799</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D21</gate>
+		<claim>14</claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903166" adi="D" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:45:00" change="2017-08-24T04:15:11.173">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>963</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903171" adi="D" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:45:00" change="2017-08-24T04:13:07.567">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1185</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="ROC">Rochester,NY</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903236" adi="D" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:45:00" change="2017-08-23T08:30:32.643">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1801</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903260" adi="D" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:45:00" change="2017-08-24T04:57:31.420">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1977</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903362" adi="A" schedule="2017-08-24T10:45:00" actual="2017-08-24T10:25:00" change="2017-08-24T08:51:07.610">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>574</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim>17</claim>
+		<city code="SAT">San Antonio</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1902823" adi="D" schedule="2017-08-24T10:50:00" actual="2017-08-24T10:50:00" change="2017-08-24T04:31:46.037">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>781</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903083" adi="D" schedule="2017-08-24T10:50:00" actual="2017-08-24T10:50:00" change="2017-08-24T04:57:15.363">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>157</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="PIT">Pittsburgh</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903119" adi="D" schedule="2017-08-24T10:50:00" actual="2017-08-24T10:50:00" change="2017-08-24T04:13:18.127">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>479</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="BUF">Buffalo</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903139" adi="D" schedule="2017-08-24T10:50:00" actual="2017-08-24T10:50:00" change="2017-08-23T08:18:13.540">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>553</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902668" adi="D" schedule="2017-08-24T10:51:00" actual="2017-08-24T10:51:00" change="2017-08-23T09:58:57.950">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3427</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C1</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902813" adi="D" schedule="2017-08-24T10:52:00" actual="2017-08-24T10:52:00" change="2017-08-23T22:24:31.950">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>305</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901978" adi="D" schedule="2017-08-24T10:55:00" actual="2017-08-24T10:55:00" change="2017-08-23T03:01:57.197">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3393</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901997" adi="D" schedule="2017-08-24T10:55:00" actual="2017-08-24T10:55:00" change="2017-08-23T04:06:11.700">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3863</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903105" adi="D" schedule="2017-08-24T10:55:00" actual="2017-08-24T10:55:00" change="2017-08-23T08:16:51.500">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>406</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903417" adi="A" schedule="2017-08-24T10:55:00" actual="2017-08-24T10:55:00" change="2017-08-24T06:35:16.703">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1534</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim>5</claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902638" adi="A" schedule="2017-08-24T10:59:00" actual="2017-08-24T10:46:00" change="2017-08-24T08:09:14.297">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>22</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C6</gate>
+		<claim>9</claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903104" adi="D" schedule="2017-08-24T11:00:00" actual="2017-08-24T11:00:00" change="2017-08-24T04:15:11.170">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>398</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="MKE">Milwaukee</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903160" adi="D" schedule="2017-08-24T11:00:00" actual="2017-08-24T11:00:00" change="2017-08-24T04:13:07.573">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>811</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="PUJ">Punta Cana, DR</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902365" adi="D" schedule="2017-08-24T11:05:00" actual="2017-08-24T11:05:00" change="2017-08-24T03:59:28.473">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2525</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903253" adi="D" schedule="2017-08-24T11:05:00" actual="2017-08-24T11:05:00" change="2017-08-23T08:31:37.993">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1933</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="JAX">Jacksonville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903336" adi="A" schedule="2017-08-24T11:05:00" actual="2017-08-24T10:50:00" change="2017-08-24T09:39:39.190">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>503</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim>7</claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1902814" adi="A" schedule="2017-08-24T11:07:00" actual="2017-08-24T10:57:00" change="2017-08-24T09:23:42.140">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>368</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim>13</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="EN"></status>
+	</row>
+	<row id="1902685" adi="A" schedule="2017-08-24T11:10:00" actual="2017-08-24T11:29:00" change="2017-08-24T09:15:21.343">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2531</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim>9</claim>
+		<city code="MIA">Miami</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903229" adi="D" schedule="2017-08-24T11:10:00" actual="2017-08-24T11:10:00" change="2017-08-23T08:29:59.750">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1759</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903313" adi="A" schedule="2017-08-24T11:10:00" actual="2017-08-24T11:50:00" change="2017-08-24T07:31:21.887">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>187</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901928" adi="A" schedule="2017-08-24T11:15:00" actual="2017-08-24T11:15:00" change="2017-08-22T03:00:01.467">
+		<line>Boutique Air</line>
+		<linecode>4B</linecode>
+		<number>853</number>
+		<logo>Boutique Air 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D36</gate>
+		<claim>11</claim>
+		<city code="MSS">Massena</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903476" adi="A" schedule="2017-08-24T11:15:00" actual="2017-08-24T11:15:00" change="2017-08-24T06:17:55.223">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5408</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim>1</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903304" adi="A" schedule="2017-08-24T11:20:00" actual="2017-08-24T11:35:00" change="2017-08-24T08:40:21.493">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>130</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim>4</claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903418" adi="A" schedule="2017-08-24T11:20:00" actual="2017-08-24T11:05:00" change="2017-08-24T09:39:19.080">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1540</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim>4</claim>
+		<city code="DEN">Denver</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1902657" adi="A" schedule="2017-08-24T11:21:00" actual="2017-08-24T11:17:00" change="2017-08-24T08:31:04.940">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1508</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902362" adi="A" schedule="2017-08-24T11:24:00" actual="2017-08-24T11:24:00" change="2017-08-24T06:57:22.923">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4916</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim>10</claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903211" adi="D" schedule="2017-08-24T11:25:00" actual="2017-08-24T11:25:00" change="2017-08-24T04:57:31.413">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1620</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903298" adi="D" schedule="2017-08-24T11:25:00" actual="2017-08-24T11:25:00" change="2017-08-24T04:28:21.437">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6578</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C10</gate>
+		<claim></claim>
+		<city code="SAN">San Diego</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902376" adi="A" schedule="2017-08-24T11:29:00" actual="2017-08-24T11:13:00" change="2017-08-24T09:36:22.873">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2622</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D21</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903380" adi="A" schedule="2017-08-24T11:30:00" actual="2017-08-24T11:10:00" change="2017-08-24T09:41:10.063">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>921</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim>2</claim>
+		<city code="DSM">Des Moines</city>
+		<status code="EA">Early</status>
+	</row>
+	<row id="1903413" adi="A" schedule="2017-08-24T11:30:00" actual="2017-08-24T11:30:00" change="2017-08-24T06:22:32.843">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1517</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim>5</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902699" adi="A" schedule="2017-08-24T11:35:00" actual="2017-08-24T11:28:00" change="2017-08-24T08:37:18.723">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1536</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903199" adi="D" schedule="2017-08-24T11:35:00" actual="2017-08-24T11:35:00" change="2017-08-24T00:41:32.430">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1534</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902820" adi="D" schedule="2017-08-24T11:37:00" actual="2017-08-24T11:37:00" change="2017-08-23T22:25:12.793">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>547</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim></claim>
+		<city code="MYR">Myrtle Beach</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902818" adi="A" schedule="2017-08-24T11:40:00" actual="2017-08-24T11:27:00" change="2017-08-24T09:37:14.213">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>390</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim>13</claim>
+		<city code="MCO">Orlando</city>
+		<status code="EN"></status>
+	</row>
+	<row id="1902639" adi="D" schedule="2017-08-24T11:46:00" actual="2017-08-24T11:46:00" change="2017-08-22T23:54:29.433">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>22</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C6</gate>
+		<claim></claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903100" adi="D" schedule="2017-08-24T11:50:00" actual="2017-08-24T11:50:00" change="2017-08-24T09:05:20.780">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>369</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903163" adi="D" schedule="2017-08-24T11:50:00" actual="2017-08-24T11:50:00" change="2017-08-23T08:21:17.997">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>906</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="MBJ">Montego Bay</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902681" adi="D" schedule="2017-08-24T11:55:00" actual="2017-08-24T12:05:00" change="2017-08-24T08:50:39.797">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2531</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim></claim>
+		<city code="MIA">Miami</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903125" adi="D" schedule="2017-08-24T11:55:00" actual="2017-08-24T11:55:00" change="2017-08-24T04:57:25.970">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>503</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903271" adi="D" schedule="2017-08-24T11:55:00" actual="2017-08-24T11:55:00" change="2017-08-24T00:41:01.180">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5408</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902808" adi="D" schedule="2017-08-24T11:57:00" actual="2017-08-24T11:57:00" change="2017-08-23T22:26:03.667">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>113</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim></claim>
+		<city code="IAH">Houston-IAH</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903357" adi="A" schedule="2017-08-24T12:00:00" actual="2017-08-24T12:00:00" change="2017-08-24T06:37:34.213">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>561</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim>7</claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903164" adi="D" schedule="2017-08-24T12:05:00" actual="2017-08-24T12:05:00" change="2017-08-24T04:57:15.357">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>921</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903270" adi="D" schedule="2017-08-24T12:05:00" actual="2017-08-24T12:05:00" change="2017-08-23T08:32:54.057">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5384</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903438" adi="A" schedule="2017-08-24T12:05:00" actual="2017-08-24T12:05:00" change="2017-08-24T06:11:15.020">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1763</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902647" adi="D" schedule="2017-08-24T12:06:00" actual="2017-08-24T12:06:00" change="2017-08-24T00:08:08">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2372</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902807" adi="A" schedule="2017-08-24T12:08:00" actual="2017-08-24T12:18:00" change="2017-08-24T09:34:52.410">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>112</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim>13</claim>
+		<city code="IAH">Houston-IAH</city>
+		<status code="EN"></status>
+	</row>
+	<row id="1902481" adi="D" schedule="2017-08-24T12:09:00" actual="2017-08-24T12:09:00" change="2017-08-24T03:59:29.310">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1451</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D21</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903194" adi="D" schedule="2017-08-24T12:10:00" actual="2017-08-24T12:10:00" change="2017-08-23T08:26:21.633">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1517</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903277" adi="D" schedule="2017-08-24T12:10:00" actual="2017-08-24T12:10:00" change="2017-08-23T08:33:47.463">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5690</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902675" adi="A" schedule="2017-08-24T12:14:00" actual="2017-08-24T12:10:00" change="2017-08-24T09:31:06.970">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3397</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim>9</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902372" adi="D" schedule="2017-08-24T12:15:00" actual="2017-08-24T12:15:00" change="2017-08-22T03:42:03.217">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>333</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903344" adi="A" schedule="2017-08-24T12:15:00" actual="2017-08-24T12:15:00" change="2017-08-24T06:33:35.190">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>533</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim>6</claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903453" adi="A" schedule="2017-08-24T12:20:00" actual="2017-08-24T12:20:00" change="2017-08-24T06:13:16.530">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1876</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim>2</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903478" adi="A" schedule="2017-08-24T12:20:00" actual="2017-08-24T12:20:00" change="2017-08-24T06:35:31.980">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5497</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim>5</claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903333" adi="A" schedule="2017-08-24T12:25:00" actual="2017-08-24T12:25:00" change="2017-08-24T06:30:07.197">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>484</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim>6</claim>
+		<city code="PWM">Portland,ME</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903369" adi="A" schedule="2017-08-24T12:25:00" actual="2017-08-24T12:25:00" change="2017-08-24T06:15:03.100">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>656</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim>1</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903461" adi="A" schedule="2017-08-24T12:25:00" actual="2017-08-24T12:25:00" change="2017-08-24T06:22:43.280">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1944</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim>5</claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902701" adi="A" schedule="2017-08-24T12:30:00" actual="2017-08-24T12:13:00" change="2017-08-24T08:31:26.157">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1579</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902825" adi="D" schedule="2017-08-24T12:30:00" actual="2017-08-24T12:30:00" change="2017-08-23T22:26:54.567">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>821</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903215" adi="A" schedule="2017-08-24T12:30:00" actual="2017-08-24T12:30:00" change="2017-08-24T06:12:16.117">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>513</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim>2</claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903431" adi="A" schedule="2017-08-24T12:30:00" actual="2017-08-24T12:30:00" change="2017-08-24T06:16:29.133">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1668</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim>1</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903573" adi="A" schedule="2017-08-24T12:32:00" actual="2017-08-24T12:32:00" change="2017-08-23T15:30:50.603">
+		<line>Allegiant</line>
+		<linecode>G4</linecode>
+		<number>1341</number>
+		<logo>Allegiant - 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D23</gate>
+		<claim>11</claim>
+		<city code="SAV">Savannah</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902363" adi="D" schedule="2017-08-24T12:35:00" actual="2017-08-24T12:35:00" change="2017-08-24T06:36:44.790">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4924</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim></claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903141" adi="D" schedule="2017-08-24T12:40:00" actual="2017-08-24T12:40:00" change="2017-08-23T08:18:13.753">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>561</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="SDF">Louisville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903330" adi="A" schedule="2017-08-24T12:40:00" actual="2017-08-24T12:40:00" change="2017-08-24T06:16:59.713">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>465</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim>1</claim>
+		<city code="JAX">Jacksonville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903230" adi="D" schedule="2017-08-24T12:45:00" actual="2017-08-24T12:45:00" change="2017-08-23T08:30:09.930">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1763</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="IND">Indianapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903415" adi="A" schedule="2017-08-24T12:45:00" actual="2017-08-24T12:45:00" change="2017-08-24T06:38:19.927">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1520</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim>7</claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903131" adi="D" schedule="2017-08-24T12:50:00" actual="2017-08-24T12:50:00" change="2017-08-24T00:41:26.720">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>533</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="PWM">Portland,ME</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903404" adi="A" schedule="2017-08-24T12:50:00" actual="2017-08-24T12:50:00" change="2017-08-24T06:15:58.797">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1395</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim>1</claim>
+		<city code="OKC">Oklahoma City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903424" adi="A" schedule="2017-08-24T12:50:00" actual="2017-08-24T12:50:00" change="2017-08-24T06:38:40.207">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1586</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim>7</claim>
+		<city code="MKE">Milwaukee</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902677" adi="A" schedule="2017-08-24T12:58:00" actual="2017-08-24T12:58:00" change="2017-08-23T05:24:05.260">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1673</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903439" adi="A" schedule="2017-08-24T13:00:00" actual="2017-08-24T13:00:00" change="2017-08-24T06:27:00.260">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1792</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim>5</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902480" adi="D" schedule="2017-08-24T13:04:00" actual="2017-08-24T13:04:00" change="2017-08-24T01:08:40.420">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>381</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim></claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902366" adi="A" schedule="2017-08-24T13:06:00" actual="2017-08-24T12:54:00" change="2017-08-24T09:04:38.410">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1153</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902669" adi="D" schedule="2017-08-24T13:10:00" actual="2017-08-24T13:10:00" change="2017-08-23T07:42:20.300">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3565</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim></claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903575" adi="D" schedule="2017-08-24T13:12:00" actual="2017-08-24T13:12:00" change="2017-08-23T15:30:50.637">
+		<line>Allegiant</line>
+		<linecode>G4</linecode>
+		<number>1339</number>
+		<logo>Allegiant - 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D22</gate>
+		<claim></claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903115" adi="D" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-23T08:17:25.640">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>465</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="SAN">San Diego</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903121" adi="D" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-23T08:17:32.507">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>484</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="OAK">Oakland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903128" adi="D" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-23T08:17:50.117">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>513</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903219" adi="D" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-24T04:15:43.787">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1668</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903405" adi="A" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-24T06:36:53.213">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1400</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim>7</claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903457" adi="A" schedule="2017-08-24T13:15:00" actual="2017-08-24T13:15:00" change="2017-08-24T06:14:42.970">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1908</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim>2</claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902367" adi="D" schedule="2017-08-24T13:16:00" actual="2017-08-24T13:16:00" change="2017-08-24T07:45:52.543">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1233</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903151" adi="D" schedule="2017-08-24T13:20:00" actual="2017-08-24T13:20:00" change="2017-08-23T08:19:07.570">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>656</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903244" adi="D" schedule="2017-08-24T13:20:00" actual="2017-08-24T13:20:00" change="2017-08-23T08:31:05.123">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1876</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="RSW">Ft. Myers</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903254" adi="D" schedule="2017-08-24T13:20:00" actual="2017-08-24T13:20:00" change="2017-08-24T04:56:32.513">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1944</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="SLC">Salt Lake City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903272" adi="D" schedule="2017-08-24T13:20:00" actual="2017-08-24T13:20:00" change="2017-08-23T08:33:15.030">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5497</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903503" adi="A" schedule="2017-08-24T13:20:00" actual="2017-08-24T13:20:00" change="2017-08-24T06:18:05.333">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6228</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim>1</claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902512" adi="A" schedule="2017-08-24T13:21:00" actual="2017-08-24T13:14:00" change="2017-08-24T08:52:19.677">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>1805</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim>10</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902815" adi="A" schedule="2017-08-24T13:21:00" actual="2017-08-24T17:06:00" change="2017-08-24T04:18:14.607">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>384</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim>13</claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903401" adi="A" schedule="2017-08-24T13:25:00" actual="2017-08-24T13:25:00" change="2017-08-24T06:17:14.710">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1360</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim>1</claim>
+		<city code="STL">St. Louis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903414" adi="A" schedule="2017-08-24T13:25:00" actual="2017-08-24T13:25:00" change="2017-08-24T06:33:50.303">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1518</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim>5</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903187" adi="D" schedule="2017-08-24T13:30:00" actual="2017-08-24T13:30:00" change="2017-08-24T04:57:15.330">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1395</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="SMF">Sacramento</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903292" adi="D" schedule="2017-08-24T13:30:00" actual="2017-08-24T13:30:00" change="2017-08-23T08:35:10.790">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6166</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="SEA">Seattle</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901942" adi="A" schedule="2017-08-24T13:35:00" actual="2017-08-24T13:35:00" change="2017-08-22T03:00:01.907">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>612</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="HGR">Hagerstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903197" adi="D" schedule="2017-08-24T13:35:00" actual="2017-08-24T13:35:00" change="2017-08-23T08:26:37.977">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1520</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="SJC">San Jose</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903501" adi="A" schedule="2017-08-24T13:35:00" actual="2017-08-24T13:35:00" change="2017-08-24T06:22:53.357">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6191</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim>5</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903233" adi="D" schedule="2017-08-24T13:40:00" actual="2017-08-24T13:40:00" change="2017-08-23T08:30:32.313">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1792</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="BHM">Birmingham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902683" adi="D" schedule="2017-08-24T13:44:00" actual="2017-08-24T13:44:00" change="2017-08-23T05:24:05.873">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1955</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901969" adi="A" schedule="2017-08-24T13:45:00" actual="2017-08-24T13:45:00" change="2017-08-22T03:00:02.990">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7352</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim>11</claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903325" adi="A" schedule="2017-08-24T13:45:00" actual="2017-08-24T13:45:00" change="2017-08-24T06:25:44.603">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>407</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim>4</claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903351" adi="A" schedule="2017-08-24T13:45:00" actual="2017-08-24T13:45:00" change="2017-08-24T06:11:20.400">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>548</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902672" adi="A" schedule="2017-08-24T13:46:00" actual="2017-08-24T13:46:00" change="2017-08-23T22:22:33.707">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>4894</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim>9</claim>
+		<city code="PHL">Philadelphia</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902369" adi="D" schedule="2017-08-24T13:47:00" actual="2017-08-24T13:47:00" change="2017-08-22T18:32:27.073">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1153</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903551" adi="A" schedule="2017-08-24T13:51:00" actual="2017-08-24T13:51:00" change="2017-08-23T13:51:38.347">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1927</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim>12</claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903249" adi="D" schedule="2017-08-24T13:55:00" actual="2017-08-24T13:55:00" change="2017-08-23T08:31:26.377">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1908</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903448" adi="A" schedule="2017-08-24T13:55:00" actual="2017-08-24T13:55:00" change="2017-08-24T06:16:08.813">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1835</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim>1</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901943" adi="D" schedule="2017-08-24T14:00:00" actual="2017-08-24T14:00:00" change="2017-08-22T03:00:01.927">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>613</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="HGR">Hagerstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903295" adi="D" schedule="2017-08-24T14:00:00" actual="2017-08-24T14:00:00" change="2017-08-23T08:35:17.087">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6228</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="ABQ">Albuquerque</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903337" adi="A" schedule="2017-08-24T14:00:00" actual="2017-08-24T14:00:00" change="2017-08-24T06:38:50.313">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>504</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim>7</claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903371" adi="A" schedule="2017-08-24T14:00:00" actual="2017-08-24T14:00:00" change="2017-08-24T06:13:21.787">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>734</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim>2</claim>
+		<city code="MCI">Kansas City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903025" adi="D" schedule="2017-08-24T14:04:00" actual="2017-08-24T14:04:00" change="2017-08-23T20:04:05.250">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>395</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903184" adi="D" schedule="2017-08-24T14:05:00" actual="2017-08-24T14:05:00" change="2017-08-24T04:57:09.450">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1360</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903188" adi="D" schedule="2017-08-24T14:05:00" actual="2017-08-24T14:05:00" change="2017-08-23T08:25:14.077">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1400</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903195" adi="D" schedule="2017-08-24T14:05:00" actual="2017-08-24T14:05:00" change="2017-08-23T08:26:31.873">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1518</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903441" adi="A" schedule="2017-08-24T14:05:00" actual="2017-08-24T14:05:00" change="2017-08-24T06:32:09.033">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1796</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903293" adi="D" schedule="2017-08-24T14:10:00" actual="2017-08-24T14:10:00" change="2017-08-23T08:35:16.870">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6191</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="MCI">Kansas City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902686" adi="D" schedule="2017-08-24T14:11:00" actual="2017-08-24T14:11:00" change="2017-08-23T22:22:32.827">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>4894</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim></claim>
+		<city code="PHL">Philadelphia</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903675" adi="D" schedule="2017-08-24T14:12:00" actual="2017-08-24T17:41:00" change="2017-08-24T04:18:14.613">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>583</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim></claim>
+		<city code="OAK">Oakland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903576" adi="A" schedule="2017-08-24T14:14:00" actual="2017-08-24T14:14:00" change="2017-08-23T15:30:50.653">
+		<line>Allegiant</line>
+		<linecode>G4</linecode>
+		<number>1244</number>
+		<logo>Allegiant - 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D22</gate>
+		<claim></claim>
+		<city code="AVL">Asheville</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901929" adi="D" schedule="2017-08-24T14:15:00" actual="2017-08-24T14:15:00" change="2017-08-22T03:00:01.473">
+		<line>Boutique Air</line>
+		<linecode>4B</linecode>
+		<number>854</number>
+		<logo>Boutique Air 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D36</gate>
+		<claim></claim>
+		<city code="MSS">Massena</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901970" adi="D" schedule="2017-08-24T14:15:00" actual="2017-08-24T14:15:00" change="2017-08-22T03:00:03.017">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7355</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim></claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903471" adi="A" schedule="2017-08-24T14:15:00" actual="2017-08-24T14:15:00" change="2017-08-24T06:18:15.730">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2020</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim>1</claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902658" adi="A" schedule="2017-08-24T14:23:00" actual="2017-08-24T14:23:00" change="2017-08-24T06:09:51.877">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2248</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim>9</claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903136" adi="D" schedule="2017-08-24T14:25:00" actual="2017-08-24T14:25:00" change="2017-08-24T00:40:25.357">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>548</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903274" adi="D" schedule="2017-08-24T14:25:00" actual="2017-08-24T14:25:00" change="2017-08-24T00:41:07.063">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5597</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903409" adi="A" schedule="2017-08-24T14:25:00" actual="2017-08-24T14:25:00" change="2017-08-24T06:16:39.317">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1483</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim>1</claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903465" adi="A" schedule="2017-08-24T14:25:00" actual="2017-08-24T14:25:00" change="2017-08-24T06:14:43.040">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1972</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim>2</claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903491" adi="A" schedule="2017-08-24T14:25:00" actual="2017-08-24T14:25:00" change="2017-08-24T06:27:00.330">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5875</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim>5</claim>
+		<city code="SLC">Salt Lake City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903412" adi="A" schedule="2017-08-24T14:30:00" actual="2017-08-24T14:30:00" change="2017-08-24T06:12:26.437">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1516</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim>2</claim>
+		<city code="ABQ">Albuquerque</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903451" adi="A" schedule="2017-08-24T14:30:00" actual="2017-08-24T14:30:00" change="2017-08-24T06:37:44.683">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1859</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim>7</claim>
+		<city code="SMF">Sacramento</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903459" adi="A" schedule="2017-08-24T14:30:00" actual="2017-08-24T14:30:00" change="2017-08-24T06:17:25.047">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1918</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim>1</claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902519" adi="A" schedule="2017-08-24T14:31:00" actual="2017-08-24T14:31:00" change="2017-08-23T16:52:26.233">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1425</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903557" adi="D" schedule="2017-08-24T14:32:00" actual="2017-08-24T14:32:00" change="2017-08-23T14:32:45.970">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>126</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902678" adi="A" schedule="2017-08-24T14:34:00" actual="2017-08-24T14:34:00" change="2017-08-24T09:28:26.090">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3825</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C1</gate>
+		<claim>9</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903240" adi="D" schedule="2017-08-24T14:35:00" actual="2017-08-24T14:35:00" change="2017-08-24T00:40:48.600">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1835</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903353" adi="A" schedule="2017-08-24T14:35:00" actual="2017-08-24T14:35:00" change="2017-08-24T06:30:22.517">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>550</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim>6</claim>
+		<city code="OAK">Oakland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903425" adi="A" schedule="2017-08-24T14:35:00" actual="2017-08-24T14:35:00" change="2017-08-24T06:15:13.390">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1595</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim>1</claim>
+		<city code="SJC">San Jose</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903430" adi="A" schedule="2017-08-24T14:35:00" actual="2017-08-24T14:35:00" change="2017-08-24T06:11:30.453">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1656</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903156" adi="D" schedule="2017-08-24T14:40:00" actual="2017-08-24T14:40:00" change="2017-08-24T04:56:42.813">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>734</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903327" adi="A" schedule="2017-08-24T14:40:00" actual="2017-08-24T14:40:00" change="2017-08-24T06:33:55.487">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>431</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim>6</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903234" adi="D" schedule="2017-08-24T14:45:00" actual="2017-08-24T14:45:00" change="2017-08-24T04:13:50.887">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1796</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="BUF">Buffalo</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903342" adi="A" schedule="2017-08-24T14:45:00" actual="2017-08-24T14:45:00" change="2017-08-24T06:35:37.370">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>529</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim>5</claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903361" adi="A" schedule="2017-08-24T14:45:00" actual="2017-08-24T14:45:00" change="2017-08-24T06:28:56.460">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>573</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim>4</claim>
+		<city code="SAN">San Diego</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903373" adi="A" schedule="2017-08-24T14:50:00" actual="2017-08-24T14:50:00" change="2017-08-24T09:14:30.600">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>792</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim>2</claim>
+		<city code="ICT">Wichita</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902641" adi="A" schedule="2017-08-24T14:51:00" actual="2017-08-24T14:51:00" change="2017-08-23T01:03:05.483">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1312</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903577" adi="D" schedule="2017-08-24T14:54:00" actual="2017-08-24T14:54:00" change="2017-08-23T15:30:50.670">
+		<line>Allegiant</line>
+		<linecode>G4</linecode>
+		<number>1245</number>
+		<logo>Allegiant - 156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D22</gate>
+		<claim></claim>
+		<city code="AVL">Asheville</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901930" adi="A" schedule="2017-08-24T14:55:00" actual="2017-08-24T14:55:00" change="2017-08-22T03:00:01.520">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>305</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="AOO">Altoona</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903265" adi="D" schedule="2017-08-24T14:55:00" actual="2017-08-24T14:55:00" change="2017-08-24T04:56:58.707">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2020</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903393" adi="A" schedule="2017-08-24T14:55:00" actual="2017-08-24T14:55:00" change="2017-08-24T06:25:54.757">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1267</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim>4</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903562" adi="A" schedule="2017-08-24T14:58:00" actual="2017-08-24T14:58:00" change="2017-08-23T14:58:36.110">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1212</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim>12</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902584" adi="A" schedule="2017-08-24T15:00:00" actual="2017-08-24T15:00:00" change="2017-08-23T19:50:01.220">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>2551</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>F1</gate>
+		<claim>10</claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903378" adi="A" schedule="2017-08-24T15:00:00" actual="2017-08-24T15:00:00" change="2017-08-24T06:23:03.543">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>849</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim>5</claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903191" adi="D" schedule="2017-08-24T15:05:00" actual="2017-08-24T15:05:00" change="2017-08-24T00:40:48.623">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1483</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="CMH">Columbus</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903309" adi="A" schedule="2017-08-24T15:05:00" actual="2017-08-24T15:05:00" change="2017-08-24T06:18:25.550">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>164</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim>1</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902649" adi="D" schedule="2017-08-24T15:07:00" actual="2017-08-24T15:07:00" change="2017-08-24T09:28:25.393">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3825</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C1</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903090" adi="D" schedule="2017-08-24T15:10:00" actual="2017-08-24T15:10:00" change="2017-08-23T08:14:45.470">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>230</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903251" adi="D" schedule="2017-08-24T15:10:00" actual="2017-08-24T15:10:00" change="2017-08-24T00:40:54.593">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1918</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903312" adi="A" schedule="2017-08-24T15:10:00" actual="2017-08-24T15:10:00" change="2017-08-24T06:32:09.107">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>182</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902520" adi="D" schedule="2017-08-24T15:11:00" actual="2017-08-24T15:11:00" change="2017-08-24T06:35:38.850">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1425</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902663" adi="D" schedule="2017-08-24T15:14:00" actual="2017-08-24T15:14:00" change="2017-08-24T06:10:03.420">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2248</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim></claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901933" adi="D" schedule="2017-08-24T15:15:00" actual="2017-08-24T15:15:00" change="2017-08-22T03:00:01.610">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>326</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="AOO">Altoona</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903213" adi="D" schedule="2017-08-24T15:15:00" actual="2017-08-24T15:15:00" change="2017-08-24T04:57:15.337">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1656</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903259" adi="D" schedule="2017-08-24T15:15:00" actual="2017-08-24T15:15:00" change="2017-08-24T00:40:42.770">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1972</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="STL">St. Louis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903454" adi="A" schedule="2017-08-24T15:15:00" actual="2017-08-24T15:15:00" change="2017-08-24T06:37:08.540">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1881</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim>7</claim>
+		<city code="IND">Indianapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903109" adi="D" schedule="2017-08-24T15:20:00" actual="2017-08-24T15:20:00" change="2017-08-24T00:41:26.723">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>431</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="MKE">Milwaukee</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903243" adi="D" schedule="2017-08-24T15:20:00" actual="2017-08-24T15:20:00" change="2017-08-23T08:31:05.060">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1859</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903268" adi="D" schedule="2017-08-24T15:20:00" actual="2017-08-24T15:20:00" change="2017-08-24T00:40:36.567">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5370</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903317" adi="A" schedule="2017-08-24T15:20:00" actual="2017-08-24T15:20:00" change="2017-08-24T06:14:52.843">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>287</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim>2</claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903320" adi="A" schedule="2017-08-24T15:20:00" actual="2017-08-24T15:20:00" change="2017-08-24T00:40:42.790">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>347</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902585" adi="A" schedule="2017-08-24T15:23:00" actual="2017-08-24T15:23:00" change="2017-08-23T17:56:55.987">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>752</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim>10</claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903138" adi="D" schedule="2017-08-24T15:25:00" actual="2017-08-24T15:25:00" change="2017-08-23T08:18:07.623">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>550</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903207" adi="D" schedule="2017-08-24T15:25:00" actual="2017-08-24T15:25:00" change="2017-08-23T08:27:51.233">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1595</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903360" adi="A" schedule="2017-08-24T15:25:00" actual="2017-08-24T15:25:00" change="2017-08-24T06:11:45.550">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>566</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim>1</claim>
+		<city code="MCI">Kansas City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903162" adi="D" schedule="2017-08-24T15:30:00" actual="2017-08-24T15:30:00" change="2017-08-24T07:37:45.430">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>843</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="PWM">Portland,ME</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903390" adi="A" schedule="2017-08-24T15:30:00" actual="2017-08-24T15:30:00" change="2017-08-24T06:38:29.967">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1223</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim>7</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901949" adi="A" schedule="2017-08-24T15:35:00" actual="2017-08-24T15:35:00" change="2017-08-22T03:00:02.167">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>453</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="MGW">Morgantown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903130" adi="D" schedule="2017-08-24T15:35:00" actual="2017-08-24T15:35:00" change="2017-08-24T00:41:07.063">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>521</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="ROC">Rochester,NY</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903175" adi="D" schedule="2017-08-24T15:35:00" actual="2017-08-24T15:35:00" change="2017-08-23T08:24:13.293">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1267</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903145" adi="D" schedule="2017-08-24T15:40:00" actual="2017-08-24T15:40:00" change="2017-08-24T00:41:07.860">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>573</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903180" adi="D" schedule="2017-08-24T15:40:00" actual="2017-08-24T15:40:00" change="2017-08-24T00:41:01.257">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1317</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903306" adi="A" schedule="2017-08-24T15:40:00" actual="2017-08-24T15:40:00" change="2017-08-24T06:17:25.123">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>151</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim>1</claim>
+		<city code="CMH">Columbus</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902665" adi="D" schedule="2017-08-24T15:41:00" actual="2017-08-24T15:41:00" change="2017-08-23T01:03:04.807">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2577</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903085" adi="D" schedule="2017-08-24T15:45:00" actual="2017-08-24T15:45:00" change="2017-08-24T04:57:15.333">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>164</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="OKC">Oklahoma City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903368" adi="A" schedule="2017-08-24T15:45:00" actual="2017-08-24T15:45:00" change="2017-08-24T06:39:00.540">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>619</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim>7</claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903483" adi="A" schedule="2017-08-24T15:45:00" actual="2017-08-24T15:45:00" change="2017-08-24T06:16:54.530">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5638</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim>1</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903962" adi="A" schedule="2017-08-24T15:46:00" actual="2017-08-24T15:21:00" change="2017-08-24T04:05:46.033">
+		<line>Alaska</line>
+		<linecode>AS</linecode>
+		<number>922</number>
+		<logo>Alaska_156x28_FIDs.jpg</logo>
+		<bulletlogo>Bullet-AlaskaAir.gif</bulletlogo>
+		<gate>D20</gate>
+		<claim>9</claim>
+		<city code="SEA">Seattle</city>
+		<status></status>
+	</row>
+	<row id="1902368" adi="A" schedule="2017-08-24T15:50:00" actual="2017-08-24T15:50:00" change="2017-08-24T06:43:10.323">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1271</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903158" adi="D" schedule="2017-08-24T15:50:00" actual="2017-08-24T15:50:00" change="2017-08-24T00:41:32.433">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>805</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903165" adi="D" schedule="2017-08-24T15:55:00" actual="2017-08-24T15:55:00" change="2017-08-24T00:41:38.940">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>922</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903587" adi="D" schedule="2017-08-24T15:55:00" actual="2017-08-24T15:55:00" change="2017-08-23T15:55:39.250">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1211</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902462" adi="A" schedule="2017-08-24T15:56:00" actual="2017-08-24T15:56:00" change="2017-08-24T08:32:15.243">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4928</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim>10</claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902655" adi="A" schedule="2017-08-24T15:59:00" actual="2017-08-24T15:59:00" change="2017-08-24T09:37:34.357">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>4859</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim>9</claim>
+		<city code="PHL">Philadelphia</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901950" adi="D" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-22T03:00:02.187">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>454</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="MGW">Morgantown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903087" adi="D" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-24T00:41:20.013">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>182</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903095" adi="D" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-24T04:56:42.823">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>287</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="CHS">Charleston,SC</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903099" adi="D" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-24T00:40:48.603">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>347</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="PIT">Pittsburgh</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903144" adi="D" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-24T04:57:15.343">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>566</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903490" adi="A" schedule="2017-08-24T16:00:00" actual="2017-08-24T16:00:00" change="2017-08-24T04:57:04.107">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5845</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902702" adi="A" schedule="2017-08-24T16:03:00" actual="2017-08-24T16:03:00" change="2017-08-22T22:36:52.750">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1189</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D25</gate>
+		<claim>14</claim>
+		<city code="SLC">Salt Lake City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902454" adi="D" schedule="2017-08-24T16:05:00" actual="2017-08-24T16:05:00" change="2017-08-23T22:04:56.063">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>1779</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903173" adi="D" schedule="2017-08-24T16:10:00" actual="2017-08-24T16:10:00" change="2017-08-23T08:23:52.883">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1223</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="GRR">Grand Rapids</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903433" adi="A" schedule="2017-08-24T16:15:00" actual="2017-08-24T16:15:00" change="2017-08-24T00:40:36.570">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1690</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902666" adi="A" schedule="2017-08-24T16:19:00" actual="2017-08-24T16:19:00" change="2017-08-24T05:15:46.207">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>194</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C3</gate>
+		<claim>9</claim>
+		<city code="MIA">Miami</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902469" adi="A" schedule="2017-08-24T16:20:00" actual="2017-08-24T16:20:00" change="2017-08-24T04:23:51.540">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1361</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903097" adi="D" schedule="2017-08-24T16:20:00" actual="2017-08-24T16:30:00" change="2017-08-24T00:40:48.640">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>302</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903345" adi="A" schedule="2017-08-24T16:20:00" actual="2017-08-24T16:20:00" change="2017-08-24T00:41:01.233">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>534</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="PWM">Portland,ME</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903676" adi="A" schedule="2017-08-24T16:20:00" actual="2017-08-24T16:20:00" change="2017-08-24T01:29:08.967">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>824</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim>13</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902671" adi="D" schedule="2017-08-24T16:25:00" actual="2017-08-24T16:25:00" change="2017-08-24T09:37:35.010">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>4865</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim></claim>
+		<city code="PHL">Philadelphia</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903150" adi="D" schedule="2017-08-24T16:25:00" actual="2017-08-24T16:25:00" change="2017-08-24T00:41:38.980">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>619</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903275" adi="D" schedule="2017-08-24T16:25:00" actual="2017-08-24T16:25:00" change="2017-08-24T00:40:54.600">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5638</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903470" adi="A" schedule="2017-08-24T16:25:00" actual="2017-08-24T16:25:00" change="2017-08-24T04:57:09.443">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2005</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902670" adi="A" schedule="2017-08-24T16:29:00" actual="2017-08-24T16:29:00" change="2017-08-24T05:16:10.873">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1962</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901961" adi="A" schedule="2017-08-24T16:30:00" actual="2017-08-24T16:30:00" change="2017-08-22T03:00:02.577">
+		<line>Contour Airlines</line>
+		<linecode>LF</linecode>
+		<number>3103</number>
+		<logo>Contour_156x28.png</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C2</gate>
+		<claim>8</claim>
+		<city code="MCN">Macon</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902373" adi="D" schedule="2017-08-24T16:30:00" actual="2017-08-24T16:30:00" change="2017-08-24T07:54:41.740">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1271</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902650" adi="A" schedule="2017-08-24T16:36:00" actual="2017-08-24T16:36:00" change="2017-08-23T17:13:57.527">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>925</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim>9</claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903286" adi="D" schedule="2017-08-24T16:40:00" actual="2017-08-24T16:40:00" change="2017-08-24T04:57:04.077">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5845</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902461" adi="D" schedule="2017-08-24T16:41:00" actual="2017-08-24T16:41:00" change="2017-08-23T21:34:22.387">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4809</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim></claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903592" adi="A" schedule="2017-08-24T16:41:00" actual="2017-08-24T16:41:00" change="2017-08-23T16:41:46.830">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1027</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim>12</claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902698" adi="D" schedule="2017-08-24T16:43:00" actual="2017-08-24T16:43:00" change="2017-08-22T22:35:58.977">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1189</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D25</gate>
+		<claim>14</claim>
+		<city code="SLC">Salt Lake City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903605" adi="A" schedule="2017-08-24T16:43:00" actual="2017-08-24T16:43:00" change="2017-08-24T01:27:06.400">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>782</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim>13</claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903520" adi="A" schedule="2017-08-24T16:44:00" actual="2017-08-24T16:44:00" change="2017-08-24T01:35:02.807">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>950</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim>13</claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903352" adi="A" schedule="2017-08-24T16:45:00" actual="2017-08-24T16:45:00" change="2017-08-24T04:56:48.343">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>549</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903217" adi="A" schedule="2017-08-24T16:50:00" actual="2017-08-24T16:50:00" change="2017-08-24T06:38:30.037">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1966</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim>7</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902586" adi="A" schedule="2017-08-24T16:54:00" actual="2017-08-24T16:54:00" change="2017-08-24T08:49:58.850">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>307</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim>10</claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903402" adi="A" schedule="2017-08-24T16:55:00" actual="2017-08-24T16:55:00" change="2017-08-24T06:32:29.510">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1361</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim>6</claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903432" adi="A" schedule="2017-08-24T16:55:00" actual="2017-08-24T16:55:00" change="2017-08-24T04:56:58.710">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1674</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="GEG">Spokane</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1904325" adi="D" schedule="2017-08-24T16:58:00" actual="2017-08-24T16:58:00" change="2017-08-24T05:45:40.483">
+		<line>Alaska</line>
+		<linecode>AS</linecode>
+		<number>373</number>
+		<logo>Alaska_156x28_FIDs.jpg</logo>
+		<bulletlogo>Bullet-AlaskaAir.gif</bulletlogo>
+		<gate>D20</gate>
+		<claim></claim>
+		<city code="PDX">Portland,OR</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1901962" adi="D" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-22T03:00:02.600">
+		<line>Contour Airlines</line>
+		<linecode>LF</linecode>
+		<number>3104</number>
+		<logo>Contour_156x28.png</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C2</gate>
+		<claim></claim>
+		<city code="MCN">Macon</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902465" adi="D" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-24T04:23:50.910">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1361</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902571" adi="D" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-23T23:00:01.250">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>2506</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>F1</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903278" adi="D" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-24T00:41:01.243">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5707</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903365" adi="A" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-24T00:40:54.607">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>593</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="MCI">Kansas City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903426" adi="A" schedule="2017-08-24T17:00:00" actual="2017-08-24T17:00:00" change="2017-08-24T05:38:15.627">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1608</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E4</gate>
+		<claim></claim>
+		<city code="CUN">Cancun</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902360" adi="A" schedule="2017-08-24T17:05:00" actual="2017-08-24T17:05:00" change="2017-08-24T08:11:58.553">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1906</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903222" adi="D" schedule="2017-08-24T17:05:00" actual="2017-08-24T17:05:00" change="2017-08-24T00:40:36.570">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1690</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903419" adi="A" schedule="2017-08-24T17:05:00" actual="2017-08-24T17:05:00" change="2017-08-24T00:41:07.077">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1544</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902375" adi="A" schedule="2017-08-24T17:07:00" actual="2017-08-24T17:07:00" change="2017-08-24T04:52:31.023">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2613</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902587" adi="A" schedule="2017-08-24T17:07:00" actual="2017-08-24T17:07:00" change="2017-08-24T07:49:55.717">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>1528</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D16</gate>
+		<claim>10</claim>
+		<city code="IAH">Houston-IAH</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902653" adi="D" schedule="2017-08-24T17:09:00" actual="2017-08-24T17:09:00" change="2017-08-24T05:16:11.500">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1867</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901944" adi="A" schedule="2017-08-24T17:10:00" actual="2017-08-24T17:10:00" change="2017-08-22T03:00:01.983">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>634</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="HGR">Hagerstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902640" adi="D" schedule="2017-08-24T17:10:00" actual="2017-08-24T17:10:00" change="2017-08-24T05:15:46.857">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1049</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C3</gate>
+		<claim></claim>
+		<city code="MIA">Miami</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903472" adi="A" schedule="2017-08-24T17:10:00" actual="2017-08-24T17:10:00" change="2017-08-23T08:49:16.107">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2817</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="SEA">Seattle</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903263" adi="D" schedule="2017-08-24T17:15:00" actual="2017-08-24T17:15:00" change="2017-08-24T04:57:09.437">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2005</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903712" adi="A" schedule="2017-08-24T17:15:00" actual="2017-08-24T17:15:00" change="2017-08-24T00:52:25.797">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>202</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim>13</claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903474" adi="A" schedule="2017-08-24T17:20:00" actual="2017-08-24T17:20:00" change="2017-08-23T08:49:31.377">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5400</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903521" adi="D" schedule="2017-08-24T17:20:00" actual="2017-08-24T17:20:00" change="2017-08-24T01:33:41.773">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>935</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim></claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902015" adi="A" schedule="2017-08-24T17:22:00" actual="2017-08-24T17:22:00" change="2017-08-23T03:04:39.930">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3921</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902645" adi="A" schedule="2017-08-24T17:22:00" actual="2017-08-24T17:22:00" change="2017-08-24T07:11:03.963">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2361</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C6</gate>
+		<claim>9</claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902676" adi="A" schedule="2017-08-24T17:22:00" actual="2017-08-24T17:22:00" change="2017-08-24T09:09:04.960">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3464</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim>9</claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903596" adi="D" schedule="2017-08-24T17:23:00" actual="2017-08-24T17:23:00" change="2017-08-23T17:23:36.687">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1526</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903137" adi="D" schedule="2017-08-24T17:25:00" actual="2017-08-24T17:25:00" change="2017-08-24T04:56:48.340">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>549</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903429" adi="A" schedule="2017-08-24T17:25:00" actual="2017-08-24T17:25:00" change="2017-08-24T06:30:52.863">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1629</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim>6</claim>
+		<city code="OAK">Oakland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903185" adi="D" schedule="2017-08-24T17:30:00" actual="2017-08-24T17:30:00" change="2017-08-24T00:41:20.017">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1361</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903218" adi="D" schedule="2017-08-24T17:30:00" actual="2017-08-24T17:30:00" change="2017-08-23T08:31:54.747">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1966</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903335" adi="A" schedule="2017-08-24T17:30:00" actual="2017-08-24T17:30:00" change="2017-08-24T00:40:30.933">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>494</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="GRR">Grand Rapids</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903348" adi="A" schedule="2017-08-24T17:30:00" actual="2017-08-24T17:30:00" change="2017-08-23T08:39:20.287">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>538</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902661" adi="D" schedule="2017-08-24T17:32:00" actual="2017-08-24T17:32:00" change="2017-08-23T17:13:58.180">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1488</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903559" adi="D" schedule="2017-08-24T17:34:00" actual="2017-08-24T17:34:00" change="2017-08-24T00:53:36.507">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>194</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D11</gate>
+		<claim></claim>
+		<city code="SAN">San Diego</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903220" adi="D" schedule="2017-08-24T17:35:00" actual="2017-08-24T17:35:00" change="2017-08-24T04:56:58.713">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1674</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903420" adi="A" schedule="2017-08-24T17:35:00" actual="2017-08-24T18:00:00" change="2017-08-24T08:50:11.753">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1559</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim>5</claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903883" adi="A" schedule="2017-08-24T17:38:00" actual="2017-08-24T17:15:00" change="2017-08-24T07:36:44.073">
+		<line>Alaska</line>
+		<linecode>AS</linecode>
+		<number>372</number>
+		<logo>Alaska_156x28_FIDs.jpg</logo>
+		<bulletlogo>Bullet-AlaskaAir.gif</bulletlogo>
+		<gate>D20</gate>
+		<claim>9</claim>
+		<city code="PDX">Portland,OR</city>
+		<status></status>
+	</row>
+	<row id="1903026" adi="D" schedule="2017-08-24T17:39:00" actual="2017-08-24T17:39:00" change="2017-08-23T23:38:53.500">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>473</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901957" adi="A" schedule="2017-08-24T17:40:00" actual="2017-08-24T17:40:00" change="2017-08-22T03:00:02.420">
+		<line>WOW Air</line>
+		<linecode>WW</linecode>
+		<number>117</number>
+		<logo>WOWlogo156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E6</gate>
+		<claim></claim>
+		<city code="KEF">Reykjavik</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903147" adi="D" schedule="2017-08-24T17:40:00" actual="2017-08-24T17:40:00" change="2017-08-24T00:40:54.603">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>593</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="SDF">Louisville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903427" adi="A" schedule="2017-08-24T17:40:00" actual="2017-08-24T17:40:00" change="2017-08-24T04:56:58.717">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1613</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="BUF">Buffalo</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902358" adi="D" schedule="2017-08-24T17:45:00" actual="2017-08-24T17:45:00" change="2017-08-24T08:32:02.673">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1906</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903009" adi="D" schedule="2017-08-24T17:45:00" actual="2017-08-24T17:45:00" change="2017-08-24T01:27:16.607">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>782</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim></claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902371" adi="D" schedule="2017-08-24T17:47:00" actual="2017-08-24T17:47:00" change="2017-08-24T09:05:43.720">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>2613</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901966" adi="A" schedule="2017-08-24T17:50:00" actual="2017-08-24T17:50:00" change="2017-08-22T03:00:02.787">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7354</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim>11</claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903266" adi="D" schedule="2017-08-24T17:50:00" actual="2017-08-24T17:50:00" change="2017-08-23T08:32:37.783">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2817</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903326" adi="A" schedule="2017-08-24T17:50:00" actual="2017-08-24T17:50:00" change="2017-08-23T08:38:37.387">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>408</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903370" adi="A" schedule="2017-08-24T17:50:00" actual="2017-08-24T17:50:00" change="2017-08-23T08:40:11.863">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>727</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902014" adi="D" schedule="2017-08-24T17:55:00" actual="2017-08-24T17:55:00" change="2017-08-23T03:04:38.537">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3921</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903202" adi="D" schedule="2017-08-24T17:55:00" actual="2017-08-24T17:55:00" change="2017-08-24T00:41:07.073">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1544</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902588" adi="A" schedule="2017-08-24T17:57:00" actual="2017-08-24T17:57:00" change="2017-08-24T06:47:03.420">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>524</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim>10</claim>
+		<city code="SFO">San Francisco</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902674" adi="D" schedule="2017-08-24T17:57:00" actual="2017-08-24T17:57:00" change="2017-08-24T09:09:05.617">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>3464</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C4</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903484" adi="A" schedule="2017-08-24T18:00:00" actual="2017-08-24T18:00:00" change="2017-08-23T08:50:25.670">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5673</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903486" adi="A" schedule="2017-08-24T18:00:00" actual="2017-08-24T18:00:00" change="2017-08-24T06:29:06.653">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5753</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim>4</claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903495" adi="A" schedule="2017-08-24T18:00:00" actual="2017-08-24T18:00:00" change="2017-08-24T06:34:05.993">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6014</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim>6</claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901975" adi="A" schedule="2017-08-24T18:02:00" actual="2017-08-24T18:02:00" change="2017-08-23T20:39:02.100">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>4009</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902625" adi="D" schedule="2017-08-24T18:05:00" actual="2017-08-24T18:05:00" change="2017-08-24T00:04:59.253">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>1411</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D16</gate>
+		<claim></claim>
+		<city code="IAH">Houston-IAH</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903664" adi="D" schedule="2017-08-24T18:08:00" actual="2017-08-24T18:08:00" change="2017-08-24T01:12:23.660">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>443</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901945" adi="D" schedule="2017-08-24T18:10:00" actual="2017-08-24T18:10:00" change="2017-08-22T03:00:02.003">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>635</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="HGR">Hagerstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903124" adi="D" schedule="2017-08-24T18:10:00" actual="2017-08-24T18:10:00" change="2017-08-24T00:40:30.930">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>494</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="CMH">Columbus</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903396" adi="A" schedule="2017-08-24T18:10:00" actual="2017-08-24T18:10:00" change="2017-08-23T08:42:55.180">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1283</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="BHM">Birmingham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903666" adi="A" schedule="2017-08-24T18:10:00" actual="2017-08-24T18:10:00" change="2017-08-24T01:16:06.777">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>548</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim>13</claim>
+		<city code="MYR">Myrtle Beach</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903133" adi="D" schedule="2017-08-24T18:15:00" actual="2017-08-24T18:15:00" change="2017-08-23T08:18:02.153">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>538</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903318" adi="A" schedule="2017-08-24T18:15:00" actual="2017-08-24T18:15:00" change="2017-08-23T08:38:00.140">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>295</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903400" adi="A" schedule="2017-08-24T18:15:00" actual="2017-08-24T18:15:00" change="2017-08-23T08:43:16.683">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1357</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901967" adi="D" schedule="2017-08-24T18:20:00" actual="2017-08-24T18:20:00" change="2017-08-22T03:00:02.823">
+		<line>Air Canada</line>
+		<linecode>AC</linecode>
+		<number>7357</number>
+		<logo>Inline_AirCanada.gif</logo>
+		<bulletlogo>Bullet-AirCanada.gif</bulletlogo>
+		<gate>D7</gate>
+		<claim></claim>
+		<city code="YYZ">Toronto</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903210" adi="D" schedule="2017-08-24T18:20:00" actual="2017-08-24T18:20:00" change="2017-08-24T04:56:58.720">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1613</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="CLE">Cleveland</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903212" adi="D" schedule="2017-08-24T18:20:00" actual="2017-08-24T18:20:00" change="2017-08-23T08:28:28.533">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1629</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902684" adi="A" schedule="2017-08-24T18:23:00" actual="2017-08-24T18:23:00" change="2017-08-22T22:10:57.333">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1970</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903602" adi="A" schedule="2017-08-24T18:23:00" actual="2017-08-24T18:23:00" change="2017-08-23T18:23:39.510">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>827</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim>12</claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901946" adi="D" schedule="2017-08-24T18:30:00" actual="2017-08-24T18:30:00" change="2017-08-22T03:00:02.023">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>928</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="LNS">Lancaster</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903106" adi="D" schedule="2017-08-24T18:30:00" actual="2017-08-24T18:30:00" change="2017-08-23T08:16:51.603">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>408</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903154" adi="D" schedule="2017-08-24T18:30:00" actual="2017-08-24T18:30:00" change="2017-08-23T08:19:49.437">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>727</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903155" adi="D" schedule="2017-08-24T18:30:00" actual="2017-08-24T18:30:00" change="2017-08-23T08:19:49.513">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>732</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903499" adi="A" schedule="2017-08-24T18:30:00" actual="2017-08-24T18:30:00" change="2017-08-24T04:08:14.587">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6103</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901972" adi="A" schedule="2017-08-24T18:35:00" actual="2017-08-24T18:35:00" change="2017-08-22T03:00:03.143">
+		<line>British Airways</line>
+		<linecode>BA</linecode>
+		<number>229</number>
+		<logo>Inline_BritishAir01.gif</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E1</gate>
+		<claim>17</claim>
+		<city code="LHR">London Heathrow</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902656" adi="D" schedule="2017-08-24T18:35:00" actual="2017-08-24T18:35:00" change="2017-08-24T07:11:02.690">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1106</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C6</gate>
+		<claim></claim>
+		<city code="DFW">Dallas-FtWorth</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902693" adi="A" schedule="2017-08-24T18:36:00" actual="2017-08-24T18:36:00" change="2017-08-23T22:35:19.090">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4862</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim>10</claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901958" adi="D" schedule="2017-08-24T18:40:00" actual="2017-08-24T18:40:00" change="2017-08-22T03:00:02.440">
+		<line>WOW Air</line>
+		<linecode>WW</linecode>
+		<number>118</number>
+		<logo>WOWlogo156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E6</gate>
+		<claim></claim>
+		<city code="KEF">Reykjavik</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903276" adi="D" schedule="2017-08-24T18:40:00" actual="2017-08-24T18:40:00" change="2017-08-23T08:33:47.387">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5673</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903384" adi="A" schedule="2017-08-24T18:40:00" actual="2017-08-24T18:40:00" change="2017-08-24T04:57:04.110">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>986</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1904326" adi="D" schedule="2017-08-24T18:40:00" actual="2017-08-24T18:40:00" change="2017-08-24T07:36:46.383">
+		<line>Alaska</line>
+		<linecode>AS</linecode>
+		<number>767</number>
+		<logo>Alaska_156x28_FIDs.jpg</logo>
+		<bulletlogo>Bullet-AlaskaAir.gif</bulletlogo>
+		<gate>D20</gate>
+		<claim>9</claim>
+		<city code="SEA">Seattle</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901980" adi="D" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-24T03:54:40.907">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3685</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="JFK">New York-JFK</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903111" adi="D" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-24T05:15:01.877">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>456</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903250" adi="D" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-23T08:31:37.660">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1915</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903301" adi="A" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-23T08:36:34.670">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>126</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903443" adi="A" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-23T08:47:06.760">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1799</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="ROC">Rochester,NY</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903502" adi="A" schedule="2017-08-24T18:45:00" actual="2017-08-24T18:45:00" change="2017-08-24T05:15:01.863">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6223</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903216" adi="D" schedule="2017-08-24T18:50:00" actual="2017-08-24T18:50:00" change="2017-08-23T08:28:55.407">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1662</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903328" adi="A" schedule="2017-08-24T18:50:00" actual="2017-08-24T18:50:00" change="2017-08-24T06:34:26.030">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>453</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B8</gate>
+		<claim>3</claim>
+		<city code="ORF">Norfolk</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903375" adi="A" schedule="2017-08-24T18:50:00" actual="2017-08-24T18:50:00" change="2017-08-23T08:40:38.923">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>806</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="ISP">Long Island</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903504" adi="A" schedule="2017-08-24T18:50:00" actual="2017-08-24T18:50:00" change="2017-08-23T08:52:17.670">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6230</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903552" adi="A" schedule="2017-08-24T18:51:00" actual="2017-08-24T18:51:00" change="2017-08-24T01:10:32.593">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>414</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim>13</claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903096" adi="D" schedule="2017-08-24T18:55:00" actual="2017-08-24T18:55:00" change="2017-08-23T08:15:36.960">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>295</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903183" adi="D" schedule="2017-08-24T18:55:00" actual="2017-08-24T18:55:00" change="2017-08-23T08:24:57.043">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1357</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="BUF">Buffalo</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903382" adi="A" schedule="2017-08-24T18:55:00" actual="2017-08-24T18:55:00" change="2017-08-24T04:56:48.337">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>924</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B10</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903403" adi="A" schedule="2017-08-24T18:55:00" actual="2017-08-24T18:55:00" change="2017-08-24T00:40:30.937">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1366</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902504" adi="D" schedule="2017-08-24T18:57:00" actual="2017-08-24T18:57:00" change="2017-08-24T00:56:55.440">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>2059</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D15</gate>
+		<claim></claim>
+		<city code="SFO">San Francisco</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902349" adi="A" schedule="2017-08-24T18:59:00" actual="2017-08-24T18:59:00" change="2017-08-23T22:25:39.700">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>875</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903604" adi="D" schedule="2017-08-24T18:59:00" actual="2017-08-24T18:59:00" change="2017-08-23T18:59:45.913">
+		<line>JetBlue</line>
+		<linecode>B6</linecode>
+		<number>1326</number>
+		<logo>JetBlue_Inline_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D2</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903374" adi="A" schedule="2017-08-24T19:00:00" actual="2017-08-24T19:00:00" change="2017-08-24T07:37:50.737">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>793</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="PWM">Portland,ME</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903394" adi="A" schedule="2017-08-24T19:00:00" actual="2017-08-24T19:00:00" change="2017-08-24T06:32:59.687">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1268</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B6</gate>
+		<claim>3</claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903410" adi="A" schedule="2017-08-24T19:00:00" actual="2017-08-24T19:00:00" change="2017-08-24T00:41:01.190">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1492</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901953" adi="A" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-22T03:00:02.310">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>455</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="MGW">Morgantown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903178" adi="D" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-23T08:24:19.607">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1283</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903356" adi="A" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-24T00:41:20.013">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>559</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903447" adi="A" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-23T08:47:17.437">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1832</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903469" adi="A" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-24T06:31:13.103">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>2002</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B4</gate>
+		<claim>3</claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903713" adi="D" schedule="2017-08-24T19:05:00" actual="2017-08-24T19:05:00" change="2017-08-24T01:21:52.030">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>695</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D10</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902355" adi="A" schedule="2017-08-24T19:10:00" actual="2017-08-24T19:10:00" change="2017-08-23T08:03:44.400">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1637</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903168" adi="D" schedule="2017-08-24T19:10:00" actual="2017-08-24T19:10:00" change="2017-08-23T08:22:43.177">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1067</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902692" adi="D" schedule="2017-08-24T19:15:00" actual="2017-08-24T19:15:00" change="2017-08-23T22:35:17.803">
+		<line>United</line>
+		<linecode>UA</linecode>
+		<number>4856</number>
+		<logo>United_156x28.jpg</logo>
+		<bulletlogo>Bullet-United.gif</bulletlogo>
+		<gate>D13</gate>
+		<claim></claim>
+		<city code="EWR">Newark</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901955" adi="A" schedule="2017-08-24T19:20:00" actual="2017-08-24T19:20:00" change="2017-08-22T03:00:02.383">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>291</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="JST">Johnstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902644" adi="A" schedule="2017-08-24T19:24:00" actual="2017-08-24T19:24:00" change="2017-08-23T11:55:54.570">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>2018</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902680" adi="D" schedule="2017-08-24T19:25:00" actual="2017-08-24T19:25:00" change="2017-08-22T22:10:57.963">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1835</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C5</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903494" adi="A" schedule="2017-08-24T19:25:00" actual="2017-08-24T19:25:00" change="2017-08-24T05:15:01.880">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5974</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903498" adi="A" schedule="2017-08-24T19:25:00" actual="2017-08-24T19:25:00" change="2017-08-23T08:51:40.800">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6069</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901979" adi="A" schedule="2017-08-24T19:30:00" actual="2017-08-24T19:30:00" change="2017-08-24T03:54:56.793">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3616</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903294" adi="D" schedule="2017-08-24T19:30:00" actual="2017-08-24T19:30:00" change="2017-08-24T05:15:01.883">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6224</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="STL">St. Louis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903395" adi="A" schedule="2017-08-24T19:30:00" actual="2017-08-24T19:30:00" change="2017-08-23T08:42:50.180">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1272</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="RSW">Ft. Myers</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903496" adi="A" schedule="2017-08-24T19:30:00" actual="2017-08-24T19:30:00" change="2017-08-23T08:51:35.093">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6051</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903493" adi="A" schedule="2017-08-24T19:35:00" actual="2017-08-24T19:50:00" change="2017-08-24T09:37:38.523">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5958</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="SJU">San Juan</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902841" adi="D" schedule="2017-08-24T19:36:00" actual="2017-08-24T19:36:00" change="2017-08-24T01:10:32.597">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>414</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D14</gate>
+		<claim></claim>
+		<city code="BOS">Boston</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902353" adi="D" schedule="2017-08-24T19:40:00" actual="2017-08-24T19:40:00" change="2017-08-24T03:54:47.483">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>875</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D23</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903167" adi="D" schedule="2017-08-24T19:40:00" actual="2017-08-24T19:40:00" change="2017-08-24T04:57:04.110">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>986</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="BDL">Hartford</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903170" adi="D" schedule="2017-08-24T19:40:00" actual="2017-08-24T19:40:00" change="2017-08-23T08:23:10.690">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1165</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903464" adi="A" schedule="2017-08-24T19:40:00" actual="2017-08-24T19:40:00" change="2017-08-23T08:48:43.410">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1967</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903081" adi="D" schedule="2017-08-24T19:45:00" actual="2017-08-24T19:45:00" change="2017-08-23T08:13:21.660">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>126</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="FLL">Ft Lauderdale</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903322" adi="A" schedule="2017-08-24T19:45:00" actual="2017-08-24T19:45:00" change="2017-08-23T08:38:32.110">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>395</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903416" adi="A" schedule="2017-08-24T19:45:00" actual="2017-08-24T19:45:00" change="2017-08-23T08:44:16.427">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1525</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901954" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-22T03:00:02.330">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>456</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="MGW">Morgantown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1902350" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-23T08:03:44.393">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1637</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D29</gate>
+		<claim>14</claim>
+		<city code="DTW">Detroit</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903089" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-24T04:56:48.333">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>214</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B10</gate>
+		<claim></claim>
+		<city code="IND">Indianapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903152" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-23T08:19:33.060">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>702</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="ABQ">Albuquerque</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903176" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-24T00:41:25.337">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1268</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B6</gate>
+		<claim></claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903186" adi="D" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-24T00:40:30.940">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1366</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="JAX">Jacksonville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903379" adi="A" schedule="2017-08-24T19:50:00" actual="2017-08-24T19:50:00" change="2017-08-24T05:40:11.260">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>907</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E8</gate>
+		<claim></claim>
+		<city code="MBJ">Montego Bay</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901981" adi="D" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-23T18:58:38.193">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>3713</number>
+		<logo>Delta_156x28.jpg             </logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D24</gate>
+		<claim>14</claim>
+		<city code="CVG">Cincinnati</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903140" adi="D" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-24T00:41:32.417">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>559</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B8</gate>
+		<claim></claim>
+		<city code="TPA">Tampa</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903153" adi="D" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-24T00:41:20.020">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>721</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903181" adi="D" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-23T08:24:40.940">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1329</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903192" adi="D" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-24T00:41:01.187">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1492</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="CHS">Charleston,SC</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903376" adi="A" schedule="2017-08-24T19:55:00" actual="2017-08-24T19:55:00" change="2017-08-24T05:39:21.137">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>812</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E6</gate>
+		<claim></claim>
+		<city code="PUJ">Punta Cana, DR</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901956" adi="D" schedule="2017-08-24T20:00:00" actual="2017-08-24T20:00:00" change="2017-08-22T03:00:02.403">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>292</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="JST">Johnstown</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903159" adi="D" schedule="2017-08-24T20:00:00" actual="2017-08-24T20:00:00" change="2017-08-23T08:20:25.547">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>807</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="AUS">Austin</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903377" adi="A" schedule="2017-08-24T20:00:00" actual="2017-08-24T20:00:00" change="2017-08-23T08:40:39.077">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>822</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901931" adi="A" schedule="2017-08-24T20:05:00" actual="2017-08-24T20:05:00" change="2017-08-22T03:00:01.593">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>511</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim>11</claim>
+		<city code="DUJ">DuBois</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903385" adi="A" schedule="2017-08-24T20:10:00" actual="2017-08-24T20:10:00" change="2017-08-23T08:41:51.497">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1073</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="STL">St. Louis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903110" adi="D" schedule="2017-08-24T20:15:00" actual="2017-08-24T20:15:00" change="2017-08-24T00:40:48.613">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>454</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903223" adi="D" schedule="2017-08-24T20:15:00" actual="2017-08-24T20:15:00" change="2017-08-23T08:29:28.067">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1693</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="ALB">Albany</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903252" adi="D" schedule="2017-08-24T20:15:00" actual="2017-08-24T20:15:00" change="2017-08-23T08:31:37.930">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1919</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B9</gate>
+		<claim></claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903177" adi="D" schedule="2017-08-24T20:20:00" actual="2017-08-24T20:20:00" change="2017-08-23T08:24:19.533">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1272</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="SAT">San Antonio</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903289" adi="D" schedule="2017-08-24T20:20:00" actual="2017-08-24T20:20:00" change="2017-08-24T05:15:01.883">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6052</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="MCI">Kansas City</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903290" adi="D" schedule="2017-08-24T20:20:00" actual="2017-08-24T20:20:00" change="2017-08-23T08:34:45.677">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6069</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="RSW">Ft. Myers</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903102" adi="D" schedule="2017-08-24T20:25:00" actual="2017-08-24T20:25:00" change="2017-08-23T08:16:40.800">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>395</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="SDF">Louisville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903157" adi="D" schedule="2017-08-24T20:25:00" actual="2017-08-24T20:25:00" change="2017-08-23T08:20:25.373">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>794</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B4</gate>
+		<claim></claim>
+		<city code="BUF">Buffalo</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903287" adi="D" schedule="2017-08-24T20:25:00" actual="2017-08-24T20:35:00" change="2017-08-24T09:37:38.593">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5958</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="PBI">West Palm Beach</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903346" adi="A" schedule="2017-08-24T20:25:00" actual="2017-08-24T20:25:00" change="2017-08-24T06:27:50.540">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>535</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B14</gate>
+		<claim>4</claim>
+		<city code="MHT">Manchester</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902479" adi="A" schedule="2017-08-24T20:28:00" actual="2017-08-24T20:28:00" change="2017-08-24T00:59:11.107">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>106</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim>13</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901932" adi="D" schedule="2017-08-24T20:30:00" actual="2017-08-24T20:30:00" change="2017-08-22T03:00:01.600">
+		<line>Southern Airways Express</line>
+		<linecode>9X</linecode>
+		<number>512</number>
+		<logo>SAE_300x60.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D37</gate>
+		<claim></claim>
+		<city code="DUJ">DuBois</city>
+		<status code="AG">On Time</status>
+	</row>
+	<row id="1903280" adi="D" schedule="2017-08-24T20:30:00" actual="2017-08-24T20:30:00" change="2017-08-23T08:33:47.810">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5739</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903492" adi="A" schedule="2017-08-24T20:30:00" actual="2017-08-24T20:30:00" change="2017-08-23T08:51:08.510">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5944</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B13</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903364" adi="A" schedule="2017-08-24T20:35:00" actual="2017-08-24T20:35:00" change="2017-08-23T08:39:45.747">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>581</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B10</gate>
+		<claim></claim>
+		<city code="MCO">Orlando</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903161" adi="D" schedule="2017-08-24T20:40:00" actual="2017-08-24T20:40:00" change="2017-08-23T08:20:41.350">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>822</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="PVD">Providence</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903198" adi="D" schedule="2017-08-24T20:40:00" actual="2017-08-24T20:40:00" change="2017-08-23T08:26:38.260">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1525</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A2</gate>
+		<claim></claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903434" adi="A" schedule="2017-08-24T20:40:00" actual="2017-08-24T20:40:00" change="2017-08-24T08:59:06.997">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1713</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A1</gate>
+		<claim></claim>
+		<city code="MKE">Milwaukee</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903466" adi="A" schedule="2017-08-24T20:40:00" actual="2017-08-24T20:40:00" change="2017-08-23T08:48:49.280">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1975</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C14</gate>
+		<claim></claim>
+		<city code="ABQ">Albuquerque</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902359" adi="A" schedule="2017-08-24T20:41:00" actual="2017-08-24T20:41:00" change="2017-08-23T13:02:31.773">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1454</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D26</gate>
+		<claim>14</claim>
+		<city code="ATL">Atlanta</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903288" adi="D" schedule="2017-08-24T20:50:00" actual="2017-08-24T20:50:00" change="2017-08-23T08:34:45.413">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6018</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903421" adi="A" schedule="2017-08-24T21:00:00" actual="2017-08-24T21:00:00" change="2017-08-23T08:44:42.813">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1569</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A4</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903132" adi="D" schedule="2017-08-24T21:05:00" actual="2017-08-24T21:05:00" change="2017-08-24T00:41:07.090">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>535</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B14</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903381" adi="A" schedule="2017-08-24T21:05:00" actual="2017-08-24T21:05:00" change="2017-08-24T00:41:18.833">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>923</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B4</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903489" adi="A" schedule="2017-08-24T21:05:00" actual="2017-08-24T21:05:00" change="2017-08-24T00:41:01.200">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5807</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A9</gate>
+		<claim></claim>
+		<city code="BNA">Nashville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903449" adi="A" schedule="2017-08-24T21:10:00" actual="2017-08-24T21:10:00" change="2017-08-24T00:41:38.953">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1855</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C9</gate>
+		<claim></claim>
+		<city code="LAS">Las Vegas</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903481" adi="A" schedule="2017-08-24T21:10:00" actual="2017-08-24T21:10:00" change="2017-08-24T04:58:37.170">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5565</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B7</gate>
+		<claim></claim>
+		<city code="SEA">Seattle</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903482" adi="A" schedule="2017-08-24T21:10:00" actual="2017-08-24T21:10:00" change="2017-08-23T08:50:10.050">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5577</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B6</gate>
+		<claim></claim>
+		<city code="PBI">West Palm Beach</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903299" adi="A" schedule="2017-08-24T21:15:00" actual="2017-08-24T21:15:00" change="2017-08-23T08:36:18.413">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>31</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C11</gate>
+		<claim></claim>
+		<city code="ABQ">Albuquerque</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903386" adi="A" schedule="2017-08-24T21:15:00" actual="2017-08-24T21:15:00" change="2017-08-24T00:41:38.930">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1152</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C10</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903479" adi="A" schedule="2017-08-24T21:15:00" actual="2017-08-24T21:15:00" change="2017-08-23T08:49:58.833">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5518</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B12</gate>
+		<claim></claim>
+		<city code="DAL">Dallas-Love</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903392" adi="A" schedule="2017-08-24T21:20:00" actual="2017-08-24T21:20:00" change="2017-08-24T00:41:13.487">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1241</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B3</gate>
+		<claim></claim>
+		<city code="PHX">Phoenix</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903397" adi="A" schedule="2017-08-24T21:20:00" actual="2017-08-24T21:20:00" change="2017-08-24T00:40:48.640">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1346</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A7</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903497" adi="A" schedule="2017-08-24T21:20:00" actual="2017-08-24T21:20:00" change="2017-08-24T00:40:54.600">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6054</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A8</gate>
+		<claim></claim>
+		<city code="MDW">Chicago-Midway</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903354" adi="A" schedule="2017-08-24T21:25:00" actual="2017-08-24T21:25:00" change="2017-08-24T00:41:01.283">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>551</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B11</gate>
+		<claim></claim>
+		<city code="MSY">New Orleans</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903488" adi="A" schedule="2017-08-24T21:25:00" actual="2017-08-24T21:25:00" change="2017-08-23T08:50:52.743">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5788</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A3</gate>
+		<claim></claim>
+		<city code="SAN">San Diego</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903714" adi="D" schedule="2017-08-24T21:25:00" actual="2017-08-24T21:25:00" change="2017-08-24T01:07:59.207">
+		<line>Spirit Airlines</line>
+		<linecode>NK</linecode>
+		<number>369</number>
+		<logo>Spirit_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>D12</gate>
+		<claim></claim>
+		<city code="ORD">Chicago-O'Hare</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902459" adi="A" schedule="2017-08-24T21:28:00" actual="2017-08-24T21:28:00" change="2017-08-23T09:20:24.560">
+		<line>Delta</line>
+		<linecode>DL</linecode>
+		<number>1299</number>
+		<logo>Delta_156x28.jpg</logo>
+		<bulletlogo>Bullet-Delta.gif</bulletlogo>
+		<gate>D25</gate>
+		<claim>14</claim>
+		<city code="MSP">Minneapolis</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903366" adi="A" schedule="2017-08-24T21:30:00" actual="2017-08-24T21:30:00" change="2017-08-24T00:40:30.943">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>594</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A11</gate>
+		<claim></claim>
+		<city code="SDF">Louisville</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903468" adi="A" schedule="2017-08-24T21:30:00" actual="2017-08-24T21:30:00" change="2017-08-24T09:03:35.120">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1980</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A10</gate>
+		<claim></claim>
+		<city code="AUS">Austin</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903477" adi="A" schedule="2017-08-24T21:30:00" actual="2017-08-24T21:30:00" change="2017-08-23T08:49:42.473">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>5435</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B15</gate>
+		<claim></claim>
+		<city code="LAX">Los Angeles</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903329" adi="A" schedule="2017-08-24T21:35:00" actual="2017-08-24T21:35:00" change="2017-08-23T08:38:48.607">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>457</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B5</gate>
+		<claim></claim>
+		<city code="RDU">Raleigh/Durham</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903456" adi="A" schedule="2017-08-24T21:35:00" actual="2017-08-24T21:35:00" change="2017-08-23T08:48:00.753">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>1902</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A5</gate>
+		<claim></claim>
+		<city code="DEN">Denver</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903505" adi="A" schedule="2017-08-24T21:35:00" actual="2017-08-24T21:35:00" change="2017-08-23T08:52:48.030">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>6360</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>B8</gate>
+		<claim></claim>
+		<city code="SFO">San Francisco</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1901971" adi="D" schedule="2017-08-24T21:40:00" actual="2017-08-24T21:40:00" change="2017-08-22T03:00:03.057">
+		<line>British Airways</line>
+		<linecode>BA</linecode>
+		<number>228</number>
+		<logo>Inline_BritishAir01.gif</logo>
+		<bulletlogo></bulletlogo>
+		<gate>E1</gate>
+		<claim></claim>
+		<city code="LHR">London Heathrow</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903310" adi="A" schedule="2017-08-24T21:40:00" actual="2017-08-24T21:40:00" change="2017-08-23T08:37:02.513">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>168</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>A6</gate>
+		<claim></claim>
+		<city code="AUS">Austin</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1903316" adi="A" schedule="2017-08-24T21:40:00" actual="2017-08-24T21:40:00" change="2017-08-23T08:37:49.410">
+		<line>Southwest</line>
+		<linecode>SWA</linecode>
+		<number>286</number>
+		<logo>WN_156x28.jpg</logo>
+		<bulletlogo></bulletlogo>
+		<gate>C13</gate>
+		<claim></claim>
+		<city code="HOU">Houston-HOU</city>
+		<status code="ON">On Time</status>
+	</row>
+	<row id="1902662" adi="A" schedule="2017-08-24T21:41:00" actual="2017-08-24T21:41:00" change="2017-08-22T20:20:24.600">
+		<line>American</line>
+		<linecode>AA</linecode>
+		<number>1920</number>
+		<logo>AA_White_156x28.jpg</logo>
+		<bulletlogo>Bullet-American.gif</bulletlogo>
+		<gate>C7</gate>
+		<claim>9</claim>
+		<city code="CLT">Charlotte</city>
+		<status code="ON">On Time</status>
+	</row>
+</rows>

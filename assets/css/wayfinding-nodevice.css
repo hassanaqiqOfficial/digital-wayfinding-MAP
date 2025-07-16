@@ -1,0 +1,40 @@
+.wayfinding-wrapper.orientation-portrait .images-wrapper {
+  width: 100%;
+}
+
+.wayfinding-wrapper.orientation-portrait .images .background svg,
+.wayfinding-wrapper.orientation-portrait .images .background img {
+  width: 100%;
+  height: auto;
+}
+
+.wayfinding-wrapper.orientation-portrait .legend-wrapper .legend {
+  width: 100%;
+}
+.wayfinding-wrapper.orientation-landscape .images-wrapper {
+  float: left;
+}
+
+.wayfinding-wrapper.orientation-landscape .images-wrapper,
+.wayfinding-wrapper.orientation-landscape .images-wrapper .images,
+.wayfinding-wrapper.orientation-landscape .images-wrapper .images .background {
+  height: 100%;
+}
+
+.wayfinding-wrapper.orientation-landscape .images .background svg,
+.wayfinding-wrapper.orientation-landscape .images .background img {
+  height: 100%;
+  width: auto;
+}
+
+.wayfinding-wrapper.orientation-landscape .legend-wrapper.before {
+  float: left;
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.wayfinding-wrapper.orientation-landscape .legend-wrapper.after {
+  overflow-x: hidden;
+  height: 100%;
+  padding-left: 1rem;
+}

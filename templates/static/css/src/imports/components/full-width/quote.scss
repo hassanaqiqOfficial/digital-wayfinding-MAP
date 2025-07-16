@@ -1,0 +1,133 @@
+/* ==========================================================================
+	Quote
+============================================================================= */
+
+.quote {
+	@include margined_lg_top;
+	@include padded_lg;
+
+	background: $beige;
+	margin: 0;
+}
+
+.quote_image {
+	max-width: 150px;
+
+	float: right;
+
+	box-shadow: 0 0 30px 0 rgba(#000, .2);
+	margin-top: -60px;
+
+	@media #{$min_xs} {
+		margin-left: 20px;
+	}
+
+	@media #{$min_sm} {
+		max-width: 100%;
+		width: 30%;
+
+		margin-left: 0;
+	}
+
+	@media #{$min_md} {
+		margin-top: -80px;
+	}
+
+	@media #{$min_lg} {
+		width: calc(345px);
+
+		margin-top: -120px;
+	}
+}
+
+.quote_details {
+	clear: both;
+
+	@media #{$min_xs} {
+		clear: none;
+	}
+
+	@media #{$min_sm} {
+		width: 70%;
+
+		float: left;
+
+		padding-right: 30px;
+	}
+
+	@media #{$min_lg} {
+		width: calc(100% - 345px);
+
+		padding-right: 100px;
+	}
+}
+
+.quote_description {
+	@include intro_text;
+
+	color: $dark;
+	margin-top: 0;
+
+	@media #{$max_sm} {
+		font-size: 16px;
+		line-height: (24 / 16);
+	}
+
+	&:before {
+		color: $red;
+		content: "\201C";
+		display: block;
+		font-size: 40px;
+		font-weight: 900;
+		line-height: 1;
+
+		@media #{$min_md} {
+			font-size: 64px;
+			line-height: .915;
+		}
+	}
+}
+
+.quote_details {}
+
+.quote_cite {
+	@include proxima;
+
+	border-top: 3px solid $red;
+	color: $black;
+	display: inline-block;
+	font-style: normal;
+	padding-top: 10px;
+
+	@media #{$min_md} {
+		position: relative;
+
+		border-top: 0;
+		padding-left: 150px;
+	}
+
+	&:before {
+
+		@media #{$min_md} {
+			width: 130px;
+
+			position: absolute;
+			top: 17px;
+			left: 0;
+
+			border-top: 3px solid $red;
+			content: "";
+		}
+	}
+}
+
+.quote_name {
+	display: block;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.quote_position {
+	display: block;
+	font-size: 14px;
+}

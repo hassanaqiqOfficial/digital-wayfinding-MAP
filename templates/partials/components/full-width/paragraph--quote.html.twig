@@ -1,0 +1,17 @@
+{% set images = image_style(content.field_persons_photo, ['portrait_classic_sml']) %}
+
+<blockquote class="quote">
+	<div class="row">
+		<img class="quote_image" alt="{{ content.field_persons_photo[0]["#item"].alt }}" src="{{ images.portrait_classic_sml }}">
+
+		<div class="quote_details">
+			<p class="quote_description">{{ content.field_quote[0]["#context"]["value"] }}</p>
+			<cite class="quote_cite">
+				<span class="quote_name">{{ content.field_persons_name[0]["#context"]["value"] }}</span>
+				{% if content.field_persons_title[0]["#context"]["value"] %}
+				<span class="quote_position">{{ content.field_persons_title[0]["#context"]["value"] }}</span>
+				{% endif %}
+			</cite>
+		</div>
+	</div>
+</blockquote>

@@ -1,0 +1,118 @@
+/* ==========================================================================
+	Buttons
+============================================================================= */
+
+button {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+@mixin button() {
+	@include proxima(700);
+
+	border: 0;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 16px 20px;
+	text-align: center;
+	transition:
+		background $base_transition_duration,
+		border $base_transition_duration,
+		box-shadow $base_transition_duration,
+		color $base_transition_duration,
+		transform $base_transition_duration;
+
+	@media print {
+		display: inline-block;
+		padding: 10px 0;
+		text-align: left;
+	}
+}
+
+@mixin button_inline() {
+	@include button;
+
+	display: inline-block;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+@mixin button_block() {
+	@include button;
+
+	align-items: center;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+@mixin button_block_alternate() {
+	@include button;
+
+	display: block;
+
+	@media screen and (min-width: 400px) {
+		display: inline-block;
+	}
+}
+
+@mixin button_white() {
+	background: #fff;
+	color: $black;
+
+	&:focus,
+	&:hover {
+		background: $red;
+		color: #fff;
+
+		svg {
+			fill: #fff;
+		}
+	}
+}
+
+@mixin button_bordered_red() {
+	background: #fff;
+	box-shadow: inset 0 0 0 2px $red;
+	color: $black;
+
+	&:focus,
+	&:hover {
+		background: $red;
+		color: #fff;
+
+		svg {
+			fill: #fff;
+		}
+	}
+}
+
+@mixin button_plain() {
+	@include proxima(700);
+	@include arrowed_link;
+
+	font-size: 14px;
+
+	@media #{$min_xl} {
+		font-size: 16px;
+	}
+}
+
+
+// Typography Buttons
+// =============================================================================
+
+.typography {
+
+	.button {
+		@include button_inline;
+		@include button_bordered_red;
+
+		&:focus,
+		&:hover {
+			box-shadow: inset 0 0 0 2px $red;
+		}
+	}
+}

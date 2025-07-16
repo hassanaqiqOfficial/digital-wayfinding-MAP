@@ -1,0 +1,8 @@
+{# This is literally just to stop a <div> from making its way into the region as a wrapper #}
+{% if custom_content %}
+	{% for content in custom_content %}
+		{{ content }}
+	{% endfor %}
+{% else %}
+	{{ content }}
+{% endif %}

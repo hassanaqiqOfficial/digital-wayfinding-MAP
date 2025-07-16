@@ -1,0 +1,96 @@
+<div class="hud">
+	<div class="hud_tabs">
+		<button class="js-swap hud_tab" data-swap-target=".hud_item_1" data-swap-group="hud_item_group">
+			<span class="hud_title_indicator">
+				<span class="hud_title_icon hud_title_icon_airplane">{{site.symbol("airplane", "white")}}</span>
+			</span>
+			<h2 class="hud_title">Flight Status</h2>
+		</button>
+		<button class="js-swap hud_tab" data-swap-target=".hud_item_2" data-swap-group="hud_item_group">
+			<span class="hud_title_indicator">
+				<span class="hud_title_icon hud_title_icon_parking">{{site.symbol("parking", "white")}}</span>
+			</span>
+			<h2 class="hud_title">Parking Availability</h2>
+		</button>
+	</div>
+	<div class="hud_item hud_item_1 hud_item_flights">
+		<div class="hud_item_body">
+			<header class="hud_header">
+				<span class="hud_title_flag">
+					<span class="hud_title_indicator">
+						<span class="hud_title_icon hud_title_icon_airplane">{{site.symbol("airplane", "white")}}</span>
+					</span>
+				</span>
+				<h2 class="hud_title">Flight Status</h2>
+			</header>
+			<div class="hud_flights">
+				{{site.dropdown("hud_flight", airlines)}}
+				{{site.dropdown("hud_flight", ["Thu, Jan 12"])}}
+				<input class="hud_flight_input" type="search" placeholder="Flight #" />
+			</div>
+			<footer class="hud_links">
+				<a class="hud_link" href="">
+					<span>Find Flight</span>
+					{{site.symbol("arrow_right", "gray")}}
+				</a>
+				<a class="hud_link" href="#schedule">
+					<span>All Flights</span>
+					{{site.symbol("arrow_right", "gray")}}
+				</a>
+			</footer>
+		</div>
+	</div>
+	<div class="hud_item hud_item_2 hud_item_parking">
+		<div class="hud_item_body">
+			<header class="hud_header">
+				<span class="hud_title_flag">
+					<span class="hud_title_indicator">
+						<span class="hud_title_icon hud_title_icon_parking">{{site.symbol("parking", "white")}}</span>
+					</span>
+				</span>
+				<h2 class="hud_title">Parking Availability</h2>
+				<h3 class="hud_time">as of <time>{{time}}</time></h3>
+			</header>
+			<div class="hud_parking">
+				{% for availability in parking %}
+					<a class="hud_parking_availability" href="#">
+						<h4 class="hud_parking_percent">{{availability.percent}}%</h4>
+						<h5 class="hud_parking_type">{{availability.type}}</h5>
+						{% if availability.status %}
+							<h6 class="hud_parking_status{% if availability.status == "Lot Full" %} lot-full{% elseif availability.status == "Mostly Full" %} mostly-full{% elseif availability.status == "Mostly Open" %} mostly-open{% endif %}">{{availability.status}}</h6>
+						{% endif %}
+					</a>
+				{% endfor %}
+			</div>
+			<footer class="hud_links">
+				<a class="hud_link" href="">
+					<span>More Info</span>
+					{{site.symbol("arrow_right", "gray")}}
+				</a>
+			</footer>
+		</div>
+	</div>
+	<div class="hud_item hud_item_3 hud_item_notifications">
+		<div class="hud_item_body">
+			<header class="hud_header">
+				<span class="hud_title_flag">
+					<span class="hud_title_indicator">
+						<span class="hud_title_icon hud_title_icon_exclamation">{{site.symbol("exclamation", "white")}}</span>
+					</span>
+				</span>
+				<h2 class="hud_title">Notifications</h2>
+			</header>
+			{% for notification in notifications %}
+				<article class="hud_notification">
+					<h4 class="hud_notification_title">{{notification}}</h4>
+					<footer class="hud_links">
+						<a class="hud_link" href="">
+							<span>More Info</span>
+							{{site.symbol("arrow_right", "gray")}}
+						</a>
+					</footer>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</div>

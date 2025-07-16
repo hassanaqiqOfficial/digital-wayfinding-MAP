@@ -1,0 +1,27 @@
+<section class="guide">
+	<div class="row">
+		<header class="guide_header">
+			<h2 class="guide_title">{{ content.field_situational_guides_title[0]["#context"]["value"] }}</h2>
+		</header>
+		<div class="guide_select">
+			<div class="fs-dropdown_wrapper guide_select_dropdown_wrapper">
+				<select class="js-dropdown guide_select_dropdown">
+					{% for title in guide_titles %}
+					<option value="{{ loop.index }}">{{ title }}</option>
+					{% endfor %}
+				</select>
+				<span class="fs-dropdown_icon guide_select_dropdown_icon">
+					<svg class="symbol symbol_caret_down symbol_red">
+						<use xlink:href="#caret_down"></use>
+					</svg>
+				</span>
+			</div>
+		</div>
+		<div class="guide_tabs">
+			{% for title in guide_titles %}
+			<button class="js-swap guide_tab_button guide_tab_button_{{ loop.index }}" data-swap-target=".guide_item_{{ loop.index }}" data-swap-group="guide_item_group" data-swap-options='{"collapse": false}'>{{ title }}</button>
+			{% endfor %}
+		</div>
+	</div>
+	{{ content.field_situational_guides }}
+</section>

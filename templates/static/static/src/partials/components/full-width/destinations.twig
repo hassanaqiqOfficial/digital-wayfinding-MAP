@@ -1,0 +1,38 @@
+<section class="destination{% if class %} theme_{{class}}{% endif %}{% if modifier %} theme_{{modifier}}{% endif %}">
+	{% if class == "framed" %}
+	<div class="row">
+	{% endif %}
+		<div class="destination_wrapper">
+			{% include "../shared/background.twig" with {
+				class: "destination",
+				sources: {
+					"0px": img.wide.md,
+					"980px": img.wide.lrg
+				},
+				image: background
+			} %}
+			<div class="destination_body">
+				<div class="destination_details">
+					<h2 class="destination_title">{{title}}</h2>
+					<p class="destination_caption">{{caption}}</p>
+					{% if link %}
+						<a class="destination_link" href="#" aria-title="Open page for more info on {{title}}">
+							<span>{{link}}</span>
+							{{site.symbol("arrow_right", "red")}}
+						</a>
+					{% endif %}
+					{% if dropdown %}
+						{{site.dropdown("destination", dropdown.choices)}}
+					{% endif %}
+				</div>
+			</div>
+			{% if subCaption %}
+				<div class="destination_subcaption">
+					<p class="destination_subcaption_text">{{subCaption}}</p>
+				</div>
+			{% endif %}
+		</div>
+	{% if class == "framed" %}
+	</div>
+	{% endif %}
+</section>

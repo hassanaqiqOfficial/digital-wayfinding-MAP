@@ -1,0 +1,40 @@
+{% for level in items %}
+	{%  if level.in_active_trail and level.below %}
+		<nav class="sub_nav" aria-label="Additional Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+			<div class="sub_nav_header">
+				<h2 class="sub_nav_title">{{ level.title }}</h2>
+			</div>
+
+			<div class="sub_nav_handle_wrapper">
+				<button class="js-sub_nav_handle sub_nav_handle">{{ level.title }}</button>
+				<span class="sub_nav_handle_icon"></span>
+			</div>
+
+			<div class="js-navigation js-sub-nav sub_nav_list" data-navigation-handle=".js-sub_nav_handle" data-navigation-options='{"theme": "sub_nav_base", "labels": {"closed": "{{ level.title }}", "Open": "Close"}}'>
+				{% for link in level.below %}
+					<div class="sub_nav_item" itemprop="url">
+						<a class="sub_nav_link{% if link.in_active_trail %} active{% endif %}" href="{{ link.url }}" itemprop="name">{{ link.title }}</a>
+						{% if link.below %}
+							<div class="sub_nav_children">
+								{% for child in link.below %}
+									<div class="sub_nav_child_item" itemprop="url">
+										<a class="sub_nav_child_link{% if child.in_active_trail %} active{% endif %}" href="{{ child.url }}" itemprop="name">{{ child.title }}</a>
+										{% if child.below %}
+											<div class="sub_nav_grandchildren">
+												{% for grandchild in child.below %}
+													<div class="sub_nav_grandchild_item" itemprop="url">
+														<a class="sub_nav_grandchild_link{% if grandchild.in_active_trail %} active{% endif %}" href="{{ grandchild.url }}" itemprop="name">{{ grandchild.title }}</a>
+													</div>
+												{% endfor %}
+											</div>
+										{% endif %}
+									</div>
+								{% endfor %}
+							</div>
+						{% endif %}
+					</div>
+				{% endfor %}
+			</div>
+		</nav>
+	{% endif %}
+{% endfor %}

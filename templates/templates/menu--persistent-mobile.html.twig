@@ -1,0 +1,13 @@
+<nav class="secondary_nav secondary_nav_sm" aria-label="Secondary Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<div class="secondary_nav_list" role="navigation">
+		{% for link in items %}
+			{% if (loop.index > 3) and (loop.index < 8) %}
+				<div class="secondary_nav_item" itemprop="url">
+					<a class="secondary_nav_link" href="{{ link.url }}" itemprop="name"{% if item.url.options.external %} target="_blank"{% endif %}>
+						<span class="secondary_nav_link_label">{{ link.title }}</span>
+					</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</nav>

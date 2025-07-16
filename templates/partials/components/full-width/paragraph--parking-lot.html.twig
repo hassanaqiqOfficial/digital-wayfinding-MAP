@@ -1,0 +1,29 @@
+{% set data_file = directory ~ "/cache/parking-availability.json" %}
+{% set data = json_load(data_file) %}
+{% set data_set = data["lots"] %}
+{% set availability = data_set[content.field_lot_type[0]["#markup"]] %}
+<div class="parking_item js-parking-item  js-parking_class {{ availability.class }}" data-name="{{ content.field_lot_type[0]["#markup"] }}">
+	<header>
+		<div class="parking_item_status_wrapper">
+			<span class="parking_item_status js-parking_status">{{ availability.status }}</span>
+		</div>
+		<h3 class="parking_item_quantity js-parking_percent">{{ availability.percentage }}%</h3>
+		<div class="parking_item_details">
+			<h4 class="parking_item_type">{{ content.field_title[0]["#context"]["value"] }}</h4>
+		</div>
+		<h5 class="parking_item_cost">{{ content.field_subtitle[0]["#context"]["value"] }}</h5>
+	</header>
+	<div class="parking_item_body">
+		<p class="parking_item_caption">{{ content.field_description_plain[0]["#context"]["value"] }}</p>
+		{% if content.field_link[0]["#url"] %}
+			<a class="parking_item_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+				<span>
+					{{ content.field_link[0]["#title"] }}
+				</span>
+				<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+					<use xlink:href="#arrow_right"></use>
+				</svg>
+			</a>
+		{% endif %}
+	</div>
+</div>

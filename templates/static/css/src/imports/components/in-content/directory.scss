@@ -1,0 +1,32 @@
+/* ==========================================================================
+	Directory
+============================================================================= */
+
+.directory_item {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	vertical-align: top;
+}
+
+.directory_item_image {
+	margin-bottom: 15px;
+}
+
+.directory_item_details {}
+
+.directory_item_name {
+	@include proxima(600);
+
+	font-size: 13px;
+	line-height: (16 / 13);
+	margin: 0;
+}
+
+.directory_item_title {
+	@include proxima(400);
+
+	font-size: 13px;
+	line-height: (16 / 13);
+	margin: 0;
+}

@@ -1,0 +1,177 @@
+/* ==========================================================================
+	Site Search
+============================================================================= */
+
+.site_search_handle {
+
+	@media #{$max_lg} {
+		display: none;
+	}
+
+	@media #{$min_lg} {
+		@include bubble_button(40px);
+
+		z-index: 4;
+
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	@media #{$min_xl} {
+		margin: 5px 0;
+	}
+}
+
+.site_search_handle_scope,
+.site_search_handle_close {
+	transition:
+		opacity .25s,
+		visibility .25s;
+}
+
+.site_search_handle_scope {
+
+	[data-toggled="on"] & {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.site_search_handle_close {
+	opacity: 0;
+	visibility: hidden;
+
+	[data-toggled="on"] & {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.site_search {
+
+	&_sm {
+		margin: 0 -20px 12px;
+	}
+
+	&_lg {
+
+		@media #{$max_lg} {
+			display: none;
+		}
+
+		@media #{$min_lg} {
+			position: absolute;
+			top: 50%;
+			right: 20px;
+
+			opacity: 0;
+			pointer-events: none;
+			transform:
+				translate(0, -50%)
+				scale(.75)
+				rotate(-5deg);
+			transform-origin: right top;
+			transition:
+				opacity .25s,
+				visibility .25s,
+				transform .25s;
+		}
+
+		&.swap-active,
+		.no-js & {
+
+			@media #{$min_lg} {
+				opacity: 1;
+				pointer-events: auto;
+				transform:
+					translate(0, -50%)
+					scale(1)
+					rotate(0);
+			}
+		}
+	}
+}
+
+.site_search_form {
+	position: relative;
+}
+
+.site_search_label {
+	@include visually_hide;
+}
+
+.site_search_input {
+	@include focus_outline_none;
+	@include proxima(700);
+
+	width: 100%;
+
+	appearance: none;
+	background: $black;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+	padding: 24px 25px 23px;
+
+	@media #{$min_lg} {
+		width: 288px;
+
+		background: $red;
+		border-radius: 4px;
+		padding-right: 85px;
+	}
+
+	&::placeholder {
+		color: #fff;
+		text-overflow: ellipsis;
+	}
+
+	&[placeholder] {
+		color: #fff;
+		text-overflow: ellipsis;
+	}
+
+	&:hover,
+	&:focus {
+		border-radius: 0;
+	}
+}
+
+.site_search_button {
+	height: 40px;
+	width: 40px;
+
+	position: absolute;
+	top: 50%;
+	right: 10px;
+
+	border-radius: 50%;
+	color: transparent;
+	cursor: pointer;
+	transform: translate(0, -50%);
+	transition: background .25s;
+
+	@media #{$min_lg} {
+		right: 30px;
+	}
+
+	&:focus,
+	&:hover {
+		background: #fff;
+
+		svg {
+			fill: $red;
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+
+		margin: auto;
+	}
+}

@@ -1,0 +1,60 @@
+
+{% set data_file = directory ~ "/cache/parking-availability.json" %}
+{% set data = json_load(data_file) %}
+{% set last_parking_update = data["updated"] %}
+{% set parking_data = data["lots"] %}
+{% set daily_link = content.field_daily_link[0]["#url"] %}
+{% set hourly_link = content.field_hourly_link[0]["#url"] %}
+{% set express_link = content.field_express_link[0]["#url"] %}
+{% set long_term_a_link = content.field_long_term_a_link[0]["#url"] %}
+{% set long_term_b_link = content.field_long_term_b_link[0]["#url"] %}
+
+{% set parking_keys = {
+	"Hourly": { price: content.field_hourly_price , link: hourly_link },
+	"Daily": { price: content.field_daily_price , link: daily_link },
+	"Express": { price: content.field_express_price , link: express_link },
+	"Long-Term A": { price: content.field_long_term_a_price , link: long_term_a_link },
+	"Long-Term B": { price: content.field_long_term_b_price , link: long_term_b_link }
+	}
+%}
+
+<header class="hud_header">
+	<span class="hud_title_flag">
+		<span class="hud_title_indicator">
+			<span class="hud_title_icon hud_title_icon_parking">
+				<svg aria-hidden="true" class="symbol symbol_parking symbol_white">
+					<use xlink:href="#parking"></use>
+				</svg>
+			</span>
+		</span>
+	</span>
+	<h2 class="hud_title">Parking Availability</h2>
+	<h3 class="hud_time hud_time_lg js-parking_time">{{ last_parking_update|raw }}</time></h3>
+</header>
+
+<div class="hud_parking js-parking" data-file="{{ www_root }}{{ data_file }}">
+	<h3 class="hud_time hud_time_sm js-parking_time">{{ last_parking_update|raw }}</h3>
+	{% for key, lotdata in parking_keys %}
+		<a class="hud_parking_availability js-parking-item" data-name="{{ key }}" href="{{ lotdata.link }}">
+			<h4 class="hud_parking_percent js-parking_percent">{{ parking_data[key].percentage }}</h4>
+			<div class="hud_parking_details">
+				<h5 class="hud_parking_type">{{ key }}</h5>
+				<div class="hud_parking_price">
+					<span class="hud_parking_price_label">{{ lotdata.price }}</span>
+				</div>
+			</div>
+			<h6 class="hud_parking_status {{ parking_data[key].class }} js-parking_class js-parking_status">{{ parking_data[key].status }}</h6>
+		</a>
+	{% endfor %}
+</div>
+
+{% if content.field_link[0]["#url"] %}
+<footer class="hud_links">
+	<a class="hud_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+		<span>Parking Info</span>
+		<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+			<use xlink:href="#arrow_right"></use>
+		</svg>
+	</a>
+</footer>
+{% endif %}

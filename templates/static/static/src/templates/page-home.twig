@@ -1,0 +1,135 @@
+{% extends "_base.twig" %}
+
+{% set pageTitle = "Home" %}
+
+{% block layout %}
+	{% set layout = "home" %}
+{% endblock %}
+
+{% block page_feature %}
+	{% include "../partials/components/feature/alert.twig" with {
+		theme: "",
+		time: "12:30:45",
+		date: "2016-10-27 1:21:4",
+		title: "Icy conditions causing delayed departures and arrivals with some cancellations: please <a href>check your airline</a> for updates. MTA Light Rail service is currently suspended."
+	} %}
+
+	{% include '../partials/components/feature/highlight.twig' with {
+		title: "Your Gateway to the<br/>Baltimore-Washington Region",
+		caption: "BWI Marshall Airport makes travel easy to and from the Baltimore-Washington area with plenty of direct flights, simple ways to get around the region, terrific amenities, and even some fun with our Observation Gallery, art exhibits and bike and cardio trails."
+	} %}
+
+	{% include '../partials/components/feature/hud.twig' with {
+		time: "3:45pm",
+		parking: [
+			{
+				percent: "0",
+				type: "Hourly",
+				status: "Lot Full",
+				perHour: "4",
+				perDay: "22"
+			},
+			{
+				percent: "55",
+				type: "Daily",
+				status: "Available",
+				perDay: "12"
+			},
+			{
+				percent: "17",
+				type: "Express",
+				status: "Mostly Full",
+				perDay: "10"
+			},
+			{
+				percent: "90",
+				type: "Long-Term A",
+				status: "Mostly Open",
+				perDay: "8"
+			}
+		],
+		notifications: [
+			"Samsung Galaxy Note7 Smartphones Prohibited from Air Travel"
+		]
+	} %}
+{% endblock %}
+
+{% block page_header %}
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/guide.twig' with {
+		title: "What do you need help with today?",
+		choices: [
+			"I’m Planning a Trip",
+			"I’m Flying from BWI",
+			"I’m Arriving at BWI",
+			"I’m Picking Someone Up"
+		],
+		items: [
+			{
+				title: "A prepared traveler is a happy traveler. Here are a few things to know about flying with <strong>BWI Marshall Airport.</strong>",
+				links: [
+					"Getting to BWI",
+					"Booking a Flight",
+					"Places to Eat"
+				]
+			},
+			{
+				title: "A safe traveler is a joyful traveler. Here are a few things to know about flying from <strong>BWI Marshal Airport.</strong>",
+				links: [
+					"Finding your Fun",
+					"Prepping for Takeoff"
+				]
+			},
+			{
+				title: "A happy traveler is a nice traveler. Here are a few things to know before you leave from <strong>BWI Marshal Airport.</strong>",
+				links: [
+					"Find your Car",
+					"Book a Hotel"
+				]
+			},
+			{
+				title: "A helpful friend is a best friend. Here are a few things to know as you pick up your friend or loved on from <strong>BWI Marshal Airport.</strong>",
+				links: [
+					"Find Pickup Spot",
+					"Places to Park"
+				]
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/facts.twig' with {
+		title: "Did you know?",
+		caption: "The latest news, facts, and press at BWI Marshall Airport.",
+		facts: [
+			{
+				image: 1,
+				title: "You Can Now Rent a Bike to Enjoy Our 12.5 Mile Scenic Outdoor Bike Trail",
+				caption: "Stretch your legs outside before your flight.",
+				link: "About the Trail"
+			},
+			{
+				image: 2,
+				title: "The Website Thrillist Found BWI to be a #1 Airport in America",
+				caption: "<a href>The Thrillist</a> website found that BWI Marshall is <em>“surprisingly, refreshingly great, offering opportunities for fitness, rest, relaxation, cultural enrichment, even outdoor activities.”</em>",
+				link: "Read More"
+			},
+			{
+				image: 3,
+				title: "BWI’s SPAGnVOLA Rated a Top 10 World’s Best Chocolate Shop",
+				caption: "National Geographic rated chocolatier SPAGnVOLA as as a top 10 contender in the world of chocolate.",
+				link: "Read More"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "full",
+		background: 3,
+		title: "Inspiring Destinations",
+		caption: "and the convenient non-stop flights you’re looking for.",
+		link: "Exciting Destinations",
+		subCaption: "<a href>London</a> is a diverse and exciting city with some of the world's best sights, attractions and activities."
+	} %}
+{% endblock %}

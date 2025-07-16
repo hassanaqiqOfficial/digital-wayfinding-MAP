@@ -1,0 +1,347 @@
+/* ==========================================================================
+	Google CSE
+============================================================================= */
+
+.site_search_results {
+	padding-top: 60px;
+
+	/* Entire Search Module
+	=========================================================================== */
+
+	.gsc-control-cse {
+		background: none;
+		border: 0;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0;
+	}
+
+
+	/* Search Box Area
+	=========================================================================== */
+
+	.gsc-search-box {
+		position: relative;
+
+		font-size: inherit;
+		margin-bottom: 23px;
+
+		.gsib_a {
+			padding: 0;
+		}
+
+		.gsc-input-box {
+			border: 0;
+		}
+
+		td.gsc-input {
+			width: 100%;
+
+			padding-right: 0;
+		}
+
+		.gsc-input-box {
+			height: auto;
+
+			box-shadow: none;
+
+			.gsib_b {
+				display: none;
+			}
+		}
+
+		input.gsc-input {
+			@include body_text;
+
+			height: auto !important;
+			width: 100%;
+
+			background-color: transparent !important;
+			background-position: 20px 50% !important;
+			border: 3px solid $red !important;
+			box-shadow: none;
+			font-size: inherit;
+			font-weight: 700;
+			margin: 0 !important;
+			padding: 19px 30px 18px !important;
+		}
+
+		td.gsc-search-button {
+			height: 100%;
+			width: auto;
+
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		input.gsc-search-button {
+			height: 100%;
+			min-width: 100%;
+			width: 0;
+
+			background-color: transparent !important;
+			background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABGdBTUEAALGPC/xhBQAAAyJJREFUSA21VktPU1EQnrm3NeHhpSBSQgpI1ChikIQVCyPRmKjAhmiiO93xC/gR7k1cYVxpgrrBVzQq6IKFIVEiolGDQENEXuXyWrRlnOnl0MOl97aX4N2c13zfd2Y6M6cIe/i+RxrOpFOpq0B0EQDrCOAQAiwA0BQgvjZDoUcnEhOfc1GzXeHfj7Lao8k03SaC7nwoRHgSNrH3+PL0L922YMFvVuzS5iY+JKIyncBvjojLhkHXT9rxl8quIMExq/4yptMDHDpTAWVkwi8cxmEinEekSt5p4wud3mEDkCbT7GqyJ19kMPphrrkTRhjRPUPACRa41bgaH3JjxkuPtBOl+wioQZ2Jp2ETWiW8htr0Gp3fTAsjYn9lsdWcS0w4Gld/D8o5u9+vOOWywiNr35BKNqaSyU8KKJ4JWdXc2Kra8xr/Hm4qnV+3R3VPQ+Fwi6+HmdTXGCWMhYgJROzEXoOD8PkKOnXmQCRBvMKok+pzsXcSa2uX69ZfkIs6S0DD2XmQmY7DujyCUKGoJfXVPMio46Qj+QoSwrQid+pMrQofdRxn6IKvIBD8zFJjW3YeZKbjaMpfEGi7JKSDjJfGzgWRcpqA1nkQX/kKYjh8lwVSSoR/j3tSX2rtN4qddBzdhl+Rx76CpxITk5zW2Y7B7Wpuw+7LJyrnYqcXvbwe8mT5Ck7HYkUMiuq35Nq8Jh3EK7yyL+dip3B8ae6l2Ctrz9YmYisJGOC374ICukenqPO/FoYJneqJyik4U9NavGTPDnCWnneLBFmLZ2QYN9TTJNhdId0Se5pTDOEtkzxg3HYieV3AefGhVRcT2x0eiljCnn3GYWx3EzHBm4MR6KqNxze+RhrqKZnsYXgLMxxDglq2Xwz0n+ZPtLlkcW2JxWh3rbFnVgQ6Rcx9kaDrTEi3xJ57iL0rt6IZz4KS57JHqZn5DVvEzroNOIyDESvaUTMzsu4+2+s6xDVzh2sthxgORayqfRWTS4YIqZszcsfHmfi+oqS8o3ofPVMCBhCOq4WMLPaBxa5Uz46u6fv7NTcOIN5kmY/8e63wn6T7lUXWfxOTS/8D7AVmrH4BN5wAAAAASUVORK5CYII=') !important;
+			background-position: 50% 50% !important;
+			background-repeat: no-repeat !important;
+			background-size: 14px 14px !important;
+			border: 0;
+			border-radius: 0;
+			box-shadow: none;
+			color: transparent;
+			cursor: pointer;
+			font-size: inherit;
+			font-weight: normal;
+			margin-top: 0;
+			margin-left: 0;
+			padding: 10px 40px;
+			transition: transform .25s;
+
+			&:focus,
+			&:hover {
+				transform: scale(1.15);
+			}
+		}
+
+		td.gsc-clear-button {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		div.gsc-clear-button {
+			background: none;
+			display: block;
+			margin: 0;
+			padding-left: 0;
+			text-align: center;
+		}
+
+	}
+
+	.gsc-branding {}
+
+
+	/* Tabs
+	=========================================================================== */
+
+	.gsc-tabsArea {
+		border-bottom: 0;
+		display: none;
+		margin: 0;
+
+		.gsc-tabHeader {
+			border: 0;
+			color: inherit;
+			margin: 0;
+			padding: 4px;
+		}
+
+		.gsc-tabhInactive {}
+
+		.gsc-tabhActive {}
+	}
+
+
+	/* Refinements
+	=========================================================================== */
+
+	.gsc-refinementsArea {
+		border-bottom: 0;
+		display: none;
+		margin-bottom: 0;
+		padding: 0;
+
+		.gsc-refinementHeader {
+			margin: 0;
+			padding: 4px;
+		}
+
+		.gsc-refinementhInactive {}
+
+		.gsc-refinementhActive {}
+	}
+
+
+	/* Above Wrapper Area
+	=========================================================================== */
+
+	.gsc-above-wrapper-area {
+		border-bottom: 1px solid rgba(#979797, .2);
+		padding: 0 0 56px;
+
+		.gsc-result-info {
+			@include body_text_small;
+
+			color: #333;
+			font-size: inherit;
+			margin: 0;
+			padding: 0;
+		}
+
+		.gsc-orderby-container {
+			display: none;
+		}
+	}
+
+
+	/* Wrapper
+	=========================================================================== */
+
+	.gsc-wrapper {
+
+		.gsc-adBlock {
+			display: none;
+		}
+	}
+
+
+	/* Results
+	=========================================================================== */
+
+	.gsc-results {
+		width: 100%;
+
+		position: relative;
+
+		padding-bottom: 0;
+
+		.gsc-result {
+
+			&:not(.gsc-imageResult) {
+				border: 0;
+				border-bottom: 1px solid rgba(#979797, .2);
+				margin-bottom: 0;
+				padding: 40px 0;
+			}
+		}
+
+		.gsc-table-result {
+			font-family: inherit;
+			font-size: inherit;
+		}
+
+		.gsc-thumbnail {
+			padding: 0 20px 0 0;
+
+			.gs-image-box {
+				height: auto;
+				width: 80px;
+
+				padding: 0;
+			}
+
+			img.gs-image {
+				max-height: 100% !important;
+				max-width: 100%;
+				width: 100%;
+
+				border: 0;
+			}
+		}
+
+		.gsc-table-cell-snippet-close {
+			padding: 0;
+		}
+
+		div.gs-title {
+			height: auto;
+
+			color: inherit;
+			font-size: inherit;
+			margin-bottom: 10px;
+			text-decoration: none;
+		}
+
+		a.gs-title {
+			@include heading_4;
+
+			height: inherit;
+
+			color: inherit !important;
+			text-decoration: inherit;
+
+			&:focus,
+			&:hover {}
+
+			b {
+				color: $red !important;
+				font: inherit;
+				text-decoration: inherit;
+			}
+		}
+
+		.gs-snippet {
+			@include body_text_small;
+
+			color: #333;
+			margin-bottom: 10px;
+		}
+
+		.gsc-url-top {
+			display: none;
+		}
+
+		.gsc-url-bottom {
+			display: none !important;
+		}
+
+		.gs-visibleUrl {
+			@include body_text_small;
+
+			color: $red;
+
+			b {
+				color: inherit;
+				font-weight: inherit;
+			}
+		}
+	}
+
+
+	/* Cursor Box
+	=========================================================================== */
+
+	.gsc-expansionArea {
+
+		.gsc-cursor-box {
+			border-top: 2px solid rgba(#979797, .2);
+			margin: 0;
+			padding: 28px 0;
+
+			.gsc-cursor-page {
+				@include heading_5;
+
+				background: none;
+				color: #000;
+				display: inline-block;
+				margin-right: 4px;
+				padding: 0 7px;
+				text-decoration: none;
+				transition: color .25s;
+
+				&:focus,
+				&:hover {
+					color: $red;
+				}
+			}
+
+			.gsc-cursor-current-page {
+				color: $red;
+			}
+		}
+	}
+
+
+	/* Branding
+	=========================================================================== */
+
+	div.gcsc-branding {
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		padding-bottom: 20px;
+		pointer-events: none;
+	}
+}

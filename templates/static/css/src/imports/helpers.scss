@@ -1,0 +1,176 @@
+/* ==========================================================================
+	Helper Mixins
+============================================================================= */
+
+@mixin faded_label() {
+	@include label_text;
+
+	color: rgba(#fff, .5);
+	margin: 0 0 5px;
+}
+
+@mixin bubble_button($size: 42px, $solo: true) {
+	height: $size;
+	width: $size;
+
+	position: relative;
+
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 4px 0 rgba(#000, .22);
+	color: transparent;
+	cursor: pointer;
+	overflow: hidden;
+	user-select: none;
+	transition: background .25s;
+
+	&:focus,
+	&:hover {
+		background: $gray_20;
+	}
+
+	@if $solo {
+
+		svg {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+
+			margin: auto;
+		}
+	}
+}
+
+@mixin arrowed_link() {
+
+	span {
+		margin-right: 5px;
+	}
+}
+
+@mixin gray_arrowed_link() {
+	color: $red;
+
+	&:focus,
+	&:hover {
+		color: $black;
+
+		svg {
+			fill: $red;
+		}
+	}
+}
+
+@mixin bordered_ribbon() {
+	align-items: center;
+	display: flex;
+	margin-bottom: 20px;
+
+	@media print {
+		display: none;
+	}
+
+	&:after {
+		background: $red;
+		border-bottom: 3px solid $red;
+		content: "";
+		flex: 1;
+
+		.theme_home & {
+
+			@media #{$min_xl} {
+				transform: scaleX(0);
+				transform-origin: left center;
+				transition: transform .5s .05s;
+			}
+		}
+
+		.reveal & {
+
+			@media #{$min_xl} {
+				transform: scaleX(1);
+			}
+		}
+	}
+
+	> span {
+		margin-right: 15px;
+	}
+
+	svg {
+
+		.theme_home & {
+
+			@media #{$min_xl} {
+				transform: scale(0);
+				transition: transform .25s;
+			}
+		}
+
+		.reveal & {
+
+			@media #{$min_xl} {
+				transform: scale(1);
+			}
+		}
+	}
+}
+
+@mixin status() {
+	@include proxima(600);
+
+	border-radius: 20px;
+	color: #fff;
+	display: inline-block;
+	font-size: 10px;
+	margin: 0;
+	padding: 4px 10px 3px;
+	text-transform: uppercase;
+}
+
+@mixin expander() {
+
+	&:focus,
+	&:hover {
+
+		span {
+
+			&:after {
+				transform: scaleX(1);
+			}
+		}
+	}
+
+	> span {
+		position: relative;
+
+		&:after {
+			height: 2px;
+			width: 100%;
+
+			position: absolute;
+			top: 100%;
+			left: 0;
+
+			background: $red;
+			content: "";
+			transform: scaleX(0);
+			transform-origin: left center;
+			transition: transform .25s;
+		}
+	}
+}
+
+@mixin offset-top() {
+	margin-top: $margin_sm * -1 - 20px;
+
+	@media #{$min_md} {
+		margin-top: $margin_md * -1 - 20px;
+	}
+
+	@media #{$min_lg} {
+		margin-top: $margin_lg * -1 - 40px;
+	}
+}

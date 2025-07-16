@@ -1,0 +1,79 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		title: "Places to Go",
+		caption: "There’s a lot to see and do a BWI Marshall."
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		"Observation Gallery",
+		"Lounge",
+		"USO",
+		"Meditation Room",
+		"Art Exhibits"
+	] %}
+{% endblock %}
+
+{% set pageTitle = "Places to Go" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "" %}
+{% endblock %}
+
+{% block typography %}
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, velit eu porta pretium, mi eros suscipit est, vel viverra leo diam id ipsum. Proin ante mauris, porttitor sed ipsum non, dictum consequat ex. Aliquam ex dui, iaculis blandit sollicitudin a, pretium et erat. Fusce nec ligula ac nibh facilisis tempor vel eu orci.</p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "framed",
+		background: 3,
+		title: "Experience BWI",
+		caption: "and the convenient non-stop flights you’re looking for.",
+		link: "Observation Gallery",
+		subCaption: "The updated Observation Gallery displays new objects and exhibits, including a 28-foot tall sounding rocket provided by NASA"
+	} %}
+
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "framed",
+		background: 3,
+		title: "Experience More",
+		caption: "Jenn Wasner of Wye Oak stops by the BWI baggage claim on Feb 12.",
+		subCaption: "At airports, baggage claim is often a mindless waiting game. Baltimore musicians will change that soon. Jenn Wasner of Wye Oak is slated to perform Feb. 12, 5:00 PM - 7:00 PM"
+	} %}
+
+	{% include '../partials/components/full-width/listing.twig' with {
+		listings: [
+			{
+				title: "The Airspace Lounge",
+				caption: "Airspace Lounge provides an enclave from the rest of the airport for all BWI flyers with our private restrooms, full bar and power outlets at every seat.",
+				link: "The Airspace Lounge"
+			},
+			{
+				title: "USO",
+				caption: "The USO International Gateway Lounge is a $1.1 million, 5,000 square-foot facility serving 99 percent of the U.S. Armed Forces traveling to and from duty stations in Europe, Southwest Asia and the United States. The Lounge serves as a “home away from home” to military personnel traveling through BWI Marshall. ",
+				link: "United Service Organizations"
+			},
+			{
+				title: "Meditation Room",
+				caption: "Did you know BWI offers a meditation room? It’s in a very public area, but remains a relatively little-known quiet corner of the airport.",
+				link: "Meditation Room"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/info.twig' with {
+		class: "framed",
+		dimension: img.square.xsml,
+		image: 2,
+		symbol: "traveler",
+		title: "Find What’s Nearby",
+		caption: "There’s a lot to do at BWI Marshall Airport. Get the lay of the land and make the most out of your journey.",
+		dropdown: [
+			"Select Your Concourse"
+		]
+	} %}
+{% endblock %}

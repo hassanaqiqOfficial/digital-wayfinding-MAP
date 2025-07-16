@@ -1,0 +1,76 @@
+/* ==========================================================================
+	Spotlight
+============================================================================= */
+
+.spotlight {
+	position: relative;
+
+	&.theme_image {
+		padding-top: 50%;
+
+		@media print {
+			padding-top: 0;
+		}
+
+		@media #{$min_md} {
+			margin-bottom: 40px;
+			padding-top: 25%;
+		}
+	}
+}
+
+.spotlight_background {
+	@include cover;
+}
+
+.spotlight_row {
+	position: relative;
+
+	&:before {
+		height: 100%;
+		width: 50%;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		background: #fff;
+		content: "";
+	}
+}
+
+.spotlight_body {
+	background: #fff;
+	display: inline-block;
+	padding: 35px 20px 0 0;
+
+	@media print {
+		padding: 25px 0 0;
+	}
+
+	@media #{$min_lg} {
+		padding: 60px 50px 12px 0;
+	}
+
+	.theme_image & {
+		padding: 25px 20px 15px 0;
+
+		@media #{$min_lg} {
+			padding: 55px 50px 45px 0;
+		}
+	}
+}
+
+.spotlight_title {
+	@include heading_1;
+
+	color: $red;
+	margin: 0 0 6px;
+}
+
+.spotlight_caption {
+	@include intro_text;
+
+	color: $dark;
+	margin: 0;
+}

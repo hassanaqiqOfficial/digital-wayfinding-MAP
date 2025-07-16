@@ -1,0 +1,26 @@
+<div class="highlight">
+	<div class="js-background highlight_poster_background" data-background-options='{
+		"source": "../../images/poster-mini.png"
+	}'></div>
+	{% include '../shared/background-video.twig' with {
+		class: "highlight",
+		loop: "true",
+		poster: "poster.png",
+		image: 5,
+		sources: {
+			mp4: "../../images/HUD-Original-Window-Approved-FINAL.mp4"
+		}
+	} %}
+	<div class="highlight_wrapper">
+		<div class="row">
+			<div class="highlight_body">
+				<h1 class="highlight_title">{{title}}</h1>
+				<p class="highlight_caption">{{caption}}</p>
+				<a class="highlight_link" href="#">
+					<span>Go Somewhere</span>
+					{{site.symbol("arrow_right", "red")}}
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

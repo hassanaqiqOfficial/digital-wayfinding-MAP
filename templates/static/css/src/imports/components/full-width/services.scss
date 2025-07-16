@@ -1,0 +1,135 @@
+/* ==========================================================================
+	Services
+============================================================================= */
+
+.services {
+	@include padded_lg;
+
+	position: relative;
+
+	overflow: hidden;
+
+	&:before {
+		@include cover;
+
+		z-index: 2;
+
+		background: rgba($mist, .8);
+		content: "";
+	}
+}
+
+.services_header {
+	position: relative;
+	z-index: 20;
+}
+
+.services_title {
+	@include heading_2;
+
+	margin: 0 0 25px;
+}
+
+.services_wrapper {
+	@include clearfix;
+
+	max-width: 342px;
+
+	position: relative;
+	z-index: 20;
+
+	@media #{$min_lg} {
+		max-width: 100%;
+	}
+
+	@media #{$min_xl} {
+		padding-right: 165px;
+	}
+
+	&.fs-carousel {
+
+		@media #{$min_lg} {
+			cursor: inherit;
+		}
+	}
+
+	.fs-carousel-canister {
+		display: flex;
+		flex-wrap: wrap;
+
+		@media #{$min_lg} {
+			width: 100% !important;
+
+			transform: none !important;
+		}
+	}
+}
+
+.service {
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(#000, .2);
+	margin-right: 20px;
+	padding: 35px 30px 20px;
+
+	@media print {
+		margin-bottom: 30px;
+		padding: 0;
+	}
+
+	@media #{$min_lg} {
+		width: 31% !important;
+
+		float: left;
+
+		margin-right: 2%;
+		margin-bottom: 20px;
+	}
+
+	&:nth-child(3n) {
+
+		@media #{$min_lg} {
+			clear: right;
+		}
+	}
+
+	&:nth-child(3n + 1) {
+
+		@media #{$min_lg} {
+			clear: left;
+		}
+	}
+
+	&:last-child,
+	&:nth-last-child(2),
+	&:nth-last-child(3) {
+
+		@media #{$min_lg} {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.service_title {
+	@include proxima(700);
+
+	font-size: 16px;
+	margin: 0 0 8px;
+}
+
+.service_caption {
+	@include body_text_small;
+
+	color: $dark;
+	margin: 0 0 10px;
+}
+
+.service_link {
+	@include proxima(700);
+	@include arrowed_link;
+	@include gray_arrowed_link;
+	@include expander;
+
+	display: inline-block;
+	font-size: 13px;
+	padding: 10px 10px 10px 0;
+}

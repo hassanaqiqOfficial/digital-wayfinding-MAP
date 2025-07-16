@@ -1,0 +1,474 @@
+/* ==========================================================================
+	Type Base
+============================================================================= */
+
+@mixin heading_1($query: $min_lg) {
+	@include proxima(900);
+
+	font-size: 32px;
+	line-height: (38 / 32);
+
+	@media #{$min_md} {
+		font-size: 42px;
+		line-height: (50 / 42);
+	}
+
+	@media #{$query} {
+		font-size: 60px;
+		line-height: (64 / 60);
+	}
+}
+
+@mixin heading_2() {
+	@include proxima(900);
+
+	font-size: 28px;
+	line-height: (34 / 28);
+
+	@media #{$min_md} {
+		font-size: 36px;
+		line-height: (44 / 36);
+	}
+
+	@media #{$min_lg} {
+		font-size: 42px;
+		line-height: (50 / 42);
+	}
+}
+
+@mixin heading_3() {
+	@include proxima(900);
+
+	font-size: 24px;
+	line-height: (30 / 24);
+
+	@media #{$min_lg} {
+		font-size: 36px;
+		line-height: (44 / 36);
+	}
+}
+
+@mixin heading_4() {
+	@include proxima(900);
+
+	font-size: 22px;
+	line-height: (28 / 22);
+
+	@media #{$min_lg} {
+		font-size: 28px;
+		line-height: (34 / 28);
+	}
+}
+
+@mixin heading_5() {
+	@include proxima(700);
+
+	font-size: 18px;
+	line-height: (28 / 18);
+}
+
+@mixin heading_6() {
+	@include proxima(700);
+
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: (18 / 14);
+	text-transform: uppercase;
+}
+
+@mixin heading_7() {
+	@include proxima(700);
+
+	font-size: 14px;
+	line-height: (18 / 14);
+}
+
+@mixin body_text($query: $min_lg) {
+	@include proxima(300);
+
+	font-size: 16px;
+	line-height: (24 / 16);
+
+	@media #{$query} {
+		font-size: 22px;
+		line-height: (34 / 22);
+	}
+}
+
+@mixin body_text_small() {
+	@include proxima(300);
+
+	font-size: 16px;
+	line-height: (24 / 16);
+}
+
+@mixin label_text() {
+	@include proxima(400);
+
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: (24 / 15);
+	text-transform: uppercase;
+}
+
+@mixin intro_text() {
+	@include proxima(300);
+
+	font-size: 18px;
+	line-height: (28 / 18);
+
+	@media #{$min_md} {
+		font-size: 22px;
+		line-height: (34 / 22);
+	}
+
+	@media #{$min_lg} {
+		font-size: 30px;
+		line-height: (40 / 30);
+	}
+}
+
+@mixin caption_text() {}
+
+a {
+	@include transition_link;
+
+	text-decoration: none;
+
+	.touch &[href^=tel] {
+		color: inherit;
+	}
+}
+
+strong {
+	font-weight: 700;
+}
+
+
+/* typography
+============================================================================= */
+
+.typography {
+	@include body_text;
+
+	color: $dark;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $black;
+		margin-bottom: 22px;
+	}
+
+	h1 {
+		@include heading_1;
+
+		color: #000;
+	}
+
+	h2 {
+		@include heading_2;
+
+		color: $red;
+	}
+
+	h3 {
+		@include heading_3;
+
+		color: #000;
+	}
+
+	h4 {
+		@include heading_4;
+
+		color: #000;
+	}
+
+	h5 {
+		@include heading_5;
+
+		color: #000;
+	}
+
+	h6 {
+		@include heading_6;
+
+		color: #000;
+	}
+
+	a {
+		border-bottom: 1px solid;
+		color: $red;
+
+		&:focus,
+		&:hover {
+			background: $red;
+			color: #fff;
+		}
+	}
+
+	p {
+		margin: 16px 0 26px;
+
+		@media #{$min_lg} {
+			margin: 22px 0 34px;
+		}
+	}
+}
+
+
+/* WYSIWYG Images
+============================================================================= */
+
+.typography {
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.block_left,
+	.block_right,
+	.block_center {
+		width: auto;
+
+		display: table;
+		table-layout: fixed;
+
+		img {
+			display: block;
+			max-width: 100%;
+		}
+
+		figcaption {
+			@include label_text;
+
+			caption-side: bottom;
+			display: table-caption;
+			text-transform: none;
+		}
+	}
+
+	.block_left,
+	.block_right {
+		max-width: 50%;
+
+		@media #{$max_sm} {
+			max-width: 100%;
+
+			float: none;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		@media #{$min_sm} {
+			margin-bottom: 20px;
+		}
+	}
+
+	.block_left {
+
+		@media #{$min_sm} {
+			float: left;
+
+			margin-right: 20px;
+		}
+	}
+
+	.block_right {
+
+		@media #{$min_sm} {
+			float: right;
+
+			margin-left: 20px;
+		}
+	}
+
+	.block_center {
+		text-align: center;
+
+		img {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+}
+
+
+/* Blockquote
+============================================================================= */
+
+.typography {
+
+	blockquote {
+		@include proxima(700);
+
+		p {}
+	}
+
+	.quote {}
+
+	.quote_content {
+
+		p {}
+	}
+
+	.quote_caption {}
+
+	.quote_caption_name {}
+
+	.quote_caption_title {}
+}
+
+
+/* Lists
+============================================================================= */
+
+.typography {
+
+	ol,
+	ul {
+		padding-left: 20px;
+
+		li {}
+
+		ol,
+		ul {
+			padding-left: 30px;
+		}
+	}
+
+	ol {
+		counter-reset: listing-counter;
+		list-style: none;
+		padding-left: 0;
+
+		> li {
+
+			&:before {
+				color: $red;
+				content: counter(listing-counter, decimal) ".";
+				counter-increment: listing-counter;
+				font-weight: 700;
+				margin-right: 10px;
+
+				@at-root [type="A"] & {
+					content: counter(listing-counter, upper-latin);
+				}
+
+				@at-root [type="a"] & {
+					content: counter(listing-counter, lower-latin);
+				}
+			}
+		}
+	}
+
+	ul {
+		list-style: none;
+
+		li {
+
+			&:before {
+				width: 5px;
+				height: 5px;
+
+				background: $red;
+				border-radius: 50%;
+				content: "";
+				display: block;
+				float: left;
+				margin: 12px 0 0 -20px;
+			}
+		}
+	}
+}
+
+
+/* Tables
+============================================================================= */
+
+.typography {
+
+	table {
+		@include margined;
+
+		width: 100%;
+
+		border-collapse: collapse;
+
+		tr {
+
+			&:nth-child(even) {
+				background: #eee;
+			}
+		}
+
+		th,
+		td {}
+
+		th {
+			@include heading_6;
+
+			background: $red;
+			color: #fff;
+			padding: 16px 20px 15px;
+			text-align: left;
+
+			&:first-child {
+				border-radius: 4px 0 0 0;
+			}
+
+			&:last-child {
+				border-radius: 0 4px 0 0;
+			}
+		}
+
+		td {
+			font-size: 16px;
+			line-height: (24 / 16);
+			padding: 10px 20px;
+		}
+	}
+}
+
+// 1. Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
+
+.table_wrapper {
+
+	@include margined;
+
+	min-height: .01%; // 1
+
+	&.table_wrapper_overflow {
+		position: relative;
+
+		border: 1px solid #ccc;
+
+		&:after {
+			@include gradient_horizontal(rgba($true_black, 0), rgba($true_black, .1));
+
+			width: 20px;
+			height: 100%;
+
+			position: absolute;
+			top: 0;
+			right: 0;
+
+			content: "";
+		}
+
+		.table_wrapper_inner {
+			overflow-y: hidden;
+			-ms-overflow-style: -ms-autohiding-scrollbar;
+		}
+	}
+}
+
+
+/* Iframes
+============================================================================= */
+
+.typography {
+
+	iframe {
+		width: 100% !important;
+	}
+}

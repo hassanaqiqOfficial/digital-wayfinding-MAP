@@ -1,0 +1,73 @@
+<form action="flying-with-us/flights/arrivals#customerComponent" class="hud_flights_form" method="get">
+	<header class="hud_header">
+		<span class="hud_title_flag">
+			<span class="hud_title_indicator">
+				<span class="hud_title_icon hud_title_icon_airplane">
+					<svg aria-hidden="true" class="symbol symbol_airplane symbol_white">
+						<use xlink:href="#airplane"></use>
+					</svg>
+				</span>
+			</span>
+		</span>
+		<h2 class="hud_title">Flight Status</h2>
+	</header>
+	<div class="hud_flights">
+		<div class="fs-dropdown_wrapper hud_flight_dropdown_wrapper">
+			<select name="airline" class="js-dropdown hud_flight_dropdown">
+				<option value="">Select an Airline</option>
+				<option value="AC">Air Canada</option>
+				<option value="AS">Alaska Airlines</option>
+				<option value="G4">Allegiant Air</option>
+				<option value="AA">American Airlines</option>
+				<option value="4B">Boutique Air</option>
+				<option value="BA">British Airways</option>
+				<option value="DE">Condor</option>
+				<option value="DL">Delta Air Lines</option>
+				<option value="B6">JetBlue</option>
+				<option value="DY">Norwegian</option>
+				<option value="9X">Southern Airways Express</option>
+				<option value="WN">Southwest Airlines</option>
+				<option value="NK">Spirit Airlines</option>
+				<option value="WG">Sunwing</option>
+				<option value="UA">United Airlines</option>
+				<option value="VX">Virgin America</option>
+				<option value="WW">WOW</option>
+				<option value="XP">Xtra Airways</option>
+			</select>
+			<span class="fs-dropdown_icon hud_flight_dropdown_icon">
+				<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+					<use xlink:href="#caret_down"></use>
+				</svg>
+			</span>
+		</div>
+		<div class="fs-dropdown_wrapper hud_flight_dropdown_wrapper">
+			<select name="date" class="js-dropdown hud_flight_dropdown">
+				<option value="">Select a Date</option>
+				{% for i in range(-5, 20) %}
+				<option value="{{ date("+" ~ i ~ " days")|date("Ymd") }}">{{ date("+" ~ i ~ " days")|date("D, M j") }}</option>
+				{% endfor %}
+			</select>
+			<span class="fs-dropdown_icon hud_flight_dropdown_icon">
+				<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+					<use xlink:href="#caret_down"></use>
+				</svg>
+			</span>
+		</div>
+		<input class="hud_flight_input" name="flight" type="text" placeholder="Flight #" aria-label="Enter Flight Number" />
+	</div>
+
+	<footer class="hud_links">
+		<button type="submit" class="hud_link">
+			<span>Find Flight</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</button>
+		<a class="hud_link" href="{{ content.field_link[0]["#url"] }}">
+			<span>All Flights</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+	</footer>
+</form>

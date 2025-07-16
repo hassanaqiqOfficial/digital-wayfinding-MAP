@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="" fill-rule="evenodd">
+        <g id="BWI-HUD-Design-f1" transform="translate(-1294.000000, -435.000000)" fill="">
+            <g id="hud-sidebar" transform="translate(1189.000000, 0.000000)">
+                <g id="Group-6" transform="translate(25.000000, 141.000000)">
+                    <g id="Group-22" transform="translate(11.000000, 290.000000)">
+                        <g id="swap-horiz" transform="translate(69.000000, 4.000000)">
+                            <polygon id="Shape" points="11 4 7 0 7 3 0 3 0 5 7 5 7 8"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

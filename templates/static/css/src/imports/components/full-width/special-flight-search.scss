@@ -1,0 +1,247 @@
+.flight_search_block {
+	@include margined_md_top;
+}
+
+.flight_search_details {
+	margin: 25px 0;
+
+	@media #{$min_sm} {
+		margin: 35px 0;
+	}
+}
+
+.flight_search_details_title {
+	@include heading_2;
+
+	color: $red;
+	margin: 0 0 10px;
+
+	@media #{$min_sm} {
+		margin-bottom: 20px;
+	}
+}
+
+.flight_search_details_body {
+
+	@media #{$min_md} {
+		display: flex;
+	}
+}
+
+.flight_search_caption {
+	@include body_text;
+
+	margin-bottom: 25px;
+
+	@media #{$min_sm} {
+		margin-bottom: 30px;
+	}
+
+	@media #{$min_md} {
+		width: 50%;
+
+		margin-bottom: 0;
+		padding-right: 60px;
+	}
+
+	@media #{$min_lg} {
+		width: calc(100% - 380px);
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.flight_search_explore {
+	
+	@media #{$min_md} {
+		width: 50%;
+
+		margin-top: 5px;
+	}
+
+	@media #{$min_lg} {
+		width: 380px;
+
+		margin-top: 11px;
+	}
+}
+
+.flight_search_explore_label {
+	@include proxima(300);
+
+	font-size: 14px;
+	font-style: italic;
+	display: block;
+	margin-bottom: 6px;
+
+	@media #{$min_sm} {
+		margin-bottom: 8px;
+	}
+}
+
+.flight_search_explore_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	@media #{$min_sm} {
+		display: flex;
+	}
+}
+
+.flight_search_explore_item {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+
+	&:last-child {
+
+		@media #{$min_sm} {
+			margin-right: 0;
+		}
+	}
+}
+
+.flight_search_explore_link {
+	@include proxima(400);
+	@include arrowed_link;
+	@include gray_arrowed_link;
+	@include expander;
+
+	display: inline-block;
+	padding: 6px 0;
+
+	@media #{$max_sm} {
+		font-size: 14px;
+	}
+
+	@media #{$min_sm} {
+		padding: 10px 0;
+	}
+
+	span {
+
+		@media #{$max_sm} {
+			margin-right: 2px;
+		}
+	}
+
+	svg {
+
+		@media #{$max_sm} {
+			position: relative;
+			top: -1px;
+		}
+	}
+}
+
+.flight_search {}
+
+.flight_search_ribbon {
+
+	> span {
+		background: $red;
+		border-radius: 50%;
+		box-shadow: 0 0 0 5px $red;
+		margin-right: 15px;
+		margin-left: 5px;
+	}
+}
+
+.flight_search_body {}
+
+.flight_search_field_wrapper {
+
+	@media #{$min_sm} {
+		width: calc(100% - 170px);
+
+		margin-right: 10px;
+	}
+
+	@media #{$min_md} {
+		width: calc(100% - 210px);
+	}
+}
+
+.flight_search_field {
+
+	@media #{$min_sm} {
+		display: flex;
+	}
+}
+
+.flight_search_input {
+	@include proxima(400);
+
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAxVJREFUSA21Vt9LVEEUPueutZnZL5eSWg3NfSpMWA0MIimMfuhLFNRbvfUX9Ef0HvRk9FRQ+WJZGNVakJAulBQ9aEq6hcRuaZuJoDt95+7O9d7du+PuYgOXmTnznfPNOXPOzGWqoE3tP3pkhVYvQrUbXyORqiPiFMYz+J5XUeBh87d3HzAuaFwgMQgmGqIHVUbdJEUXDLDsElM/W3wjMhv/4saWTDgZ7jijVOa+UmqH24BpzMwLzNbllsToM40riXAy3H4Wng0oUgGtKD0MfoS3I8SURB9C34kNHfZgiFfhaW9LYuypreNe9BtLGClDca9nPM2WdS2SGB3O15kIt3dhc3041ya9Jp6SRVEJr6WFxXo5MzcZlB/s3FXb6kcmNiKJsZisC07bFH377CEwhtTORrXyXisCPi3G9nyK/VmT+Y9+HOraNv8rPe72tIqr2owe5lLfsShhLIVMFAQneEcZA7FnJARG6sxukiDFwqgx+b3gRc8l716PEEWda5KNlTSvXqORkEntdjgk9StpHj1VZySE/VmHQ+qskubR45SZUNGkw4GidsblDLx6M2ZCYqck5AaZCHecKIfLvgRcNw/IhoyEgWDwNmpvRZOoTOaO1Jeem3rBZW+cNZRFgUdGwubpt18Bd24MKeKF+XTfeqSyLjh30eOK6Zcny0g4G+6sZqa9a3uECaUuyQ1SLLwil3XBaT3U4oI8VTIverUJ2ZJaHsArcEor5vd2UZf0Wlg9+onyJfwejW5dnKMB7PJkPkk5c9sz5iv6aRLdgpDmyB77kcHASwTlnjuRim4AZyZPkptMsB4Pc2RPQNZVYIjpRTUHexsSI0tTTccOrC4vX8eJtsFCC7ANivgn+hl8pf3TzLWerkmnkiCjgloTz7bw5h4hK9hImQI7pEL2O5kcLEL2qqaebM/KtO0LZ6kZpPEgwnM8HwHPYiA7vy8e/5u/VuncQoHe8iej4Y0mk01aSBC/f8zXtXWhDfVMR8RCln3Wk2zPb7aHQufqx4cWvfKNmVkc2HQVpKOokDR+NO/iJ+m/kcmW/wEUOkZkszywggAAAABJRU5ErkJggg==');
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	background-size: 18px 18px;
+	box-shadow: 0 0 10px 0 rgba(#000, .15);
+	padding: 18px 20px 18px 55px;
+}
+
+.flight_search_submit {
+	margin-right: 0;
+
+	@media #{$max_sm} {
+		width: 100%;
+
+		text-align: left;
+	}
+
+	@media #{$min_sm} {
+		width: 160px;
+	}
+	
+	@media #{$min_md} {
+		width: 200px;
+	}
+}
+
+.flight_search_date_dropdown {
+	display: none;
+
+	@media #{$min_lg} {
+		margin-right: 120px;
+	}
+
+	.show_remaining_inputs & {
+		display: block;
+	}
+}
+
+.flight_search_footer {
+	border-top: 1px solid #D7D7D7;
+	margin-top: 10%;
+	padding-top: 20px;
+}
+
+.flight_search_all {
+	width: 100%;
+
+	color: $red;
+	cursor: pointer;
+	display: block;
+	outline: 0;
+	text-align: center;
+	transition: color .25s;
+
+	&:focus,
+	&:hover {
+		color: #000;
+	}
+}
+
+.flight_search_all_label {
+	@include proxima(700);
+
+	display: block;
+}
+
+.flight_search_all_icon {
+	display: inline-block;
+	transform: rotate(90deg);
+}

@@ -1,0 +1,12 @@
+<nav class="hud_nav" aria-label="Hud Navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<div class="hud_nav_list" role="navigation">
+		{% for link in items %}
+			<div class="hud_nav_item" itemprop="url">
+				<a class="hud_nav_link" href="{{ link.url }}" itemprop="name"{% if item.url.options.external %} target="_blank"{% endif %}>
+          <span class="hud_nav_link_symbol">{{ link.title }}</span>
+					<span class="hud_nav_link_label">{{ link.title }}</span>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</nav>

@@ -1,0 +1,15 @@
+{% set images = image_style(content.field_image, ['wide_xsml']) %}
+
+<article class="callout">
+	<h2 class="callout_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+	<a class="callout_image_link" href="{{ content.field_link[0]["#url"] }}">
+		<img class="callout_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.wide_xsml }}">
+	</a>
+	<p class="callout_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+	<a class="callout_link" href="{{ content.field_link[0]["#url"] }}" aria-title="Open page for more info on {{ content.field_link[0]["#title"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+		<span>{{ content.field_link[0]["#title"] }}</span>
+		<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+			<use xlink:href="#arrow_right"></use>
+		</svg>
+	</a>
+</article>

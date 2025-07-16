@@ -1,0 +1,86 @@
+/* ==========================================================================
+	Header
+============================================================================= */
+.header {
+	@include clearfix;
+
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 300;
+
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(#000, .18);
+	padding: 20px;
+
+	@media print {
+		position: relative;
+	}
+
+	@media #{$min_xl} {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	@at-root .skiptranslate ~ .page_wrapper .header {
+		top: 38px;
+	}
+
+	.theme_wayfinding & {
+
+		@media #{$min_md} {
+			display: none;
+		}
+	}
+}
+
+.header_ribbon {
+
+	@media #{$min_lg} {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.header_aside {
+
+	@media print {
+		display: none;
+	}
+
+	@media #{$min_lg} {
+		float: right;
+		position: relative;
+	}
+}
+
+// Section comment block
+// =============================================================================
+
+// .language_switcher {
+// 	@include proxima(700);
+//
+// 	color: $dark;
+// 	display: none;
+// 	font-size: 13px;
+// 	margin-right: 20px;
+// 	padding: 10px 0;
+// 	transition: colors .25s;
+//
+// 	@media #{$min_lg} {
+// 		display: inline-block;
+// 	}
+//
+// 	&:focus,
+// 	&:hover {
+// 		color: $red;
+// 	}
+//
+// 	.mobile_sidebar & {
+// 		display: inline-block;
+// 		margin: 12px 0;
+// 		padding: 20px 0;
+// 	}
+// }

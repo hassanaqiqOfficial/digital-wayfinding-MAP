@@ -1,0 +1,17 @@
+{% set images = image_style(content.field_background_image, ['ultrawide_xlrg', 'wide_med']) %}
+
+<section class="services">
+	<div class="js-background services_background" data-background-options='{"source": { "0px:": "{{ images.wide_med }}", "980px": "{{ images.ultrawide_xlrg }}" } }'></div>
+	<div class="row">
+		<header class="services_header">
+			<h2 class="services_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+		</header>
+		<div class="js-carousel services_wrapper" data-carousel-options='{
+			"contained": false,
+			"controls": false,
+			"pagination": false
+		}'>
+			{{ content.field_link_list_links }}
+		</div>
+	</div>
+</section>

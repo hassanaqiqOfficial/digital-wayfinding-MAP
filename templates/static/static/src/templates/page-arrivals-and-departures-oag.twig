@@ -1,0 +1,69 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		title: "Departures"
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		{
+      name: "Flights",
+      children: [
+        "Arrivals",
+        "Departures",
+        "Airlines",
+        "Book Flights & Tickets"
+      ]
+    },
+    {
+      name: "Security"
+    },
+    {
+      name: "Baggage"
+    },
+    {
+      name: "Lost & Found"
+    },
+    {
+      name: "International Travelers"
+    },
+    {
+      name: "Accessibility"
+    },
+    {
+      name: "Corporate & General Aviation"
+    },
+    {
+      name: "About BWI"
+    }
+	] %}
+{% endblock %}
+
+{% set pageTitle = "Departures" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "" %}
+{% endblock %}
+
+{% block typography %}
+	<h2>Find Your Flight</h2>
+	<p>Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus.</p>
+{% endblock %}
+
+{% block in_content_callouts %}
+	{% include '../partials/components/full-width/info.twig' with {
+		class: "inline",
+		dimension: img.square.xsml,
+		image: 2,
+		symbol: "airplane",
+		form: true
+	} %}
+{% endblock %}
+
+{% block full_width_callouts %}
+	<div class="row">
+		<script src="//demotracker.flightview.com/FVWebContent?tag=customerComponent,/CustomerSetup/BWIAirport/custom/"></script>
+	</div>
+{% endblock %}

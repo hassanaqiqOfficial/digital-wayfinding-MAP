@@ -1,0 +1,119 @@
+<section class="wayfinder">
+	<div class="wayfinder_aside">
+		<header class="wayfinder_header">
+			{% include '../../logo.twig' with {
+				modifier: "wayfinder"
+			} %}
+			<h2 class="wayfinder_title">Explore BWI</h2>
+		</header>
+		<div class="wayfinder_filters_wrapper">
+			<span class="wayfinder_filters_label">Show What's Near</span>
+			<div class="wayfinder_filters"></div>
+			<span class="wayfinder_filters_label wayfinder_filters_label_sm">Add a filter to view venues.</span>
+		</div>
+		<h4 class="wayfinder_groups_title">Filter By</h4>
+		<div class="wayfinder_groups"></div>
+		<div class="wayfinder_files">
+			<h4 class="wayfinder_files_title">View PDF Maps</h4>
+			<a class="wayfinder_file_link" href="#">
+				<span>Upper Level PDF</span>
+				{{site.symbol("arrow_right", "red")}}
+			</a>
+			<a class="wayfinder_file_link" href="#">
+				<span>Lower Level PDF</span>
+				{{site.symbol("arrow_right", "red")}}
+			</a>
+		</div>
+	</div>
+	<div class="wayfinder_body">
+		<div class="wayfinder_canvas" id="wayfinder"></div>
+		<div class="wayfinder_lightbox"></div>
+		<div class="wayfinder_layer_switches"></div>
+	</div>
+</section>
+<script>
+	var Filters = [
+		{
+			label: 'Airline',
+			options: [
+				{
+					name: 'View All',
+					id: ['']
+				},
+				{
+					name: 'American Airlines',
+					id: ['A', 'B', 'C']
+				},
+				{
+					name: 'Air Canada',
+					id: ['D']
+				},
+				{
+					name: 'Air Mobility Command',
+					id: ['E']
+				},
+				{
+					name: 'Alaska Airlines',
+					id: ['C']
+				},
+				{
+					name: 'Allegiant Air',
+					id: ['D']
+				},
+				{
+					name: 'British Airways',
+					id: ['E']
+				},
+				{
+					name: 'Charters',
+					id: ['E']
+				},
+				{
+					name: 'Condor',
+					id: ['E']
+				},
+				{
+					name: 'Delta',
+					id: ['D']
+				},
+				{
+					name: 'JetBlue',
+					id: ['D']
+				},
+				{
+					name: 'Southern Airways',
+					id: ['D']
+				},
+				{
+					name: 'Southwest',
+					id: ['A', 'B', 'C']
+				},
+				{
+					name: 'Spirit',
+					id: ['D']
+				},
+				{
+					name: 'United',
+					id: ['D']
+				}
+			]
+		},
+		{
+			label: 'Concourse',
+			options: [
+				'Concourse',
+				'Concourse A',
+				'Concourse B',
+				'Concourse C',
+				'Concourse D',
+				'Concourse E'
+			]
+		},
+		{
+			label: 'Gate#'
+		}
+	];
+
+	var MapData = {% include '../../../map-data.json' %};
+	var GateData = {% include '../../../gate-data.json' %};
+</script>

@@ -1,0 +1,19 @@
+<div class="highlight">
+	{% include '../shared/background-video.twig' with {
+		class: "highlight",
+		loop: "true",
+		poster: "15x15",
+		image: 5,
+		sources: {
+			video: "https://youtu.be/Oz3mm3tPKfg"
+		}
+	} %}
+	<div class="highlight_wrapper">
+		<div class="row">
+			<div class="highlight_body">
+				<h1 class="highlight_title">{{title}}</h1>
+				<p class="highlight_caption">{{caption}}</p>
+			</div>
+		</div>
+	</div>
+</div>

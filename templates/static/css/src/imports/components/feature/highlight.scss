@@ -1,0 +1,199 @@
+/* ==========================================================================
+	Highlight
+============================================================================= */
+
+.highlight {
+	min-height: 260px;
+
+	position: relative;
+
+	background: $dark;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+
+	@media print {
+		display: none;
+	}
+
+	@media #{$min_sm} {
+		min-height: 320px;
+	}
+
+	@media #{$min_md} {
+		min-height: 520px;
+	}
+
+	&:before {
+		@include cover;
+
+		z-index: 2;
+
+		background:
+			linear-gradient(
+				to top,
+					rgba(#000, .75),
+					transparent 65%
+			);
+		content: "";
+	}
+}
+
+.highlight_airplane_wrapper {
+	width: 100%;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+
+	transform: translate(0, -50%);
+}
+
+.highlight_airplane {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	transform: translate(0, 0);
+	transition: transform 2s;
+
+	.media_loaded & {
+		transform: translate(100%, 0);
+	}
+}
+
+.highlight_poster_background {
+	@include cover;
+
+	z-index: 2;
+
+	filter: blur(10px);
+	transition: opacity .25s;
+
+	.media_loaded & {
+		opacity: 0;
+	}
+}
+
+.highlight_background_video {
+	@include cover;
+
+	background: $black;
+}
+
+.highlight_wrapper {
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+
+	padding-bottom: 30px;
+
+	@media #{$min_xl} {
+		padding-bottom: 60px;
+	}
+}
+
+.highlight_body {
+	color: #fff;
+
+	@media #{$min_xl} {
+		max-width: 880px;
+	}
+}
+
+@mixin inactive_highlight {
+	opacity: 0;
+	transform: translate(0, 40px);
+
+	.no-js & {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+@mixin active_highlight {
+	opacity: 1;
+	transform:
+		translate(0, 0)
+		rotate(0);
+}
+
+.highlight_title {
+	@include heading_1($min_xl);
+	@include inactive_highlight;
+
+	margin: 0 0 20px;
+	transition:
+		opacity .75s 1s,
+		transform .75s 1s;
+
+	@media #{$max_sm} {
+		font-size: 24px;
+		opacity: 1;
+		transform: translate(0,0) rotate(0);
+	}
+
+	.media_loaded & {
+		@include active_highlight;
+	}
+}
+
+.highlight_caption {
+	@include body_text($min_xl);
+	@include inactive_highlight;
+
+	display: none;
+	margin: 0 0 26px;
+	transition:
+		opacity .75s 1.05s,
+		transform .75s 1.05s;
+
+	@media #{$min_md} {
+		display: block;
+	}
+
+	.media_loaded & {
+		@include active_highlight;
+	}
+}
+
+.highlight_link {
+	@include button_inline;
+	@include arrowed_link;
+	@include inactive_highlight;
+
+	background: $red;
+	color: #fff;
+	transition:
+		background .25s,
+		color .25s,
+		opacity .75s 1.1s,
+		transform .75s 1.1s;
+
+	@media #{$max_sm} {
+		opacity: 1;
+		transform: none;
+	}
+
+	svg {
+		fill: #fff;
+	}
+
+	&:hover,
+	&:focus {
+		background: #fff;
+		color: #000;
+
+		svg {
+			fill: $red;
+		}
+	}
+
+	.media_loaded & {
+		@include active_highlight;
+	}
+}

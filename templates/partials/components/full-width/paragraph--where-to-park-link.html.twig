@@ -1,0 +1,10 @@
+<div class="info_item info_item_grouped">
+	<a class="info_item_link" href="{{ content.field_link[0]["#url"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+		<span>{{ content.field_link[0]["#title"] }}</span>
+		<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+			<use xlink:href="#arrow_right"></use>
+		</svg>
+	</a>
+	<p class="info_item_detail">{{ content.field_title[0]["#context"]["value"] }}</p>
+	<p class="info_item_cost">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+</div>

@@ -1,0 +1,28 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+{% endblock %}
+
+{% block layout %}
+  {% set layout = "full" %}
+{% endblock %}
+
+{% block subNavLinks %}
+{% endblock %}
+
+{% set pageTitle = "Departures" %}
+
+{% block full_width_callouts %}
+  {% include '../partials/components/full-width/flight-search.twig' with {
+    layout: "full",
+		title: "Departures",
+    caption: "With more than 650 domestic and international flights operations daily, BWI Marshall Airport is the easy choice to get you where you need to go.",
+    links: [
+      "Airlines",
+      "Air Traffic Map",
+      "BWI Route Map"
+    ]
+	} %}
+
+	{% include '../partials/components/full-width/schedule.twig' %}
+{% endblock %}

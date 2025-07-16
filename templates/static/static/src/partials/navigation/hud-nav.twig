@@ -1,0 +1,27 @@
+{% set hudNav = [
+  {
+    symbol: "space-car",
+    label: "Parking"
+  },
+  {
+    symbol: "airplane",
+    label: "Flights"
+  },
+  {
+    symbol: "marker",
+    label: "Interactive Map"
+  }
+] %}
+
+<nav class="hud_nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  <div class="hud_nav_list" role="navigation">
+    {% for link in hudNav %}
+      <div class="hud_nav_item">
+        <a class="hud_nav_link" href="#">
+          <span class="hud_nav_symbol">{{site.symbol(link.symbol)}}</span>
+          <span class="hud_nav_label">{{link.label}}</span>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</nav>

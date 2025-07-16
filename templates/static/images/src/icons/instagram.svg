@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>XMLID_13_</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="99.7086568%" x2="50%" y2="0.776685286%" id="linearGradient-1">
+            <stop stop-color="#E09B3D" offset="0%"></stop>
+            <stop stop-color="#C74C4D" offset="30%"></stop>
+            <stop stop-color="#C21975" offset="60%"></stop>
+            <stop stop-color="#7024C4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="146.098382%" x2="50%" y2="-45.1597534%" id="linearGradient-2">
+            <stop stop-color="#E09B3D" offset="0%"></stop>
+            <stop stop-color="#C74C4D" offset="30%"></stop>
+            <stop stop-color="#C21975" offset="60%"></stop>
+            <stop stop-color="#7024C4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="658.153387%" x2="50%" y2="-140.038068%" id="linearGradient-3">
+            <stop stop-color="#E09B3D" offset="0%"></stop>
+            <stop stop-color="#C74C4D" offset="30%"></stop>
+            <stop stop-color="#C21975" offset="60%"></stop>
+            <stop stop-color="#7024C4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-1098.000000, -307.000000)" fill-rule="nonzero">
+            <g id="flaticon1486067857-svg">
+                <g transform="translate(1098.000000, 307.000000)">
+                    <g id="Layer_1">
+                        <g id="XMLID_13_">
+                            <path d="M20.3251123,0 L8.62413768,0 C3.86876812,0 0,3.86876812 0,8.62413768 L0,20.3251123 C0,25.0804819 3.86876812,28.94925 8.62413768,28.94925 L20.3251123,28.94925 C25.0804819,28.94925 28.94925,25.0804819 28.94925,20.3251123 L28.94925,8.62413768 C28.9491975,3.86876812 25.0804293,0 20.3251123,0 Z M26.0369565,20.3251123 C26.0369565,23.4796504 23.4796504,26.0369565 20.3251123,26.0369565 L8.62413768,26.0369565 C5.46959964,26.0369565 2.91229348,23.4796504 2.91229348,20.3251123 L2.91229348,8.62413768 C2.91229348,5.4695471 5.46959964,2.91229348 8.62413768,2.91229348 L20.3251123,2.91229348 C23.4796504,2.91229348 26.0369565,5.4695471 26.0369565,8.62413768 L26.0369565,20.3251123 L26.0369565,20.3251123 Z" id="XMLID_17_" fill="url(#linearGradient-1)"></path>
+                            <path d="M14.474625,6.98731884 C10.3461178,6.98731884 6.98731884,10.3461178 6.98731884,14.4745725 C6.98731884,18.6030272 10.3461178,21.9618786 14.474625,21.9618786 C18.6031322,21.9618786 21.9619312,18.6030797 21.9619312,14.4745725 C21.9619312,10.3460652 18.6031322,6.98731884 14.474625,6.98731884 Z M14.474625,19.0496377 C11.9478949,19.0496377 9.89961232,17.0013551 9.89961232,14.474625 C9.89961232,11.9478949 11.9479475,9.89961232 14.474625,9.89961232 C17.0013551,9.89961232 19.0496377,11.9478949 19.0496377,14.474625 C19.0496377,17.0013025 17.0013025,19.0496377 14.474625,19.0496377 Z" id="XMLID_81_" fill="url(#linearGradient-2)"></path>
+                            <ellipse id="XMLID_83_" fill="url(#linearGradient-3)" cx="21.976221" cy="7.04363768" rx="1.79405978" ry="1.79405978"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

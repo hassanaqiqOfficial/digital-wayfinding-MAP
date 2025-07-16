@@ -1,0 +1,4237 @@
+{
+    "Food & Drink": {
+        "category": "Food & Drink",
+        "symbol": "utensils",
+        "points": [
+            {
+                "coordinates": [
+                    806.6463928222661,
+                    333.23828125
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Auntie Anne's Pretzels",
+                    "airline": "",
+                    "gate": "D5",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 9:10 p.m.",
+                    "phone": "410-850-7008",
+                    "image": "https://bwi.resources.aocdms.com/a0f6df0b-04de-481b-9f74-c3ca87b21de7.png",
+                    "caption": "Auntie Anne\u2019s got its start in 1988 when Anne Beiler bought a stand in a Pennsylvania farmers market. After some experimentation, \u201cAuntie\u201d Anne created a masterpiece. We continue to bake by a certain philosophy that keeps people coming back for more delicious dough. It\u2019s easy to see: We are so much more than just pretzels.",
+                    "link": "http://www.auntieannes.com"
+                }
+            },
+            {
+                "coordinates": [
+                    902.897644042969,
+                    956.338500976563
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Pie Five Pizza",
+                    "airline": "",
+                    "gate": "B5",
+                    "concourse": [
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B/C"
+                    ],
+                    "hours": "Daily - 4:30am - 10:45pm",
+                    "phone": "410-850-8989",
+                    "image": "https://bwi.resources.aocdms.com/d8425c23-0e5b-4d80-84fa-64aeee5f7831.png",
+                    "caption": "It\u2019s about the RIGHT ingredients, starting with the dough, which we make fresh for you every day, throughout the day. It doesn\u2019t stop there. We make our all-natural, preservative free (and naturally fat free) Tuscan Marinara and Spicy Marinara in house every day as well. Everything from our hand-cut veggies to our homemade desserts can make you feel good about what you\u2019re eating at Pie Five.  We\u2019re all about making your pizza the RIGHT way, just for you!",
+                    "link": "http://www.piefivepizza.com"
+                }
+            },
+            {
+                "coordinates": [
+                    315.430847167969,
+                    964.334228515625
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Tony & Benny's New York Style Pizza",
+                    "airline": "",
+                    "gate": "A8",
+                    "concourse": [
+                        "A",
+                        "8"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/8"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "410-553-4346",
+                    "image": "https://bwi.resources.aocdms.com/13b924de-4f5e-4715-be38-4c6aa3f03e60.png",
+                    "caption": "Tony + Benny's, the new quick-service restaurant brand known for its authentic Brooklyn-style pizza, has made its debut at the Baltimore-Washington International Airport. This fun, new concept will offer travelers delicious menu items inspired by old-word recipes, including classic and specialty pizzas, pastas, salads and stromboli, all made from fresh, high-quality ingredients.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    776.990295410156,
+                    742.128723144531
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Pie Five Pizza",
+                    "airline": "",
+                    "gate": "Main - Near Concourse C Exit",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 4:00PM- 11:00 PM",
+                    "phone": "443-960-4632",
+                    "image": "https://bwi.resources.aocdms.com/b66bf77b-7ed6-4abb-b2d9-0f4ae4c26397.png",
+                    "caption": "Pie Five Pizza is a trend-setting, fast-casual concept offering individual handcrafted pizzas with fresh ingredients made-to-order and prepared in less than five minutes. Pie Five also offers breakfast strombolis and salads.",
+                    "link": "http://www.piefivepizza.com"
+                }
+            },
+            {
+                "coordinates": [
+                    870.048553466797,
+                    941.35205078125
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "DC-3 Hot Dogs",
+                    "airline": "",
+                    "gate": "B3",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 4:30AM-10:45PM",
+                    "phone": "410-859-1441",
+                    "image": "https://bwi.resources.aocdms.com/946a0527-d095-427b-97d4-4fa200c6194c.png",
+                    "caption": "DC-3 Hot Dog is a vintage hot dog restaurant that takes its cues from the glory days of aviation when the Douglas Commercial 3 or DC-3 changed the way Americans traveled.",
+                    "link": "http://www.eatdc3.com"
+                }
+            },
+            {
+                "coordinates": [
+                    565,
+                    906
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Arby's",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-684-3002",
+                    "image": "https://bwi.resources.aocdms.com/17ad491b-0b93-4db9-9555-20e25f1e6b07.png",
+                    "caption": "Delicious deli-style sandwiches, refreshing shakes and world famous roast beef.",
+                    "link": "http://www.arbys.com"
+                }
+            },
+            {
+                "coordinates": [
+                    744,
+                    955
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Auntie Anne's",
+                    "airline": "",
+                    "gate": "B1",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-8240",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B1D.png",
+                    "caption": "Sweet and savory pretzels with a twist, served fresh and hot with your favorite dipping sauces all day",
+                    "link": "http://www.auntieannes.com"
+                }
+            },
+            {
+                "coordinates": [
+                    367,
+                    1005
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Auntie Anne's Pretzels/Cinnabon",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-5151",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A3D.png",
+                    "caption": "Two classics under one roof to satisfy your sweet tooth and your snacking on the go...Auntie Anne's - snacking with a twist, and Cinnabon - one bite and you're hooked!",
+                    "link": "http://www.auntieannes.com"
+                }
+            },
+            {
+                "coordinates": [
+                    882,
+                    962
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "BGR The Burger Joint",
+                    "airline": "",
+                    "gate": "B6",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-1900",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B3D.png",
+                    "caption": "Our burgers are crafted with the finest beef on the planet - guarantees a juicy and flavorful bite each and every time. We use cattle raised on grass and without hormones, fillers or antibiotics, grilled over an open flame, served on a fresh made bun with the finest toppings.",
+                    "link": "http://www.bgrtheburgerjoint.com"
+                }
+            },
+            {
+                "coordinates": [
+                    657,
+                    903
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Chick-fil-A",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "410-859-8257",
+                    "image": "https://bwi.resources.aocdms.com/0f92fbe0-499d-4353-bf7b-d6a87c7dd914.png",
+                    "caption": "Chic-Fil-A is an American fast food restaurant chain that is well known for their renegade cow, paintbrush in mouth, that painted the three words \"EAT MOR CHIKIN\". \"We Didn't Invent the Chicken, Just the Chicken Sandwich,\" refers to their flagship menu item, the Chick-Fil-A chicken sandwich.",
+                    "link": "http://www.chick-fil-a.com"
+                }
+            },
+            {
+                "coordinates": [
+                    588,
+                    906
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Chipotle",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-8015",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A5D.png",
+                    "caption": "Chipotle serves burritos, tacos, bowls and salads prepared using classic cooking methods with fresh, high-quality ingredients that are sustainably grown and responsibly raised with respect for the animals, the land, and the farmers.",
+                    "link": "http://www.chipotle.com"
+                }
+            },
+            {
+                "coordinates": [
+                    943,
+                    367
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Dunkin Donuts",
+                    "airline": "",
+                    "gate": "D10",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m",
+                    "phone": "410-850-4007",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D11D.png",
+                    "caption": "Dunkin' Donuts is the world's leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin' Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, breakfast sandwiches and other baked goods.",
+                    "link": "http://www.dunkindonuts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    788,
+                    723
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Dunkin Donuts",
+                    "airline": "",
+                    "gate": "Main Near Concourse C",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m",
+                    "phone": "410-850-4007",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T3D.png",
+                    "caption": "Dunkin' Donuts is the world's leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin' Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, breakfast sandwiches and other baked goods.",
+                    "link": "http://www.dunkindonuts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    975,
+                    1002
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Dunkin Donuts/Baskin Robbins",
+                    "airline": "",
+                    "gate": "B8",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-8033",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B9D.png",
+                    "caption": "Dunkin' Donuts is the world's leading baked goods and coffee chain, serving more than 3 million customers per day. Dunkin' Donuts sells 52 varieties of donuts and more than a dozen coffee beverages as well as an array of bagels, breakfast sandwiches and other baked goods.",
+                    "link": "http://www.dunkindonuts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    903,
+                    657
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Einstein's Bros Bagels",
+                    "airline": "",
+                    "gate": "C5",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 8:00 p.m.",
+                    "phone": "410-691-6119",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C5D.png",
+                    "caption": "It's not just about bagels anymore. Increasingly, people are turning to Einstein Bros. for quick, tasty lunches - from innovative salads to hearty soups and creative sandwiches. High-quality food is the standard here, with a diverse menu ranging from gourmet, to-go coffee and specialty coffee drinks to baked goods, salads, made-to-order sandwiches and decadent desserts.",
+                    "link": "http://www.einsteinbros.com"
+                }
+            },
+            {
+                "coordinates": [
+                    350,
+                    965
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Gachi House of Sushi",
+                    "airline": "",
+                    "gate": "A8",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-4285",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A15D.png",
+                    "caption": "Gachi House of Sushi offers fresh sushi made to order for dine-in as well as prepackaged sushi. Featuring only the freshest ingredients and an inventive menu.",
+                    "link": "http://www.gachisushi.com"
+                }
+            },
+            {
+                "coordinates": [
+                    865,
+                    973
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Gachi Sushi Grab & Go",
+                    "airline": "",
+                    "gate": "B6",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-691-7690",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B10D.png",
+                    "caption": "Gachi House of Sushi offers fresh sushi, freshly made onsite and prepackaged to go! Featuring only the freshest ingredients and an unique assortment of accompanying snacks and drinks.",
+                    "link": "http://www.gachisushi.com"
+                }
+            },
+            {
+                "coordinates": [
+                    461,
+                    963
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Green Beans Coffee",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-553-4937",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A4D.png",
+                    "caption": "Our cafes offer a casual and comfortable place where our customers can enjoy premium coffee beverages and fresh-baked treats",
+                    "link": "http://www.greenbeanscoffee.com"
+                }
+            },
+            {
+                "coordinates": [
+                    997,
+                    696
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Harbor Grille",
+                    "airline": "",
+                    "gate": "C8",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 10:00 p.m.",
+                    "phone": "(410) 582-8230",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C1D.png",
+                    "caption": "Harbor Grille is an approachable creative american restaurant with local seafood influences, paired with Craft Beers and Craft Cocktails, serving breakfast, lunch, and dinner.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    700,
+                    916
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Jamba Juice",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-1157",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A9D.png",
+                    "caption": "Your daily WOW! Whole foods ingredients with a whole lot of goodness",
+                    "link": "http://www.jambajuice.com"
+                }
+            },
+            {
+                "coordinates": [
+                    1015,
+                    652
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Kraze Burger",
+                    "airline": "",
+                    "gate": "C8",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 8:00 p.m.",
+                    "phone": "410-691-9300",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C4D.png",
+                    "caption": "Featuring made-to-order, hand-formed, never-frozen, grain finished, premium beef, our meat is simply delicious. Add to this, our fresh buns baked in our bakeries and our unique patented sauces, and you've got a diverse menu of burgers offering savory flavors.",
+                    "link": "http://www.kraze.us"
+                }
+            },
+            {
+                "coordinates": [
+                    635,
+                    901
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Leeann Chin",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-487-6598",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A6D.png",
+                    "caption": "Leeann Chin award-winning leader in Quick Service Asian since 1980 offers the highest quality Asian Cuisine...fast! They only use the freshest ingredients to create signature dishes that you'll crave.",
+                    "link": "http://www.leeannchin.com"
+                }
+            },
+            {
+                "coordinates": [
+                    484,
+                    930
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Mayorga (Under Renovation)",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-4744",
+                    "image": "https://bwi.resources.aocdms.com/72eef9b9-30e6-449f-95ec-88bf331e707f.png",
+                    "caption": "Freshly roasted coffees from around the world and a full line of espresso drinks.",
+                    "link": "http://www.mayorgacoffee.com"
+                }
+            },
+            {
+                "coordinates": [
+                    610,
+                    904
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "McDonald's",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-6756",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A10D.png",
+                    "caption": "Since 1955. Modern service. Personal engagement. Great-tasting burgers and fries. Building on our commitments to our people, our communities and our world.",
+                    "link": "http://www.mcdonalds.com"
+                }
+            },
+            {
+                "coordinates": [
+                    820,
+                    292
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "McDonald's (Under Renovation)",
+                    "airline": "",
+                    "gate": "D21",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-6756",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D6D.png",
+                    "caption": "Since 1955. Modern service. Personal engagement. Great-tasting burgers and fries. Building on our commitments to our people, our communities and our world.",
+                    "link": "http://www.mcdonalds.com"
+                }
+            },
+            {
+                "coordinates": [
+                    540,
+                    904
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Nature's Kitchen Fresh Cafe",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-8919",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A8D.png",
+                    "caption": "Sandwiches, soups, hot entree items, breakfast - all prepared with the freshest of ingredients",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    820,
+                    312
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Nature's Kitchen Fresh Cafe",
+                    "airline": "",
+                    "gate": "D21",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-8919",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D4D.png",
+                    "caption": "Sandwiches, soups, hot entree items, breakfast - all prepared with the freshest of ingredients",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    225,
+                    987
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Obrycki's A-Bar",
+                    "airline": "",
+                    "gate": "A10",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-1220",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A1D.png",
+                    "caption": "Visit A-Bar at BWI Marshall for alcoholic beverages and light finger food.",
+                    "link": "http://www.obryckis.com"
+                }
+            },
+            {
+                "coordinates": [
+                    977,
+                    964
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Obrycki's Restaurant & Bar",
+                    "airline": "",
+                    "gate": "B9",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-5723",
+                    "image": "https://bwi.resources.aocdms.com/cab71962-4a79-475c-bd0a-d86de74156fe.png",
+                    "caption": "Since 1944, Obrycki's has been well-known for great steamed crabs and the best and freshest crab cakes in town.  Our promise: a one-of-a-kind enjoyable experience centered on great Chesapeake regional food.",
+                    "link": "http://www.obryckis.com"
+                }
+            },
+            {
+                "coordinates": [
+                    640,
+                    926
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Pinkberry Yogurt",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-1820",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A16D.png",
+                    "caption": "Pinkberry. It Tastes as Good as it Makes You Feel. The original frozen yogurt - real milk, real yogurt - made your way",
+                    "link": "http://www.pinkberry.com"
+                }
+            },
+            {
+                "coordinates": [
+                    330,
+                    965
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Potbelly Sandwich Shop",
+                    "airline": "",
+                    "gate": "A8",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "443-577-0162",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A17D.png",
+                    "caption": "Sandwich shop serving toasty warm sandwiches, soups, tasty made-to-order salads and delicious desserts such as hand-dipped shakes.  Potbelly....Good Vibes. Great Sandwiches.",
+                    "link": "http://www.potbelly.com"
+                }
+            },
+            {
+                "coordinates": [
+                    1060,
+                    654
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Potbelly Sandwich Shop",
+                    "airline": "",
+                    "gate": "C9",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "443-577-0162",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C3D.png",
+                    "caption": "Sandwich shop serving toasty warm sandwiches, soups, tasty made-to-order salads and delicious desserts such as hand-dipped shakes.  Potbelly....Good Vibes. Great Sandwiches.",
+                    "link": "http://www.potbelly.com"
+                }
+            },
+            {
+                "coordinates": [
+                    820,
+                    299
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Quizno's Subs",
+                    "airline": "",
+                    "gate": "D21",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m",
+                    "phone": "410-694-0994",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D7D.png",
+                    "caption": "Toasted subs, piping-hot soup and flatbread sandwiches for lunch and dinner. Mmmm...toasty!",
+                    "link": "http://www.quiznos.com"
+                }
+            },
+            {
+                "coordinates": [
+                    709,
+                    894
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Silver Diner",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 10:00 p.m.",
+                    "phone": "410-694-0990",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B4D.png",
+                    "caption": "We partner with over 15 local farms to put only the best ingredients in our 110 healthy and delicious menu items. Find out why we are proud to say: We Buy Fresh & Local, You Eat Well!",
+                    "link": "http://www.silverdiner.com"
+                }
+            },
+            {
+                "coordinates": [
+                    821,
+                    319
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Smoothie King",
+                    "airline": "",
+                    "gate": "D5",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily: 4:00 a.m. \u2013 9:10 p.m.",
+                    "phone": "410-859-1895",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D5D.png",
+                    "caption": "Smoothie King offers nutritional fresh-blended smoothies for every taste.",
+                    "link": "http://www.smoothieking.com"
+                }
+            },
+            {
+                "coordinates": [
+                    834,
+                    1005
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Starbucks",
+                    "airline": "",
+                    "gate": "B6",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-691-2359",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B5D.png",
+                    "caption": "The place where you can find the world's best coffees. Since 1971 Starbucks has been committed to roasting the highest quality Arabica coffee on the planet.",
+                    "link": "http://www.starbucks.com"
+                }
+            },
+            {
+                "coordinates": [
+                    529.908325195312,
+                    397.649658203125
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Starbucks",
+                    "airline": "",
+                    "gate": "D1",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-691-2359",
+                    "image": "https://bwi.resources.aocdms.com/9f44dda8-e3ad-4308-a7c3-b67a03250828.png",
+                    "caption": "The place where you can find the world's best coffees. Since 1971 Starbucks has been committed to roasting the highest quality Arabica coffee on the planet.",
+                    "link": "http://www.starbucks.com"
+                }
+            },
+            {
+                "coordinates": [
+                    780.002197265625,
+                    593.083679199219
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Starbucks",
+                    "airline": "",
+                    "gate": "Main Near Concourse C Exit",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-691-2359",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T4D.png",
+                    "caption": "The place where you can find the world's best coffees. Since 1971 Starbucks has been committed to roasting the highest quality Arabica coffee on the planet.",
+                    "link": "http://www.starbucks.com"
+                }
+            },
+            {
+                "coordinates": [
+                    844,
+                    975
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Subway",
+                    "airline": "",
+                    "gate": "B7",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-4950",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B6D.png",
+                    "caption": "Eat Fresh with custom-made subs, healthy sandwiches and delicious combo meals.",
+                    "link": "http://www.subway.com"
+                }
+            },
+            {
+                "coordinates": [
+                    794,
+                    1005
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Zona Cocina",
+                    "airline": "",
+                    "gate": "B4",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-4846 X1",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B8D.png",
+                    "caption": "Fresh, Latin and Mexican inspired food, inviting staff in a contemporary hacienda environment. We make all our sauces, salsas, guacamole and spice blends from scratch everyday. From our hand shaken margaritas, to our freshly prepared salads and entrees to our sizzling fajitas you can taste the freshness in every bite.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    897,
+                    322
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "upper",
+                    "title": "Market Express",
+                    "airline": "",
+                    "gate": "D7",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 9:10 p.m.",
+                    "phone": "410-850-4090",
+                    "image": "https://bwi.resources.aocdms.com/c6e4d644-9e75-4941-b2b9-611f2a580ad3.png",
+                    "caption": "Market Express provides visitors ample opportunity to shop for a world of gourmet sandwiches, fresh-baked muffins, sandwiches prepared on artisan breads, fresh-roasted coffee, and much more. As a gourmet marketplace with an emphasis on fresh, nutritious and healthy foods, Market Express is gaining an enormous following and will catch the eye of travelers who already know and trust the name, as well as visitors looking for something completely different.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    459.265441894531,
+                    429.873596191406
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "lower",
+                    "title": "Green Beans Coffee",
+                    "airline": "",
+                    "gate": "E - Customs Exit",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Open 24 Hours",
+                    "phone": "443-410-3630",
+                    "image": "https://bwi.resources.aocdms.com/e7f0cfe9-48d2-4707-bff6-fbbe898ec1de.png",
+                    "caption": "Our cafes offer a casual and comfortable place where our customers can enjoy premium coffee beverages and fresh-baked treats",
+                    "link": "http://www.greenbeanscoffee.com"
+                }
+            },
+            {
+                "coordinates": [
+                    491,
+                    822.537231445313
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "lower",
+                    "title": "Starbucks",
+                    "airline": "",
+                    "gate": "Lower Level - Baggage Claim 1",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday - Friday  5:00 a.m. - 10:00 p.m. Saturday  5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-850-4549",
+                    "image": "https://bwi.resources.aocdms.com/79260d6b-6fa5-4b1f-9026-3a113968a5b2.png",
+                    "caption": "The place where you can find the world's best coffees. Since 1971 Starbucks has been committed to roasting the highest quality Arabica coffee on the planet.",
+                    "link": "http://www.starbucks.com"
+                }
+            },
+            {
+                "coordinates": [
+                    673.788757324219,
+                    810.930053710938
+                ],
+                "attr": {
+                    "category": "Food & Drink",
+                    "layer": "lower",
+                    "title": "Hudson Euro Cafe",
+                    "airline": "",
+                    "gate": "LL near Baggage Claim 6",
+                    "concourse": [
+                        "L",
+                        "L"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse L/L"
+                    ],
+                    "hours": "Daily 6:00 a.m. - 10:00 p.m.",
+                    "phone": "410-684-3983",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/LL1D.png",
+                    "caption": "For a quick morning breakfast, a light mid-day meal, or a leisurely break, Euro Cafe provides passengers and airport employees with the best of cafe dining as well as travel convenience items.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            }
+        ]
+    },
+    "Shopping": {
+        "category": "Shopping",
+        "symbol": "bag",
+        "points": [
+            {
+                "coordinates": [
+                    862.1844787597661,
+                    270.284057617188
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "La Boutique",
+                    "airline": "",
+                    "gate": "D22",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "410-859-9179",
+                    "image": "https://bwi.resources.aocdms.com/7189857e-8e8d-45bd-9d40-ae3151b4d582.png",
+                    "caption": "La Boutique is a one stop shop for all of your cosmetic, accessory, and fragrance needs! With brands including Estee Lauder, Marc Jacobs,  and Ray Ban \u2013 you will be sure to find the perfect gift for a loved one and pick up a few things for yourself!",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    683.843444824219,
+                    906.679809570313
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Diva by Cindy",
+                    "airline": "",
+                    "gate": "A1",
+                    "concourse": [
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B/C"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "410-581-9337",
+                    "image": "https://bwi.resources.aocdms.com/bb4d1c37-fe56-47b6-b358-aea1af896ca8.png",
+                    "caption": "Diva By Cindy is a natural alcohol free hair care brand with extreme detangling ability for all hair types. A full line of shampoos and conditioners formulated with B vitamins to help stop hair shedding and breakage and stimulate hair growth and enhance self esteem. A feel good do good brand Diva By Cindy uses a percentage of proceeds to support homeless women and victims of domestic violence.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    727.088989257812,
+                    383.951751708984
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "NYS Collection",
+                    "airline": "",
+                    "gate": "D3",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 9:10 p.m.",
+                    "phone": "410-582-8319",
+                    "image": "https://bwi.resources.aocdms.com/e20a91a5-4a96-49bd-9f16-a7d1a337cf88.png",
+                    "caption": "NYS Collection offers a full range of fashionable sunglasses and eyewear for men and women. Styles include the trend setting New York line, polarized Signature series, luxury Elite label and a high-quality selection of Readers. Come find your perfect pair!",
+                    "link": "http://www.nyscollection.com"
+                }
+            },
+            {
+                "coordinates": [
+                    893.894104003906,
+                    978.142761230469
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Fashion Spa House",
+                    "airline": "",
+                    "gate": "B3",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 4:30am - 10:45pm",
+                    "phone": "N/A",
+                    "image": "https://bwi.resources.aocdms.com/40de6d49-195a-41bb-aa5d-a94fd21eb622.png",
+                    "caption": "Small-batch Vegan skin care created and produced locally, and artisan crafted jewelry/accessories.",
+                    "link": "http://www.fashionspahouse.com"
+                }
+            },
+            {
+                "coordinates": [
+                    773.0582580566411,
+                    401.352020263672
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Roshe Cosmetics",
+                    "airline": "",
+                    "gate": "D4",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:00am - 9:10pm",
+                    "phone": "NA",
+                    "image": "https://bwi.resources.aocdms.com/cd5e0d80-3df0-4a7c-a9e8-1aec0ac24b67.png",
+                    "caption": "Come get pampered with a makeover and beauty tips from a local cosmetic artist, featuring a full line of cosmetics and skin care.",
+                    "link": "roshecosmetics.com"
+                }
+            },
+            {
+                "coordinates": [
+                    654.275451660156,
+                    921.514831542969
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "New Secrets Tea",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B",
+                        "F",
+                        "o",
+                        "o",
+                        "d",
+                        "C",
+                        "o",
+                        "u",
+                        "r",
+                        "t"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B/F/o/o/d/C/o/u/r/t"
+                    ],
+                    "hours": "Daily 4:30am - 10:45pm",
+                    "phone": "NA",
+                    "image": "https://bwi.resources.aocdms.com/f6ae3b80-f5a3-4723-a14f-5e761b729bea.png",
+                    "caption": "Small-batch loose tea created from tea leaves grown, harvested and packaged in Baltimore.",
+                    "link": "http://www.newsecrets.net"
+                }
+            },
+            {
+                "coordinates": [
+                    487.51611328125,
+                    912.198791503906
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Flawless Damsels",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B/C"
+                    ],
+                    "hours": "Daily 4:30am -10:45pm",
+                    "phone": "NA",
+                    "image": "https://bwi.resources.aocdms.com/ee75b5be-d82f-46a9-a039-59f2dd7e2cd2.png",
+                    "caption": "Unique, fun fashions and accessories for the gal on the go!",
+                    "link": "http://www.flawlessdamsels.com"
+                }
+            },
+            {
+                "coordinates": [
+                    537.333984375,
+                    378.67626953125
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Pen & Prose",
+                    "airline": "",
+                    "gate": "D1",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Daily  4:00 a.m. - 9:10 p.m.",
+                    "phone": "410-582-8066",
+                    "image": "https://bwi.resources.aocdms.com/1d764333-3936-42ae-b492-a78259a657f7.png",
+                    "caption": "Pen & Prose Boutique offers distinct products and seeks unique merchandise that include writing instruments, distinctive greeting cards, quality writing paper, corporate and business accessories, and specialty books. They are known to cater to the traveling population. It is their desire to be remembered, so that the next time a trip is planned, the traveler makes a point of visiting Pen & Prose.",
+                    "link": "http://www.pensnprose.com"
+                }
+            },
+            {
+                "coordinates": [
+                    830.7496643066411,
+                    963.147827148438
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Maggio Olive Oil Company",
+                    "airline": "",
+                    "gate": "B6",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily  5:00 a.m. - 10:00 p.m.",
+                    "phone": "202-618-0734",
+                    "image": "https://bwi.resources.aocdms.com/d8617560-f998-4104-a2b4-f12ebbf877fd.png",
+                    "caption": "Our history dates back to the early 1900's with our great grandmother, Maria Maggio selling olive oil door-to-door in Washington D.C.. We are excited to bring the finest quality traditional and flavored extra virgin olive oil and vinegar's to our family of customers.",
+                    "link": "http://www.maggioolive.com"
+                }
+            },
+            {
+                "coordinates": [
+                    935.705871582031,
+                    1008.36071777344
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Tech Showcase",
+                    "airline": "",
+                    "gate": "B10",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 5:00AM - 10:00PM",
+                    "phone": "561-398-5568",
+                    "image": "https://bwi.resources.aocdms.com/5613a871-0bf3-4110-ae21-744cd83bf425.png",
+                    "caption": "Techshowcase was conceived to meet the demand of the business traveler for high technology mobile electronics. These are people who otherwise may not have the opportunity to personally test sophisticated mobile devices before purchasing.",
+                    "link": "http://www.techshowcase.com"
+                }
+            },
+            {
+                "coordinates": [
+                    419.52941894531205,
+                    1009.94897460938
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Charm City Candy",
+                    "airline": "",
+                    "gate": "A7",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "240-498-9662",
+                    "image": "https://bwi.resources.aocdms.com/86613a4d-1618-4361-af9f-938a4cf1f271.png",
+                    "caption": "Charm City Candy offers a variety of sweet treats that are all Maryland made. Stop by to see if they have your favorite Maryland sweet treat.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    449.705871582031,
+                    377.831329345703
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "E1",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-859-5290",
+                    "image": "https://bwi.resources.aocdms.com/04d92148-779a-406b-9696-a3bcc4943b84.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    493,
+                    933
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "America!",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-8374",
+                    "image": "https://bwi.resources.aocdms.com/1cec1f66-6e7c-42ca-bfa5-ab2f41490a12.png",
+                    "caption": "Patriotic gifts and mementos that honor our great nation.",
+                    "link": "http://www.marshallretailgroup.com"
+                }
+            },
+            {
+                "coordinates": [
+                    863,
+                    287
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "America!",
+                    "airline": "",
+                    "gate": "D20",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-8374",
+                    "image": "https://bwi.resources.aocdms.com/1cec1f66-6e7c-42ca-bfa5-ab2f41490a12.png",
+                    "caption": "Patriotic gifts and mementos that honor our great nation.",
+                    "link": "http://www.marshallretailgroup.com"
+                }
+            },
+            {
+                "coordinates": [
+                    966,
+                    700
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Benefit Cosmetics - Zoom Systems (Vending)",
+                    "airline": "",
+                    "gate": "C4",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "24/7 (Vending)",
+                    "phone": "N/A",
+                    "image": "https://bwi.resources.aocdms.com/e645ee35-8336-43eb-b1ab-ad5f52d43cad.png",
+                    "caption": "At Benefit, we believe in FAST and FABULOUS beauty solutions...if you can't be GOOD, be GORGEOUS!",
+                    "link": "http://www.zoomsystems.com"
+                }
+            },
+            {
+                "coordinates": [
+                    658,
+                    938
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Brooks Brothers",
+                    "airline": "",
+                    "gate": "A1",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday - Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. - 9:30 p.m.",
+                    "phone": "410-859-3657",
+                    "image": "https://bwi.resources.aocdms.com/47157f70-0260-4f55-9625-8591b40fa30e.png",
+                    "caption": "Brooks Brothers is an institution that has shaped the American style of dress through fashion innovation, fine quality, personal service and exceptional value in its products. Appealing to an expanded audience, the Brooks Brothers brand is penetrating global markets, making the store concept a destination for customers everywhere.",
+                    "link": "http://www.brooksbrothers.com"
+                }
+            },
+            {
+                "coordinates": [
+                    863,
+                    315
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Brookstone",
+                    "airline": "",
+                    "gate": "D20",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m.",
+                    "phone": "410-850-7130",
+                    "image": "https://bwi.resources.aocdms.com/451b8dc3-6228-4e61-8d41-e420bc8e75e5.png",
+                    "caption": "Brookstone is a nationwide specialty retailer offering an assortment of consumer products that are functional in purpose, distinctive in quality and design and not widely available from other retailers.",
+                    "link": "http://www.brookstone.com"
+                }
+            },
+            {
+                "coordinates": [
+                    615,
+                    946
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Charm City Candy",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "4:30 a.m. - 10:45 p.m. Daily",
+                    "phone": "240-498-9662",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A6S.png",
+                    "caption": "Charm City Candy offers a variety of sweet treats that are all Maryland made. Stop by to see if they have your favorite Maryland sweet treat.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    504,
+                    907
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "CNBC",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-694-3782",
+                    "image": "https://bwi.resources.aocdms.com/a5bf67db-558a-4a03-9de6-b039159e0352.png",
+                    "caption": "Travel essentials, beverages, snacks, magazines, souvenirs, electronic accessories",
+                    "link": "http://www.shopnbc.com"
+                }
+            },
+            {
+                "coordinates": [
+                    740,
+                    910
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Duty Free",
+                    "airline": "",
+                    "gate": "BC Connector",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 10:00 p.m.",
+                    "phone": "410-859-1236",
+                    "image": "https://bwi.resources.aocdms.com/ac20d2b4-154e-4662-a893-81cdcb4581a3.png",
+                    "caption": "Duty-free shopping offers international travelers a way to save money on a diverse array of merchandise, from dazzling high-end jewelry to premium liquor.",
+                    "link": "http://www.dutyfreeamericas.com"
+                }
+            },
+            {
+                "coordinates": [
+                    392,
+                    353
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Duty Free",
+                    "airline": "",
+                    "gate": "E1",
+                    "concourse": [
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse E"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 10:00 p.m.",
+                    "phone": "410-859-1236",
+                    "image": "https://bwi.resources.aocdms.com/ac20d2b4-154e-4662-a893-81cdcb4581a3.png",
+                    "caption": "Duty-free shopping offers international travelers a way to save money on a diverse array of merchandise, from dazzling high-end jewelry to premium liquor.",
+                    "link": "http://www.dutyfreeamericas.com"
+                }
+            },
+            {
+                "coordinates": [
+                    775,
+                    978
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Fire & Ice",
+                    "airline": "",
+                    "gate": "B1",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-691-2671",
+                    "image": "https://bwi.resources.aocdms.com/af88c98e-6056-474f-a8a5-de80abf0d6c7.png",
+                    "caption": "Collections are as varied here as you'll find in open-air markets around the world. Jewelry, art glass fossils, crystal formations,and carvings are represented here at Fire & Ice.",
+                    "link": "http://www.fireandice.com"
+                }
+            },
+            {
+                "coordinates": [
+                    389,
+                    1001
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "A7",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A7S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    835,
+                    1001
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "B6",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/B4S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    901,
+                    700
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "C4",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C2S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    968,
+                    653
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "C7",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/C3S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    990,
+                    330
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "D11",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D4S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    832,
+                    375
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "D4",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D5S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    699,
+                    867
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "Main Near Concourse B",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T2S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    718,
+                    489
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "Main Near Concourse D",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T4S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    806,
+                    398
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "In Motion Entertainment",
+                    "airline": "",
+                    "gate": "D4",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m.",
+                    "phone": "410-691-0262",
+                    "image": "https://bwi.resources.aocdms.com/c644b3e2-7c68-438a-87dc-0fd5bc81e2ca.png",
+                    "caption": "In Motion is your one-stop destination for the for cutting-edge technology on-the-go, wherever you go! We have everything you need for your flight, or just for fun!",
+                    "link": "http://www.inmotionentertainment.com"
+                }
+            },
+            {
+                "coordinates": [
+                    510,
+                    934
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "InMotion Entertainment",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-553-4635",
+                    "image": "https://bwi.resources.aocdms.com/b4a411ee-b748-473c-82d6-5525dffd5889.png",
+                    "caption": "Electronic accessories",
+                    "link": "http://www.inmotionstores.com"
+                }
+            },
+            {
+                "coordinates": [
+                    542,
+                    942
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Johnston & Murphy",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-3980",
+                    "image": "https://bwi.resources.aocdms.com/f9c2054b-34f3-4d15-8f4a-f16e8ae2bf07.png",
+                    "caption": "Since 1850, Johnston & Murphy has proven itself as a pillar of classic workmanship and American style, providing affordable, quality products for generations of successful men. Today, the line has expanded to include reimagined classic apparel and footwear for both men and women.",
+                    "link": "http://www.johnstonmurphy.com"
+                }
+            },
+            {
+                "coordinates": [
+                    818,
+                    386
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Johnston & Murphy",
+                    "airline": "",
+                    "gate": "D4",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-3980",
+                    "image": "https://bwi.resources.aocdms.com/f9c2054b-34f3-4d15-8f4a-f16e8ae2bf07.png",
+                    "caption": "Since 1850, Johnston & Murphy has proven itself as a pillar of classic workmanship and American style, providing affordable, quality products for generations of successful men. Today, the line has expanded to include reimagined classic apparel and footwear for both men and women.",
+                    "link": "http://www.johnstonmurphy.com"
+                }
+            },
+            {
+                "coordinates": [
+                    758,
+                    875
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Kiehl's",
+                    "airline": "",
+                    "gate": "BC Connector",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-2169",
+                    "image": "https://bwi.resources.aocdms.com/ccae49a3-e0e7-43e5-a695-671e6c9bc3ff.png",
+                    "caption": "Since 1851, Kiehl's has offered premium skin, hair and body care products complemented with a superior level of personalized service. high quality formulas developed by the most advanced technologies and finest natural ingredients.",
+                    "link": "http://www.kiehls.com"
+                }
+            },
+            {
+                "coordinates": [
+                    867,
+                    697
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Marshall Rousso",
+                    "airline": "",
+                    "gate": "C2",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m.",
+                    "phone": "410-553-4377",
+                    "image": "https://bwi.resources.aocdms.com/f4a88c32-ec83-487a-aad1-1bd764db61c2.png",
+                    "caption": "Marshall Rousso knows what starts a woman's pulse racing, and has for over 50 years. Shoppers discover the latest in dramatic evening wear, hip, casual clothing, accessories, handbags and footwear.",
+                    "link": "http://www.marshallretailgroup.com"
+                }
+            },
+            {
+                "coordinates": [
+                    845,
+                    683
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "NYS Collection",
+                    "airline": "",
+                    "gate": "C1",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 10:45 p.m.",
+                    "phone": "410-595-5667",
+                    "image": "https://bwi.resources.aocdms.com/00fced8d-5174-480a-bdb2-88c9c182fda0.png",
+                    "caption": "NYS Collection offers a full range of fashionable sunglasses and eyewear for men and women. Styles include the trend setting New York line, polarized Signature series, luxury Elite label and a high-quality selection of Readers. Come find your perfect pair!",
+                    "link": "http://www.nyscollection.com"
+                }
+            },
+            {
+                "coordinates": [
+                    667,
+                    913
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Onsite News",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Daily 5 a.m. - 10 p.m.",
+                    "phone": "410-859-9172",
+                    "image": "https://bwi.resources.aocdms.com/7c29e214-6cf6-4d31-b078-ffa2217d4ff7.png",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": "http://www.olympicnewsandgifts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    938,
+                    971
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Onsite News",
+                    "airline": "",
+                    "gate": "B5",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "Daily 5 a.m. - 10 p.m.",
+                    "phone": "410-859-9172",
+                    "image": "https://bwi.resources.aocdms.com/7c29e214-6cf6-4d31-b078-ffa2217d4ff7.png",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": "http://www.olympicnewsandgifts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    827,
+                    162
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Onsite News",
+                    "airline": "",
+                    "gate": "D25",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5 a.m. - 10 p.m.",
+                    "phone": "410-859-9172",
+                    "image": "https://bwi.resources.aocdms.com/7c29e214-6cf6-4d31-b078-ffa2217d4ff7.png",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": "http://www.olympicnewsandgifts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    793,
+                    618
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Onsite News",
+                    "airline": "",
+                    "gate": "Main Near Concourse C Exit",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 5 a.m. - 10 p.m.",
+                    "phone": "410-859-9172",
+                    "image": "https://bwi.resources.aocdms.com/7c29e214-6cf6-4d31-b078-ffa2217d4ff7.png",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": "http://www.olympicnewsandgifts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    296,
+                    1003
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Onsite News (Wall Unit)",
+                    "airline": "",
+                    "gate": "A9",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "N/A",
+                    "image": "https://bwi.resources.aocdms.com/1d263079-86fe-40f5-a27f-db7ad84ab046.png",
+                    "caption": "Onsite has everything you need for travel convenience - snacks, drinks, magazines, gifts",
+                    "link": "http://www.olympicnewsandgifts.com"
+                }
+            },
+            {
+                "coordinates": [
+                    671,
+                    938
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Pandora",
+                    "airline": "",
+                    "gate": "A1",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-582-8255",
+                    "image": "https://bwi.resources.aocdms.com/c23aa573-67b2-431d-9744-fe38a69f6d46.png",
+                    "caption": "For gifts that are both precious and personal, choose Pandora. The Art of you.",
+                    "link": "http://www.pandora.net"
+                }
+            },
+            {
+                "coordinates": [
+                    605,
+                    945
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Pepper Palace",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-5271",
+                    "image": "https://bwi.resources.aocdms.com/24dffdf4-82cb-43fe-a471-92a1b37ade1d.png",
+                    "caption": "Delicious hot sauces and other great items to grab or gift!",
+                    "link": "http://www.pepperpalace.com"
+                }
+            },
+            {
+                "coordinates": [
+                    484,
+                    928
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Popsations Popcorn",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 4:30 a.m. - 10:45 p.m.",
+                    "phone": "443-895-0234",
+                    "image": "https://bwi.resources.aocdms.com/7e51a12c-21c7-4724-b474-384dde87a6c9.png",
+                    "caption": "Popsations gourmet popcorn is locally handcrafted from artisan recipes in small batches from scratch. Made with the finest ingredients, their deliciously distinctive flavors include decadent Dark Chocolate Caramel Drizzle, Crabby Caramel, and Classic Cheddar. Travelers can satisfy their popcorn cravings or find the perfect gift to take to a connoisseur at home.",
+                    "link": "http://www.popsationspopcorn.com"
+                }
+            },
+            {
+                "coordinates": [
+                    881,
+                    699
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Sock It To You",
+                    "airline": "",
+                    "gate": "C2",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 9:00 p.m.",
+                    "phone": "410-653-0777",
+                    "image": "https://bwi.resources.aocdms.com/52d5b431-15a9-4834-a424-7e5fd81d53ae.png",
+                    "caption": "A Baltimore original, Sock It To You offers hundreds of styles of fun fashion socks\u2014all pro & college teams, novelty, pets and more--plus a fun assortment of MD Flag items, pet-centric merchandise and more!",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    558,
+                    944
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Sunglass Hut",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-684-3930",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A10S.png",
+                    "caption": "Sunglass Hut is the premier shopping and inspiration destination for the top brands, latest trends and exclusive styles of high quality fashion and performance sunglasses.",
+                    "link": "http://www.sunglasshut.com"
+                }
+            },
+            {
+                "coordinates": [
+                    572,
+                    945
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Swarovski",
+                    "airline": "",
+                    "gate": "A/B Food Court",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-582-4825",
+                    "image": "https://bwi.resources.aocdms.com/a396dc54-90e3-4afc-ac4f-be987379aef7.png",
+                    "caption": "Swarovski is the world's leading producer of fashion jewelry, cut crystal, genuine gemstones and created stones, as well as home accessories and unique gifts.",
+                    "link": "http://www.swarovski.com"
+                }
+            },
+            {
+                "coordinates": [
+                    645,
+                    940
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "The Body Shop",
+                    "airline": "",
+                    "gate": "A1",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-850-4831",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A12S.png",
+                    "caption": "Natural, eco-friendly beauty, bath and skincare products and fragrances for body and home",
+                    "link": "http://www.thebodyshop.com"
+                }
+            },
+            {
+                "coordinates": [
+                    756,
+                    896
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Tumi",
+                    "airline": "",
+                    "gate": "BC Connector",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-859-1295",
+                    "image": "https://bwi.resources.aocdms.com/8db4fe56-faf8-480e-a5c9-3fd37251a6b3.png",
+                    "caption": "Product quality and selection are key attributes that have made Tumi the leading international business, accessory and travel lifestyle brand.",
+                    "link": "http://www.tumi.com"
+                }
+            },
+            {
+                "coordinates": [
+                    525,
+                    935
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "upper",
+                    "title": "Victoria's Secret",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A",
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A/B"
+                    ],
+                    "hours": "Sunday \u2013 Friday 5:00 a.m. - 10:00 p.m., Saturday 5:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-582-8209",
+                    "image": "https://bwi.resources.aocdms.com/0fce63ba-477a-4f20-8ce1-d5b507ad6186.png",
+                    "caption": "Victoria's Secret Beauty & Accessories offers three categories of Victoria's Secret products - Beauty (Body care, Fragrances & Make-up) Panties (cotton line & glamour line) and Accessories (Cosmetic bags, purses, sunglasses, scarfs, luggage & leather goods) many of which are exclusive to the International Stores.",
+                    "link": "http://www.victoriassecret.com"
+                }
+            },
+            {
+                "coordinates": [
+                    554.529418945312,
+                    436.596038818359
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "lower",
+                    "title": "Best Buy - Zoom Systems",
+                    "airline": "",
+                    "gate": "LL Baggage Claim 14",
+                    "concourse": [
+                        "L",
+                        "L"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse L/L"
+                    ],
+                    "hours": "24/7 (Vending)",
+                    "phone": "N/A",
+                    "image": "https://bwi.resources.aocdms.com/5dcc8b91-aa4d-4d1f-91af-29ac497ee5d7.png",
+                    "caption": "The latest electronics on the fly!",
+                    "link": "http://www.zoomsystems.com"
+                }
+            },
+            {
+                "coordinates": [
+                    773.234832763672,
+                    726.326721191406
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "lower",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "LL Baggage Claim 9",
+                    "concourse": [
+                        "L",
+                        "L"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse L/L"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/LL2S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            },
+            {
+                "coordinates": [
+                    694.568542480469,
+                    416.114349365234
+                ],
+                "attr": {
+                    "category": "Shopping",
+                    "layer": "lower",
+                    "title": "Hudson News",
+                    "airline": "",
+                    "gate": "LL Baggage Claim 13",
+                    "concourse": [
+                        "L",
+                        "L"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse L/L"
+                    ],
+                    "hours": "Daily 7 a.m. - 10 p.m.",
+                    "phone": "410-850-4720",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/LL3S.png",
+                    "caption": "News, magazines, snacks, books and travel convenience items, plus a great selection of souvenirs.",
+                    "link": "http://www.hudsongroupusa.com"
+                }
+            }
+        ]
+    },
+    "Where to Relax": {
+        "category": "Where to Relax",
+        "symbol": "sofa",
+        "points": [
+            {
+                "coordinates": [
+                    820.242706298828,
+                    227.031646728516
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Brix & Vine Wine Bar",
+                    "airline": "",
+                    "gate": "D23",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:00 AM - 9:10PM",
+                    "phone": "410-834-7256",
+                    "image": "https://bwi.resources.aocdms.com/0d2cf7dd-e8a2-42eb-977b-de7d86a42e3f.png",
+                    "caption": "Brix & Vine will have everything a traveler is looking for in a tasting room. An exciting and extensive selection of wines from around the world, including less common regions like South Africa, New Zealand, or New York. A full menu of everything from light salads to delicious steak sandwiches that will perfectly complement anything from a dry champagne to a buttery white to an oaky full-bodied red. Expert servers to guide them through this exploration of great taste. All in a design that can only be described as alluring.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    860,
+                    719.667114257813
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Firkin & Flyer",
+                    "airline": "",
+                    "gate": "C2",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 10:00 p.m.",
+                    "phone": "(410) 582-8308",
+                    "image": "https://bwi.resources.aocdms.com/1f31d513-b0d3-4866-95a7-fcf11df8733f.png",
+                    "caption": "The Firkin Group of Pubs is proud to offer our loyal followers a true Pub experience. We are unpretentious and welcoming in our offerings of traditional British fare and culture. We offer a sense of familiarity in a casual, inviting, fun loving Pub atmosphere. Cheers!",
+                    "link": "http://www.firkinpubs.com"
+                }
+            },
+            {
+                "coordinates": [
+                    624,
+                    863
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Duclaw Brewing Company",
+                    "airline": "",
+                    "gate": "Main Near Concourse B",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 7:00 a.m. - 9:00 p.m.",
+                    "phone": "410-850-4846 ext 2",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T2D.png",
+                    "caption": "A Maryland local favorite brewery with a flair for food! Burgers, seafood, crab cakes, soups and salads abound on the menu. Seasonal beer specials from our brewery in Bel Air, Maryland.",
+                    "link": "http://www.duclaw.com"
+                }
+            },
+            {
+                "coordinates": [
+                    391,
+                    323
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Passports Bar & Grill",
+                    "airline": "",
+                    "gate": "E1",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:30p.m. - 10:00 p.m.",
+                    "phone": "410-582-8745",
+                    "image": "https://bwi.resources.aocdms.com/ed2fc08d-266b-43e6-9f9d-aff7b1e6bd6d.png",
+                    "caption": "Enjoy a beer, glass of wine or handcrafted cocktail to accompany our delicious All-American menu featuring favorites such as burger, sandwiches, grilled specialties, chicken wings, fried crispy green beans and salads.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    766,
+                    783
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Sky Azure",
+                    "airline": "",
+                    "gate": "Observation Gallery",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "Daily 11:00 a.m. - 9:00 p.m.",
+                    "phone": "410-850-4846 ext 9",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/T8D.png",
+                    "caption": "A contemporary cocktail lounge which features a large selection of craft beers and handcrafted cocktails, an international wine list, and seasonally-inspired small plates.",
+                    "link": "#"
+                }
+            },
+            {
+                "coordinates": [
+                    900,
+                    365
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "The Greene Turtle",
+                    "airline": "",
+                    "gate": "D8",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 5:00 a.m. - 8:00 p.m.",
+                    "phone": "410-691-9802",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/D3D.png",
+                    "caption": "The Greene Turtle is more than a sports bar & grille.  We're a community hangout for all ages, that serves great food & drinks in a fun, casual atmosphere built on the excitement & unity of sports.",
+                    "link": "http://www.thegreeneturtle.com"
+                }
+            },
+            {
+                "coordinates": [
+                    440,
+                    986
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Vino Volo",
+                    "airline": "",
+                    "gate": "A7",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Sunday \u2013 Friday 9:00 a.m. - 10:00 p.m., Saturday 9:00 a.m. \u2013 9:30 p.m.",
+                    "phone": "410-691-2215",
+                    "image": "https://bwi.resources.aocdms.com/TLAUGHLIN/originals/concessionphotos/A14D.png",
+                    "caption": "Vino Volo is a wine bar offering a selection of wines from around the world in various formats. Enjoy wines by the taste, flight, glass, or bottle with small plate offerings to pair perfectly!",
+                    "link": "http://www.vinovolo.com"
+                }
+            },
+            {
+                "coordinates": [
+                    402,
+                    968
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Be Relax",
+                    "airline": "",
+                    "gate": "A6",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 8:45 p.m.",
+                    "phone": "410-684-6895",
+                    "image": "https://bwi.resources.aocdms.com/4c31e2e2-055c-4a7f-a792-6a6ab989c443.png",
+                    "caption": "Be Relax offers spa services, massages, facials, nail services, waxing, hairstyling. Travel essentials, massage products, cosmetics and hair products.",
+                    "link": "http://www.berelax.com"
+                }
+            },
+            {
+                "coordinates": [
+                    856,
+                    671
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Be Relax",
+                    "airline": "",
+                    "gate": "C1",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 8:45 p.m.",
+                    "phone": "410-684-6895",
+                    "image": "https://bwi.resources.aocdms.com/4c31e2e2-055c-4a7f-a792-6a6ab989c443.png",
+                    "caption": "Be Relax offers spa services, massages, facials, nail services, waxing, hairstyling. Travel essentials, massage products, cosmetics and hair products.",
+                    "link": "www.berelax.com"
+                }
+            },
+            {
+                "coordinates": [
+                    861,
+                    221
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "Be Relax",
+                    "airline": "",
+                    "gate": "D22",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "Daily 4:00 a.m. - 8:45 p.m.",
+                    "phone": "410-684-6895",
+                    "image": "https://bwi.resources.aocdms.com/4c31e2e2-055c-4a7f-a792-6a6ab989c443.png",
+                    "caption": "Be Relax offers spa services, massages, facials, nail services, waxing, hairstyling. Travel essentials, massage products, cosmetics and hair products.",
+                    "link": "http://www.berelax.com"
+                }
+            },
+            {
+                "coordinates": [
+                    977.366302490234,
+                    375.894195556641
+                ],
+                "attr": {
+                    "category": "Where to Relax",
+                    "layer": "upper",
+                    "title": "The Club BWI",
+                    "airline": "",
+                    "gate": "D12",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Daily 4:00am - 9:10pm",
+                    "phone": "443-960-4773",
+                    "image": "",
+                    "caption": "The Club at BWI, shared-use lounge, is an \u2018inclusive\u2019 lounge open to all passengers regardless of airline, class of ticket, Frequent Flyer status, or affinity program participation. In addition to providing a lounge solution for today\u2019s traveler, the shared-use lounge satisfies the needs of multiple airlines. The Club BWI offers this for all travelers at a price of $40. The Club BWI offers a fully-inclusive value proposition for the guest.   All amenities, services, food and beverage will be included in the guest\u2019s cost of visit.   This includes a selection of premium wines, beers and spirits, as well as an assortment of snacks and non-alcoholic beverages.",
+                    "link": "www.theclubairportlounges.com"
+                }
+            }
+        ]
+    },
+    "Fitness": {
+        "category": "Fitness",
+        "symbol": "gym",
+        "points": [
+            {
+                "coordinates": [
+                    586.329711914062,
+                    385.184692382813
+                ],
+                "attr": {
+                    "category": "Fitness",
+                    "layer": "upper",
+                    "title": "ROAM Fitness",
+                    "airline": "",
+                    "gate": "D1",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "Daily  4:00 a.m. - 9:10 p.m.",
+                    "phone": "410-553-4701",
+                    "image": "https://bwi.resources.aocdms.com/5d25e35c-a048-45e1-952a-07f02a7f3f81.png",
+                    "caption": "Today's travelers are more aware than ever about the stress that traveling puts on their bodies. Health conscious passengers want to maintain their fitness routine while on their way to their next destination. In an airport, it is difficult for individuals to care for their bodies, burn off energy, and stretch their legs. ROAM Fitness is a first of its kind fitness facility, placing gym and shower facilities in airports behind security so that travel days don't have to compromise their health.",
+                    "link": "http://www.roamfitness.com"
+                }
+            }
+        ]
+    },
+    "Restrooms": {
+        "category": "Restrooms",
+        "symbol": "restrooms",
+        "asset_type": "",
+        "points": [
+            {
+                "coordinates": [
+                    650.341247558594,
+                    421.445343017578
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "D3",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    674.068237304687,
+                    424.834930419922
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D3",
+                    "concourse": [
+                        "D",
+                        "3"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/3"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    932,
+                    661
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "C5",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    799,
+                    768
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom & Adult Changing Station",
+                    "airline": "",
+                    "gate": "BC",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    470,
+                    900
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    777,
+                    974
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "DE",
+                    "concourse": [
+                        "D",
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D/E"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    906,
+                    997
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "B10",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    257,
+                    997
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "A9",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    898,
+                    331
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom & Adult Changing Station",
+                    "airline": "",
+                    "gate": "D7",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    579,
+                    453
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "Main - DE",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    727,
+                    524
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "Main - CD",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    653,
+                    868
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom",
+                    "airline": "",
+                    "gate": "Main - B",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    470,
+                    870
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Family Restroom & Adult Changing Station",
+                    "airline": "",
+                    "gate": "Main - A",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    996,
+                    659
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "C9",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    953,
+                    661
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "C5",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    811,
+                    747
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "BC",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    489,
+                    901
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "A5",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    717,
+                    904
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "BC",
+                    "concourse": [
+                        "B",
+                        "C"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B/C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    797,
+                    973
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "B4",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    927,
+                    996
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "B10",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse B"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    284,
+                    997
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "A9",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    828.1067810058589,
+                    123.487937927246
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D26",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    853,
+                    297
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D20",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    428.560302734375,
+                    337.294494628906
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "E4",
+                    "concourse": [
+                        "E"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse E"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    917,
+                    330
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D7",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    1020,
+                    335
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D11",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Post Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    386,
+                    438
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main - E",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    436,
+                    440
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main - E",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    602,
+                    453
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main DE",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    740,
+                    548
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main - CD",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    790,
+                    700
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main C",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    694,
+                    868
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main - B",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    493,
+                    869
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "upper",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "Main - A",
+                    "concourse": [
+                        "Main"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse Main"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    514.0078125,
+                    877.994873046875
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "lower",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "A",
+                    "concourse": [
+                        "A"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse A"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    657.718444824219,
+                    874.507385253906
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "lower",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "B",
+                    "concourse": [
+                        "B"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse B"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    808.446594238281,
+                    658.245239257813
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "lower",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "C",
+                    "concourse": [
+                        "C"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse C"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    714.077667236328,
+                    465.575317382813
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "lower",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "D",
+                    "concourse": [
+                        "D"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse D"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    361.5048828125,
+                    406.5947265625
+                ],
+                "attr": {
+                    "category": "Restrooms",
+                    "layer": "lower",
+                    "title": "Restroom",
+                    "airline": "",
+                    "gate": "E",
+                    "concourse": [
+                        "E"
+                    ],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse E"
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            }
+        ]
+    },
+    "Ticket Counters": {
+        "category": "Ticket Counters",
+        "symbol": "tickets",
+        "asset_type": "",
+        "points": [
+            {
+                "coordinates": [
+                    707.153442382812,
+                    589.939025878906
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Virgin America",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": "www.virginamerica.com"
+                }
+            },
+            {
+                "coordinates": [
+                    717.330932617187,
+                    609.136108398438
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Boutique Air",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": "www.boutiqueair.com"
+                }
+            },
+            {
+                "coordinates": [
+                    458.950500488281,
+                    442.132659912109
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "AMC",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    423.928466796875,
+                    469.832061767578
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "WOW",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/321a47b3-4c40-4f9e-924d-dcaf159573ad.png",
+                    "caption": "",
+                    "link": "wowair.us"
+                }
+            },
+            {
+                "coordinates": [
+                    464.254699707031,
+                    461.766815185547
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Xtra",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/5cc7bf62-499b-44fb-8dc4-4af76a40a436.png",
+                    "caption": "",
+                    "link": "www.xtraairways.com"
+                }
+            },
+            {
+                "coordinates": [
+                    444.091613769531,
+                    473.864685058594
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Sunwing",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/dea9d7b2-6caa-477a-8702-daf042896351.png",
+                    "caption": "",
+                    "link": "www.flysunwing.com"
+                }
+            },
+            {
+                "coordinates": [
+                    423.928466796875,
+                    453.701568603516
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Norwegian",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/1855801d-cbbb-4162-accf-b17257e8bc36.png",
+                    "caption": "",
+                    "link": "www.norwegian.com/us/"
+                }
+            },
+            {
+                "coordinates": [
+                    460.222106933594,
+                    479.913604736328
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Condor",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/3c464902-d6fd-4197-a4be-2fc73a00294b.png",
+                    "caption": "",
+                    "link": "www.condor.com"
+                }
+            },
+            {
+                "coordinates": [
+                    446.10791015625,
+                    457.734191894531
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "British Airways",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/bafef9a0-9ad3-4871-aa90-bcc23b34120c.png",
+                    "caption": "",
+                    "link": "www.britishairways.com"
+                }
+            },
+            {
+                "coordinates": [
+                    729.399597167969,
+                    623.071716308594
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Southern Airways Express",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "https://bwi.resources.aocdms.com/3d817ef9-feae-4174-8487-dbb7bb63246b.png",
+                    "caption": "",
+                    "link": "www.iflysouthern.com"
+                }
+            },
+            {
+                "coordinates": [
+                    739.481140136719,
+                    598.8759765625
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Allegiant Air",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": "www.allegiantair.com"
+                }
+            },
+            {
+                "coordinates": [
+                    727,
+                    755
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "American Airlines",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    683.0244140625,
+                    528.305114746094
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Air Canada",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    723.350646972656,
+                    582.745483398438
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Alaska Airlines",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    748,
+                    637
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "JetBlue",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    528,
+                    481
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Delta Airlines",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    703.187561035156,
+                    548.468200683594
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "Spirit Airlines",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    602,
+                    862
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "SouthWest",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            },
+            {
+                "coordinates": [
+                    693.10595703125,
+                    502.093048095703
+                ],
+                "attr": {
+                    "category": "Ticket Counters",
+                    "layer": "upper",
+                    "title": "United",
+                    "airline": "",
+                    "gate": "",
+                    "concourse": [],
+                    "labels": [
+                        "Pre Security",
+                        "Concourse "
+                    ],
+                    "hours": "",
+                    "phone": "",
+                    "image": "",
+                    "caption": "",
+                    "link": ""
+                }
+            }
+        ]
+    }
+}

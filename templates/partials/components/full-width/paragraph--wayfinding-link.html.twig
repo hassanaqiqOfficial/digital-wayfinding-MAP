@@ -1,0 +1,37 @@
+{% set images = image_style(content.field_image, ['square_xsml']) %}
+
+<section class="info theme_framed">
+	<div class="row">
+		<div class="info_wrapper">
+			<img class="info_image" alt="{{ content.field_image[0]["#item"].alt }}" src="{{ images.square_xsml }}">
+
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						<span class="info_ribbon_bubble">
+							<span class="info_ribbon_icon">
+								<svg aria-hidden="true" class="symbol symbol_traveler symbol_red">
+									<use xlink:href="#traveler"></use>
+								</svg>
+							</span>
+						</span>
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+						<p class="info_caption">{{ content.field_description_plain[0]["#context"]["value"] }}</p>
+					</div>
+				</header>
+				<div class="info_items">
+					<div class="info_item">
+						<a class="info_item_link" href="{{ content.field_link[0]["#url"] }}" aria-title="Open page for more info on {{ content.field_link[0]["#title"] }}"{% if content.field_open_in_new_window[0]["#markup"] == "Yes" %} target="_blank"{% endif %}>
+							<span>{{ content.field_link[0]["#title"] }}</span>
+							<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+								<use xlink:href="#arrow_right"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

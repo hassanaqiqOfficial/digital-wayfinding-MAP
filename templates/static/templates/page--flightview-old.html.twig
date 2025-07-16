@@ -1,0 +1,296 @@
+<script>
+	var FlightURL = {{ url('<front>') }} + "themes/custom/bwi/cache/flight-data.json";
+</script>
+<!-- Page Wrapper -->
+<div class="js-navigation_push page_wrapper">
+	<!-- Header -->
+	<header class="header" id="header" itemscope itemtype="http://schema.org/WPHeader">
+		<div class="header_ribbon">
+			{% include directory ~ "/templates/partials/logo.twig" with {
+				modifier: "header"
+			} %}
+
+			{{ page.main_navigation }}
+
+			<div class="header_aside">
+				{{ page.persistent_navigation }}
+
+				<a class="mobile_sidebar_handle" href="#mobile_sidebar">
+					<span class="js-nav_handle mobile_sidebar_handle_label">Menu</span>
+					<span class="mobile_sidebar_handle_icon"></span>
+				</a>
+
+				{% include directory ~ "/templates/partials/search.twig" with {
+					modifier: "lg",
+					placeholder: "Search...",
+					buttonText: "submit"
+				} %}
+
+				<a class="site_search_handle" href="#site_search_lg">
+					<span class="site_search_handle_label">Search</span>
+					<span class="site_search_handle_scope">
+						<svg aria-hidden="true" class="symbol symbol_search symbol_red">
+							<use xlink:href="#search"></use>
+						</svg>
+					</span>
+					<span class="site_search_handle_close">
+						<svg aria-hidden="true" class="symbol symbol_close symbol_black">
+							<use xlink:href="#close"></use>
+						</svg>
+					</span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!-- END: Header -->
+
+	<!-- Page -->
+	<div class="page">
+		<section class="site_message" aria-hidden="true">
+			<div class="row">
+				<div class="site_message_description">
+					<p>It looks like you're trying to zoom in on this page. For best results: use the most recent version of your browser, disable your browser's 'zoom text only' setting, and use your browser's default font size settings.</p>
+					<p>To zoom in, use [Ctrl] + [+] in Windows, and [Cmd] + [+] on a Mac. To zoom out, use the keyboard shortcut [Ctrl] + [-] in Windows and [Cmd] + [-] on a Mac.</p>
+				</div>
+			</div>
+		</section>
+
+		{% if not layout %}
+		<div class="subnav_cell">
+			{{ page.subnav }}
+		</div>
+		{% endif %}
+
+		<!-- Page Feature -->
+		<div class="page_feature">
+			{% if alert %}
+				{% include directory ~ "/templates/partials/alert.twig" with { alert: alert } %}
+			{% endif %}
+
+			{{ page.feature }}
+		</div>
+		<!-- END: Page Feature -->
+
+		<!-- Page Content -->
+		<div class="page_content{% if not layout %} page_content_expanded{% endif %}">
+			<div class="row">
+				{% if not layout %}
+				<div class="content_cell">
+					<main class="main_content" id="main_content" itemprop="mainContentOfPage">
+						{% block page_header %}
+							<div class="page_header">
+								{{ page.breadcrumb }}
+
+								{% if title %}
+									{% if node.field_feature is empty %}
+									<div class="typography">
+										<h2 class="page_title" id="page_title">{{title}}</h2>
+									</div>
+									{% endif %}
+								{% endif %}
+							</div>
+						{% endblock %}
+
+						<div class="typography">
+							{{ page.content }}
+						</div>
+						<div class="in_content_callouts">
+							<section class="info theme_inline">
+									<div class="info_wrapper">
+										{# {{site.image("info", dimension, image)}} #}
+										<div class="info_body">
+											<header class="info_header">
+												<div class="info_ribbon">
+													<span class="info_ribbon_bubble">
+														<span class="info_ribbon_icon">
+															<svg aria-hidden="true" class="symbol symbol_airplane symbol_red">
+																<use xlink:href="#airplane"></use>
+															</svg>
+														</span>
+													</span>
+												</div>
+												<div class="info_heading">
+													<h2 class="info_title"></h2>
+													<p class="info_caption"></p>
+												</div>
+											</header>
+											<form class="info_form js-flight-form" method="get" action="#customerComponent">
+												<!-- <div class="info_form_row">
+													<select name="airline" class="js-dropdown inline info_dropdown js-flight-airline">
+														<option value="">Search by Airline</option>
+														<option value="AC"{% if get.airline == "AC" %} selected{% endif %}>Air Canada</option>
+														<option value="AS"{% if get.airline == "AS" %} selected{% endif %}>Alaska Airlines</option>
+														<option value="G4"{% if get.airline == "G4" %} selected{% endif %}>Allegiant Air</option>
+														<option value="AA"{% if get.airline == "AA" %} selected{% endif %}>American Airlines</option>
+														<option value="4B"{% if get.airline == "4B" %} selected{% endif %}>Boutique Air</option>
+														<option value="BA"{% if get.airline == "BA" %} selected{% endif %}>British Airways</option>
+														<option value="DE"{% if get.airline == "DE" %} selected{% endif %}>Condor</option>
+														<option value="DL"{% if get.airline == "DL" %} selected{% endif %}>Delta Air Lines</option>
+														<option value="B6"{% if get.airline == "B6" %} selected{% endif %}>JetBlue</option>
+														<option value="DY"{% if get.airline == "DY" %} selected{% endif %}>Norwegian</option>
+														<option value="9X"{% if get.airline == "9X" %} selected{% endif %}>Southern Airways Express</option>
+														<option value="WN"{% if get.airline == "WN" %} selected{% endif %}>Southwest Airlines</option>
+														<option value="NK"{% if get.airline == "NK" %} selected{% endif %}>Spirit Airlines</option>
+														<option value="WG"{% if get.airline == "WG" %} selected{% endif %}>Sunwing</option>
+														<option value="UA"{% if get.airline == "UA" %} selected{% endif %}>United Airlines</option>
+														<option value="VX"{% if get.airline == "VX" %} selected{% endif %}>Virgin America</option>
+														<option value="WW"{% if get.airline == "WW" %} selected{% endif %}>WOW</option>
+														<option value="XP"{% if get.airline == "XP" %} selected{% endif %}>Xtra Airways</option>
+													</select>
+												</div> -->
+												<div class="info_form_row column_three">
+													<input name="flight" placeholder="Search Flight #" class="info_form_input js-flight-number" value="{{ get.flight }}"/>
+													<div class="fs-dropdown_wrapper inline info_form_dropdown_date info_dropdown_wrapper">
+														<select name="date" class="js-dropdown inline info_dropdown js-flight-date">
+															{% for i in range(-5, 20) %}
+															<option value="{{ date("+" ~ i ~ " days")|date("Ymd") }}"{% if flightdate|date("Ymd") == date("+" ~ i ~ " days")|date("Ymd") %} selected{% endif %}>{{ date("+" ~ i ~ " days")|date("D, M j") }}</option>
+															{% endfor %}
+														</select>
+														<span class="fs-dropdown_icon inline info_dropdown_icon">
+															<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+																<use xlink:href="#caret_down"></use>
+															</svg>
+														</span>
+													</div>
+													<div class="info_form_search">
+														<button type="submit" class="info_item_link info_item_link_search">
+															<span>Search</span>
+															<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+																<use xlink:href="#arrow_right"></use>
+															</svg>
+														</button>
+														<button type="submit" class="info_item_link info_item_link_search_all">
+															<span>All Flights</span>
+															<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+																<use xlink:href="#arrow_right"></use>
+															</svg>
+														</button>
+													</div>
+												</div>
+												<!-- <div class="info_form_row column_two">
+													<div class="info_form_radios">
+														<label>
+															<input type="radio" name="type" value="arrival"{% if flighttype != "departure" %} checked{% endif %}>
+															<span class="checkbox_label">Arrivals</span>
+														</label>
+														<label>
+															<input type="radio" name="type" value="departure"{% if flighttype == "departure" %} checked={% endif %}>
+															<span class="checkbox_label">Departures</span>
+														</label>
+													</div>
+													<div class="info_form_search">
+														<button type="submit" class="info_item_link">
+															<span>Search</span>
+															<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+																<use xlink:href="#arrow_right"></use>
+															</svg>
+														</button>
+													</div>
+												</div> -->
+											</form>
+											<div class="info_items">
+											</div>
+										</div>
+									</div>
+							</section>
+						</div>
+					</main>
+				</div>
+
+				<div class="sidebar_cell">
+					<div class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+						{{ page.sidebar }}
+					</div>
+				</div>
+				{% endif %}
+			</div>
+			<div class="full_width_callouts">
+				<div class="row">
+					<div class="flightview_wrapper">
+						<script src="{{ trackerURL|raw }}"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer" id="footer" itemscope itemtype="http://schema.org/WPFooter">
+		<div class="row">
+			<div class="footer_column">
+				<div class="footer_row">
+					<div class="footer_address" itemscope itemtype="http://schema.org/PostalAddress">
+						<div class="footer_address_details">
+							<h2 class="footer_address_label">Location</h2>
+							<span class="footer_address_name" itemprop="name">BWI</span>
+							<span class="footer_address_street" itemprop="streetAddress">7050 Friendship Rd, </span>
+							<span class="footer_address_city" itemprop="addressLocality">Baltimore, </span>
+							<span class="footer_address_state" itemprop="addressRegion">MD </span>
+							<span class="footer_address_zip" itemprop="postalCode">21240</span>
+						</div>
+						<a class="footer_address_link" href="{{ directions_link }}" target="_blank">
+							<span>Get Directions</span>
+							<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+								<use xlink:href="#arrow_right"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer_pair">
+					<div class="footer_row">
+						{{ page.helpful_links }}
+					</div>
+					<div class="footer_row">
+						{{ page.social_links }}
+					</div>
+				</div>
+				<div id="google_translate_element"></div>
+				<script type="text/javascript">
+				function googleTranslateElementInit() {
+				  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+				}
+				</script>
+				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div>
+			<div class="footer_aside">
+				{% include directory ~ "/templates/partials/logo.twig" with {
+					modifier: "footer"
+				} %}
+
+				<div class="directory">
+					<div class="directory_item">
+						<img src="{{ governor_image }}" class="directory_item_image" alt="">
+						<div class="directory_item_details">
+							<h5 class="directory_item_name">{{ governor_name }}</h5>
+							<h6 class="directory_item_title">Governor</h6>
+						</div>
+					</div>
+
+					<div class="directory_item">
+						<img src="{{ lt_governor_image }}" class="directory_item_image" alt="">
+						<div class="directory_item_details">
+							<h5 class="directory_item_name">{{ lt_governor_name }}</h5>
+							<h6 class="directory_item_title">Lt. Governor</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!-- END: page_wrapper -->
+
+<div class="js-navigation mobile_sidebar" id="mobile_sidebar" hidden data-navigation-handle=".js-nav_handle" data-navigation-content=".js-navigation_push" data-navigation-options='{"type": "overlay", "gravity": "right"}'>
+	<div class="mobile_sidebar_group">
+		{% include directory ~ "/templates/partials/search.twig" with {
+			modifier: "sm",
+			placeholder: "Search...",
+			buttonText: "submit"
+		} %}
+
+		{% include directory ~ "/templates/partials/hud-nav.twig" %}
+
+		{{ page.mobile_sidebar }}
+	</div>
+
+	{{ page.mobile_sidebar_bottom }}
+</div>

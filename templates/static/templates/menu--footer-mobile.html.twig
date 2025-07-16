@@ -1,0 +1,17 @@
+<nav class="footer_nav footer_nav_sm" aria-label="Helpful Links" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="footer_nav_header">
+		<h2 class="footer_nav_title">Helpful Links</h2>
+	</div>
+	<div class="footer_nav_list" role="navigation">
+		{% for item in items %}
+		<div class="footer_nav_item" itemprop="url">
+			<a class="footer_nav_link" href="{{ item.url }}" itemprop="name"{% if item.url.options.external %} target="_blank"{% endif %}>
+				<span class="footer_nav_link_label">{{ item.title }}</span>
+				<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_red">
+					<use xlink:href="#arrow_right"></use>
+				</svg>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</nav>

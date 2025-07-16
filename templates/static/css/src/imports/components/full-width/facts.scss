@@ -1,0 +1,119 @@
+/* ==========================================================================
+	Facts
+============================================================================= */
+
+.facts {
+	@include padded_lg;
+
+	background: $beige;
+	overflow: hidden;
+}
+
+.facts_header {}
+
+.facts_title {
+	@include heading_2;
+
+	color: $black;
+	margin: 0 0 10px;
+}
+
+.facts_caption {
+	@include body_text;
+
+	color: $dark;
+	margin: 0 0 25px;
+
+	@media #{$min_md} {
+		margin-bottom: 40px;
+	}
+}
+
+.facts_wrapper {
+	@include clearfix;
+
+	max-width: 280px;
+
+	@media #{$min_md} {
+		max-width: 320px;
+	}
+
+	@media #{$min_lg} {
+		max-width: 100%;
+	}
+
+	&.fs-carousel {
+
+		@media #{$min_lg} {
+			cursor: inherit;
+		}
+	}
+
+	.fs-carousel-canister {
+
+		@media #{$min_lg} {
+			width: 100% !important;
+
+			transform: none !important;
+		}
+	}
+}
+
+.fact {
+	margin-right: 25px;
+	padding-bottom: 5px;
+
+	@media print {
+		margin-bottom: 30px;
+	}
+
+	@media #{$min_lg} {
+		width: 30% !important;
+
+		float: left;
+
+		margin-right: 3%;
+	}
+}
+
+.fact_image_link {
+	display: block;
+}
+
+.fact_image {
+	width: 100%;
+
+	margin-bottom: 15px;
+}
+
+.fact_title {
+	@include heading_4;
+
+	font-weight: 300;
+	margin: 0 0 10px;
+}
+
+.fact_caption {
+	@include body_text_small;
+
+	margin: 0 0 12px;
+
+	a {
+		color: $red;
+
+		&:focus,
+		&:hover {
+			background: $red;
+			color: #fff;
+		}
+	}
+}
+
+.fact_link {
+	@include proxima(700);
+	@include arrowed_link;
+	@include gray_arrowed_link;
+	@include expander;
+
+	font-size: 16px;
+}

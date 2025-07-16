@@ -1,0 +1,18 @@
+<section class="stats">
+	<div class="row">
+		<header class="stats_header">
+			<div class="stats_ribbon">
+				<span class="stats_ribbon_icon">
+					<svg aria-hidden="true" class="symbol symbol_pie symbol_red">
+						<use xlink:href="#pie"></use>
+					</svg>
+				</span>
+			</div>
+			<h2 class="stats_title">{{ content.field_title[0]["#context"]["value"] }}</h2>
+			<p class="stats_caption">{{ content.field_subtitle[0]["#context"]["value"] }}</p>
+		</header>
+		<div class="stats_body">
+			{{ content.field_statistics }}
+		</div>
+	</div>
+</section>

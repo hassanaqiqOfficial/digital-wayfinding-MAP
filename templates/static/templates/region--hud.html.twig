@@ -1,0 +1,32 @@
+{% set card_types = {
+  "hud_flight_status": { title: "Flight Status", id: "airplane" },
+  "hud_parking_availability": { title: "Parking Availability", id: "parking" },
+  "hud_notifications": { title: "Notifications", id: "notifications" }
+} %}
+<div class="hud">
+  <div class="hud_tabs">
+    {% for component in custom_content %}
+      {% set card_type = card_types[paragraph_types[loop.index0]] %}
+      {% if card_type.id != "notifications" %}
+        <button class="js-swap hud_tab" data-swap-target=".hud_item_{{ loop.index }}" data-swap-group="hud_item_group">
+          <span class="hud_title_indicator">
+            <span class="hud_title_icon hud_title_icon_{{ card_type.id }}">
+              <svg aria-hidden="true" class="symbol symbol_{{ card_type.id }} symbol_white">
+                <use xlink:href="#{{ card_type.id }}"></use>
+              </svg>
+            </span>
+          </span>
+          <h2 class="hud_title">{{ card_type.title }}</h2>
+        </button>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% for component in custom_content %}
+    <div class="hud_item hud_item_{{ loop.index }} hud_item_{{ card_types[paragraph_types[loop.index0]].id }}">
+      <div class="hud_item_body">
+        {{ component }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

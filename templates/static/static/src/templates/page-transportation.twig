@@ -1,0 +1,76 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		title: "Transportation",
+		caption: "In magna nisl, hendrerit a posuere in, congue ut est."
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		"Transit",
+		"Rental Cars",
+		"Shuttles",
+		"Taxi and Rideshares"
+	] %}
+{% endblock %}
+
+{% set pageTitle = "Transportation" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "Getting here is easy." %}
+{% endblock %}
+
+{% block typography %}
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur, velit eu porta pretium, mi eros suscipit est, vel viverra leo diam id ipsum. Proin ante mauris, porttitor sed ipsum non, dictum consequat ex. Aliquam ex dui, iaculis blandit sollicitudin a, pretium et erat. Fusce nec ligula ac nibh facilisis tempor vel eu orci. </p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/listing.twig' with {
+		listings: [
+			{
+				title: "Transit Options",
+				caption: "Our four parking options are ready to serve you depending on your budget and timeframe — try our Hourly Garage, Daily Garage, Express Parking or Long Term Parking.",
+				link: "Transit"
+			},
+			{
+				title: "Rental Cars",
+				caption: "If you’re picking someone up, we recommend our Cell Phone Lot to pick someone up curbside, or our Hourly Garage to meet them at their exit to Baggage Claim.",
+				link: "Rental Cars"
+			},
+			{
+				title: "Shuttles",
+				caption: "Drop-offs are easy at the airline entrances on our Upper Level. Just follow the signs for Departures as you approach the airport, then find the right airline sign.",
+				link: "Shuttles"
+			},
+			{
+				title: "Taxis / Rideshares",
+				caption: "Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				link: "Taxis / Rideshares"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/planning.twig' with {
+		class: "white",
+		title: "Estimated Shuttle Times",
+		titleLabel: "* as of 3:45pm",
+		symbol: "clock",
+		items: [
+			{
+				title: "To / From Car Rentals",
+				caption: "Every 10 Minutes"
+			},
+			{
+				title: "To / From Amtrack / Mark",
+				caption: "Every 12 Minutes"
+			},
+			{
+				title: "To / From Greenbelt Metro",
+				caption: "Every 40 Minutes"
+			}
+		],
+		caption: "Curabitur blandit tempus porttitor. Vestibulum id ligula porta fels euismod."
+	} %}
+{% endblock %}

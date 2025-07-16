@@ -1,0 +1,32 @@
+<section class="parking">
+	<div class="row">
+		<header class="parking_header">
+			<div class="parking_ribbon">
+				{{site.symbol("car", "red")}}
+			</div>
+			<h2 class="parking_title">{{title}}</h2>
+			<p class="parking_caption">{{caption}}</p>
+		</header>
+		<div class="parking_body">
+			{% for item in parking %}
+				<div class="parking_item{% if item.status == "Lot Full" %} lot-full{% elseif item.status == "Mostly Full" %} mostly-full{% elseif item.status == "Mostly Open" %} mostly-open{% elseif item.status == "Available" %} available{% endif %}">
+					<header>
+						<h3 class="parking_item_quantity">{{item.number}}%</h3>
+						<div class="parking_item_details">
+							<h4 class="parking_item_type">{{item.type}}</h4>
+							<span class="parking_item_status">{{item.status}}</span>
+						</div>
+						<h5 class="parking_item_cost">{{item.cost}}</h5>
+					</header>
+					<div class="parking_item_body">
+						<p class="parking_item_caption">{{item.caption}}</p>
+						<a class="parking_item_link" href="#">
+							<span>More Info</span>
+							{{site.symbol("arrow_right", "gray")}}
+						</a>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

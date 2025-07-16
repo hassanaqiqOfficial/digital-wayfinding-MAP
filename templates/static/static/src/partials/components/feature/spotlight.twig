@@ -1,0 +1,22 @@
+<div class="spotlight{% if image %} theme_image{% endif %}">
+	{% if image %}
+		{% include '../shared/background.twig' with {
+			class: "spotlight",
+			image: image,
+			sources: {
+				"0px": img.square.sml,
+				"740px": img.ultrawide.med,
+				"980px": img.ultrawide.lrg,
+				"1220px": img.ultrawide.xlrg
+			}
+		} %}
+	{% endif %}
+	<div class="spotlight_row">
+		<div class="row">
+			<div class="spotlight_body">
+				<h1 class="spotlight_title">{{title}}</h1>
+				<p class="spotlight_caption">{{caption}}</p>
+			</div>
+		</div>
+	</div>
+</div>

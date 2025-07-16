@@ -1,0 +1,20 @@
+<AvailableSpaces>
+  <CounterConfiguration>
+    <Name>ESP Total Cars</Name>
+    <TimeStamp>2016-12-16T16:18:00.420</TimeStamp>
+    <CurrentValue>001160</CurrentValue>
+    <Count_Max>001404</Count_Max>
+  </CounterConfiguration>
+  <CounterConfiguration>
+    <Name>ESP Static Spaces</Name>
+    <TimeStamp>2016-12-16T16:18:00.420</TimeStamp>
+    <CurrentValue>001404</CurrentValue>
+    <Count_Max>001404</Count_Max>
+  </CounterConfiguration>
+  <CounterConfiguration>
+    <Name>ESP Spaces Available</Name>
+    <TimeStamp>2016-12-16T16:18:00.420</TimeStamp>
+    <CurrentValue>5</CurrentValue>
+    <Count_Max>001404</Count_Max>
+  </CounterConfiguration>
+</AvailableSpaces>

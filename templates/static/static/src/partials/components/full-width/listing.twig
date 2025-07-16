@@ -1,0 +1,19 @@
+<section class="listing">
+	<div class="row">
+		<div class="listings">
+			{% for item in listings %}
+				<article class="listing_item">
+					{{site.image("listing_item", img.full.xxsml, loop.index)}}
+					<div class="listing_item_body">
+						<h2 class="listing_item_title">{{item.title}}</h2>
+						<p class="listing_item_caption">{{item.caption}}</p>
+						<a class="listing_item_link" href="#" aria-title="Open page for more info on {{item.title}}">
+							<span>{{item.link}}</span>
+							{{site.symbol("arrow_right", "red")}}
+						</a>
+					</div>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</section>

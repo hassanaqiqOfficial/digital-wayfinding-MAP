@@ -1,0 +1,80 @@
+<section class="info{% if class %} theme_{{class}}{% endif %}">
+	{% if class != "inline" %}
+	<div class="row">
+	{% endif %}
+		<div class="info_wrapper">
+			{{site.image("info", dimension, image)}}
+			<div class="info_body">
+				<header class="info_header">
+					<div class="info_ribbon">
+						<span class="info_ribbon_bubble">
+							<span class="info_ribbon_icon">
+								{{site.symbol(symbol, "red")}}
+							</span>
+						</span>
+					</div>
+					<div class="info_heading">
+						<h2 class="info_title">{{title}}</h2>
+						<p class="info_caption">{{caption}}</p>
+					</div>
+				</header>
+				{% if form %}
+				<div class="info_form">
+					<div class="info_form_row column_three">
+						<div class="info_form_input_wrapper">
+							<input placeholder="Search by Flight #" class="info_form_input"/>
+							<button class="info_form_input_clear hidden">
+								<span class="info_form_input_clear_icon">{{site.symbol("close")}}</span>
+							</button>
+						</div>
+						<div class="fs-dropdown_wrapper inline info_form_dropdown_date info_dropdown_wrapper">
+							<select class="inline info_dropdown_date info_dropdown">
+							</select>
+							<span class="fs-dropdown_icon inline info_form_dropdown_date info_dropdown_icon">
+								<svg class="symbol symbol_caret_down symbol_red">
+									<use xlink:href="#caret_down"></use>
+								</svg>
+							</span>
+						</div>
+						<div class="info_form_search">
+							<button class="info_item_link info_item_link_search">
+								<span>Search</span>
+								{{site.symbol("arrow_right", "red")}}
+							</button>
+							<button class="info_item_link info_item_link_search_all">
+								<span>All Flights</span>
+								{{site.symbol("arrow_right", "red")}}
+							</button>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if links or dropdown %}
+					<div class="info_items">
+						{% if links %}
+							{% for link in links %}
+								<div class="info_item{% if link.name %} info_item_grouped{% endif %}">
+									<a class="info_item_link" href="">
+										<span>{% if link.name %}{{link.name}}{% else %}{{link}}{% endif %}</span>
+										{{site.symbol("arrow_right", "red")}}
+									</a>
+									{% if link.detail %}
+										<p class="info_item_detail">{{link.detail}}</p>
+									{% endif %}
+									{% if link.cost %}
+										<p class="info_item_cost">{{link.cost}}</p>
+									{% endif %}
+								</div>
+							{% endfor %}
+						{% endif %}
+						{% if dropdown %}
+							{{site.dropdown("info", dropdown)}}
+						{% endif %}
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	{% if class != "inline" %}
+	</div>
+	{% endif %}
+</section>

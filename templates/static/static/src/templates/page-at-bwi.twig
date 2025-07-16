@@ -1,0 +1,101 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		image: 8,
+		title: "At BWI",
+		caption: "Experience all that we have to offer."
+	} %}
+{% endblock %}
+
+{% block subNavLinks %}
+	{% set subNavLinksAlias = [
+		"Maps",
+		"Things to Do",
+		"Places to Go",
+		"Resources"
+	] %}
+{% endblock %}
+
+{% set pageTitle = "At BWI" %}
+
+{% block sectionTitle %}
+	{% set sectionTitle = "" %}
+{% endblock %}
+
+{% block typography %}
+	<p>Enjoy your time on the go at BWI Marshall by stopping by our many restaurants, shops and even fitness options. Our newly opened post-security gym can even allow you to get in a full workout — and shower — before your flight.</p>
+
+	<p>If you’d prefer to relax, check out our Observation Gallery or Lounge, our Meditation Room or Art Exhibits. And if your timing is right, you may even be able to catch an event such as a concert — in the past we’ve hosted local bands such as Wye Oak, among others.</p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "framed",
+		background: 3,
+		title: "Experience BWI",
+		caption: "Your trip to the airport doesn’t have to give you a headache.",
+		link: "Explore Health & Fitness",
+		subCaption: "ROAM FITNESS The 1,175 square-foot gym is located past the security checkpoint, between terminals D and E."
+	} %}
+
+	{% include '../partials/components/full-width/info.twig' with {
+		class: "framed",
+		dimension: img.square.xsml,
+		image: 2,
+		symbol: "traveler",
+		title: "Find What’s Nearby",
+		caption: "There’s a lot to do at BWI Marshall Airport. Get the lay of the land and make the most out of your journey.",
+		dropdown: [
+			"Select Your Concourse"
+		]
+	} %}
+
+	{% include '../partials/components/full-width/callouts.twig' with {
+		callouts: [
+			{
+				title: "Things to Do",
+				image: 4,
+				caption: "Need help? Visit our Information Desks inside the airport or explore this page for more.",
+				link: "Things to Do"
+			},
+			{
+				title: "Places to Go",
+				image: 5,
+				caption: "Spending some time with us? Explore all the places we have to visit in and around BWI Marshall.",
+				link: "Places to Go"
+			}
+		]
+	} %}
+
+	{% include '../partials/components/full-width/services.twig' with {
+		title: "Services",
+		background: 10,
+		services: [
+			{
+				title: "Customer Service",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Nursing Mothers",
+				caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium."
+			},
+			{
+				title: "Families",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Pets",
+				caption: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec vive."
+			},
+			{
+				title: "Currency Exchange",
+				caption: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget lib."
+			},
+			{
+				title: "Volunteering at BWI",
+				caption: "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamco."
+			}
+		]
+	} %}
+{% endblock %}

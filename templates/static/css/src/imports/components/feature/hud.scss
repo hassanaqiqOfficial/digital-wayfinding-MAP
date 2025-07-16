@@ -1,0 +1,857 @@
+/* ==========================================================================
+	HUD
+============================================================================= */
+
+.hud {
+	max-width: 500px;
+
+	right: auto;
+
+	margin: 0 auto;
+	padding: 0 10px;
+
+	@media #{$max_lg} {
+		position: static !important;
+	}
+
+	@media #{$min_lg} {
+		width: 250px;
+
+		position: absolute;
+		top: 80px;
+		right: 0;
+		z-index: 40;
+
+		background: #f2f2f2;
+		padding-top: 20px;
+	}
+
+	@media #{$min_xl} {
+		top: 100px;
+	}
+
+	&.fits,
+	&.pinned_hud,
+	&.pinned_notifications {
+
+		@media #{$min_lg} {
+			position: fixed;
+		}
+	}
+
+	&.sinks {
+
+		@media #{$min_lg} {
+			position: absolute;
+			top: auto;
+			bottom: 0;
+		}
+	}
+}
+
+.hud_tabs {
+	@include clearfix;
+
+	margin: 0 -2px;
+	padding: 10px 0 5px;
+
+	@media print {
+		display: none;
+	}
+
+	@media #{$min_sm} {
+		text-align: center;
+	}
+
+	@media #{$min_lg} {
+		display: none;
+	}
+}
+
+.hud_tab {
+	width: calc(50% - 4px);
+
+	position: relative;
+	float: left;
+
+	background: $red;
+	border: 2px solid $red;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	margin: 0 2px;
+	padding: 8px 0;
+	text-align: center;
+	transition:
+		background .25s,
+		border-color .25s,
+		color .25s;
+
+	&:after {
+		position: absolute;
+		top: 100%;
+		left: 50%;
+
+		border: 8px solid transparent;
+		border-top-color: $red;
+		content: "";
+		opacity: 0;
+		visibility: hidden;
+		transition:
+			opacity .25s,
+			visibility .25s,
+			transform .25s;
+		transform: translate(-50%, 0);
+	}
+
+	&.fs-swap-active {
+		background: #fff;
+		color: $red;
+
+		&:after {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+
+/* Shared Headers
+============================================================================= */
+
+.hud_item {
+	padding: 15px 0 20px;
+
+	&.fs-swap-enabled {
+		display: none;
+
+		@media #{$min_lg} {
+			display: block;
+		}
+	}
+
+	&.fs-swap-active {
+		display: block;
+	}
+
+	@media #{$min_lg} {
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	&_parking {
+
+		&.fs-swap-enabled {
+
+			@media print {
+				display: block;
+			}
+		}
+	}
+
+	&_notifications {
+		min-height: auto !important;
+		max-width: inherit;
+
+		background: #fff;
+		padding: 0 0 10px;
+
+		@media #{$min_lg} {
+			margin: 0;
+			padding: 20px 0;
+
+			background: none;
+		}
+	}
+}
+
+.hud_item_body {
+
+	@media #{$min_lg} {
+		transition:
+			opacity .15s,
+			transform .15s,
+			visibility .15s;
+	}
+
+	.hud_item_notifications & {
+		background: #f2f2f2;
+		border: 1px solid $red;
+		border-radius: 4px;
+		margin: 0 auto;
+		padding: 20px;
+
+		@media #{$min_lg} {
+			max-width: inherit;
+
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+	}
+}
+
+.hud_header {
+
+	.hud_item_flights &,
+	.hud_item_airplane &,
+	.hud_item_parking & {
+		display: none;
+
+		@media #{$min_lg} {
+			display: block;
+		}
+	}
+}
+
+.hud_title_flag {
+	position: relative;
+
+	display: inline-block;
+	margin-right: 6px;
+	vertical-align: middle;
+
+	@media print {
+		display: none;
+	}
+
+	@media #{$min_lg} {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	&:before,
+	&:after {
+		width: 100%;
+
+		position: absolute;
+		top: 50%;
+		left: 0;
+
+		border-bottom: 1px solid #C1C1C1;
+
+		@media #{$min_lg} {
+			content: "";
+		}
+	}
+
+	&:after {
+		margin-top: -2px;
+		transform:
+			translate(0, -50%)
+			scaleX(.95);
+	}
+}
+
+.hud_title_indicator {
+	height: 30px;
+	width: 30px;
+
+	position: relative;
+	z-index: 2;
+
+	background: $red;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+
+	@media #{$min_lg} {
+		box-shadow:
+			-12px 0 0 0 #f2f2f2,
+			12px 0 0 0 #f2f2f2;
+		overflow: visible;
+	}
+
+	.hud_tab & {
+		box-shadow: inset 0 0 0 1px rgba(#fff, .2);
+		display: inline-block;
+		vertical-align: middle;
+		transition:
+			background .25s,
+			box-shadow .25s;
+
+		@at-root .hud_tab.fs-swap-active .hud_title_indicator {
+			background: transparent;
+			box-shadow: inset 0 0 0 1px rgba($red, .2);
+		}
+	}
+}
+
+.hud_title_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	.no-cssanimations & {
+		transform: translate(-50%, -50%);
+	}
+
+	&_airplane {
+
+		.cssanimations & {
+			animation: fly-away 10s infinite;
+			transform:
+				translate(-50%, -50%)
+				scale(1);
+		}
+	}
+
+	&_parking {
+
+		.cssanimations & {
+			animation: stop 10s .125s infinite;
+			transform:
+				translate(-50%, -50%)
+				scale(1);
+		}
+	}
+
+	&_exclamation {
+
+		.cssanimations & {
+			animation: excite 10s .25s infinite;
+			transform:
+				translate(-50%, -50%)
+				rotate(0)
+				scale(1);
+		}
+	}
+
+	svg {
+		display: block;
+		transition: none;
+
+		.fs-swap-active & {
+			fill: $red;
+		}
+	}
+}
+
+@keyframes fly-away {
+
+	0% {
+		opacity: 0;
+		transform:
+			translate(-200%, 200%)
+			scale(0);
+	}
+
+	5%,
+	85% {
+		opacity: 1;
+		transform:
+			translate(-50%, -50%)
+			scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform:
+			translate(200%, -200%)
+			scale(0);
+	}
+}
+
+@keyframes stop {
+
+	0% {
+		opacity: 0;
+		transform:
+			translate(-200%, -50%)
+			scale(0);
+	}
+
+	5%,
+	85% {
+		opacity: 1;
+		transform:
+			translate(-50%, -50%)
+			scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform:
+			translate(100%, -50%)
+			scale(0);
+	}
+}
+
+@keyframes excite {
+
+	0% {
+		opacity: 0;
+		transform:
+			translate(-50%, -50%)
+			rotate(-25deg)
+			scale(0);
+	}
+
+	5%,
+	85% {
+		opacity: 1;
+		transform:
+			translate(-50%, -50%)
+			rotate(0)
+			scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform:
+			translate(-50%, -50%)
+			rotate(25deg)
+			scale(1.5);
+	}
+}
+
+.hud_title {
+	@include proxima(700);
+
+	color: $dark;
+	display: inline-block;
+	font-size: 13px;
+	text-transform: uppercase;
+	vertical-align: middle;
+
+	@media #{$min_lg} {
+		font-size: 14px;
+		letter-spacing: 1px;
+		margin: 0 0 10px;
+	}
+
+	.hud_tab & {
+		position: relative;
+
+		color: inherit;
+		display: block;
+		font-size: 11px;
+		letter-spacing: 0;
+		margin-top: 6px;
+		margin-bottom: 0;
+		vertical-align: middle;
+
+		@media screen and (min-width: 340px) {
+			font-size: 12px;
+		}
+
+		@media screen and (min-width: 420px) {
+			font-size: 13px;
+		}
+	}
+}
+
+
+/* Flights Item
+============================================================================= */
+
+.hud_flights {
+	padding-top: 5px;
+}
+
+.hud_flight_dropdown_wrapper {
+	display: none;
+	margin-bottom: 3px;
+
+	@media #{$min_lg} {
+		display: block;
+	}
+
+	.fs-dropdown-selected {
+		box-shadow: inset 0 0 0 1px #e3e3e3;
+		font-weight: 300;
+
+		@media #{$max_lg} {
+			padding: 24px 15px 23px;
+		}
+	}
+}
+
+.hud_flight_date {
+	display: none;
+
+	.show_remaining_inputs & {
+		display: block;
+	}
+}
+
+.hud_flight_input {
+	@include input;
+
+	width: 100%;
+
+	margin-bottom: 3px;
+	padding: 24px 15px 23px;
+
+	@media #{$min_lg} {
+		padding: 16px 25px;
+	}
+}
+
+.hud_links {
+	margin-top: 20px;
+
+	.hud_item_notifications & {
+		margin-top: 10px;
+	}
+}
+
+.hud_link {
+	@include proxima(700);
+	@include arrowed_link;
+	@include gray_arrowed_link;
+	@include expander;
+
+	position: relative;
+
+	display: inline-block;
+	font-size: 13px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	@media #{$min_lg} {
+		margin-bottom: 0;
+	}
+
+	.hud_item_flights &,
+	.hud_item_airplane &,
+	.hud_item_parking & {
+
+		@media #{$max_lg} {
+			background: $black;
+			border-radius: 4px;
+			color: #fff;
+			padding: 13px 16px;
+			text-transform: uppercase;
+		}
+	}
+
+	&_sm {
+
+		@media #{$min_lg} {
+			display: none;
+		}
+	}
+
+	&_lg {
+		display: none;
+
+		@media #{$min_lg} {
+			display: inline-block;
+		}
+	}
+
+	&[type="submit"] {
+		display: none;
+
+		@media #{$max_lg} {
+			width: 100%;
+
+			background: $red;
+			cursor: pointer;
+			transition: background .25s;
+		}
+
+		&:focus,
+		&:hover {
+
+			@media #{$max_lg} {
+				background: $black;
+			}
+		}
+
+		.show_remaining_inputs & {
+			display: inline-block;
+		}
+	}
+
+	svg {
+
+		.hud_item_flights &,
+		.hud_item_airplane &,
+		.hud_item_parking & {
+
+			@media #{$max_lg} {
+				fill: $red;
+			}
+		}
+
+		@at-root .hud_link[type="submit"] svg {
+			
+			@media #{$max_lg} {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+.hud_help {
+	@include proxima(400);
+
+	display: none;
+	font-size: 12px;
+	line-height: (18 / 12);
+	margin: 12px 0 0;
+	text-transform: none;
+
+	@media #{$min_lg} {
+		display: block;
+	}
+}
+
+.hud_time {
+
+	&_sm {
+		@include proxima(700);
+
+		font-size: 13px;
+		margin: 0 0 19px;
+		text-transform: uppercase;
+
+		@media #{$min_lg} {
+			display: none;
+		}
+	}
+
+	&_lg {
+		@include proxima(400);
+
+		font-size: 14px;
+		margin: -5px 0 20px;
+
+		display: none;
+
+		@media #{$min_lg} {
+			display: block;
+		}
+	}
+}
+
+
+/* Parking Item
+============================================================================= */
+
+.hud_parking {
+	display: block;
+	text-align: left;
+
+	@media #{$min_lg} {
+		display: inline-block;
+	}
+}
+
+.hud_parking_availability {
+	display: block;
+	white-space: nowrap;
+
+	@media #{$max_lg} {
+		border-bottom: 1px solid #E3E3E3;
+		padding: 10px 0;
+	}
+
+	@media #{$min_lg} {
+		align-items: center;
+		display: flex;
+		margin-bottom: 22px;
+	}
+
+	&:first-of-type {
+		
+		@media #{$max_lg} {
+			border-top: 1px solid #E3E3E3;
+		}
+	}
+
+	&:last-child {
+
+		@media #{$max_lg} {
+			margin-bottom: 5px;
+		}
+
+		@media #{$min_lg} {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.hud_parking_percent {
+	@include proxima(700);
+
+	width: 4.5ch;
+
+	color: $black;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0;
+
+	@media #{$max_lg} {
+		vertical-align: top;	
+	}
+
+	@media #{$min_lg} {
+		width: 4ch;
+
+		font-size: 16px;	
+	}
+
+	&:after {
+		content: "%";
+	}
+}
+
+.hud_parking_details {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hud_parking_type {
+	display: inline-block;
+	font-size: 14px;
+	margin: 0 10px 0 0;
+
+	@media #{$max_lg} {
+		@include proxima(700);
+
+		color: #000;
+	}
+
+	@media #{$min_lg} {
+		@include proxima(400);
+
+		color: $dark;
+	}
+}
+
+.hud_parking_price {
+
+	@media #{$min_lg} {
+		display: none;
+	}
+}
+
+.hud_parking_price_label {
+	@include proxima(300);
+
+	color: #444;
+	font-size: 12px;
+}
+
+.hud_parking_status {
+	@include status;
+
+	@media #{$max_lg} {
+		float: right;
+
+		margin: 9px 0;
+	}
+
+	&.available {
+		box-shadow: inset 0 0 0 1px #D8D8D8;
+    color: #111;
+	}
+
+	&.lot-full {
+		background: #850F1E;
+	}
+
+	&.mostly-full {
+		background: #C9791B;
+	}
+
+	&.mostly-open {
+		background: #4AA818;
+	}
+}
+
+
+/* Notifications Item
+============================================================================= */
+
+.hud_notification {}
+
+.hud_notification_title {
+	@include proxima(300);
+
+	font-size: 16px;
+	line-height: (24 / 16);
+	margin: 5px 0 10px;
+
+	@media #{$min_lg} {
+		margin-top: 0;
+	}
+}
+
+/* To Top
+============================================================================= */
+
+.hud_to_top {
+	width: 250px;
+
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 20;
+
+	display: none;
+	opacity: 0;
+	padding: 20px;
+	text-align: center;
+	visibility: hidden;
+	transition:
+		opacity .25s,
+		visibility .25s;
+
+	@media #{$min_lg} {
+		display: block;
+	}
+
+	.fix_item + & {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.shrink_hud & {
+		position: absolute;
+
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.hud_to_top_body {}
+
+.hud_to_top_label {
+	@include visually_hide;
+}
+
+.hud_to_top_icon_wrapper {
+	height: 30px;
+	width: 30px;
+
+	position: relative;
+
+	background: $red;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	transition: background .25s;
+
+	&:focus,
+	&:hover {
+		background: $black;
+	}
+}
+
+.hud_to_top_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform:
+		translate(-50%, -50%)
+		scale(.85);
+
+	svg {
+		fill: #fff;
+	}
+}

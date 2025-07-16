@@ -1,0 +1,61 @@
+<script type="text/javascript">
+	var HUDURL = "{{ url('<front>') }}themes/custom/bwi/cache/hud-data.json";
+</script>
+<form action="flying-with-us/flights/arrivals#customerComponent" class="hud_flights_form" method="get">
+	<header class="hud_header">
+		<span class="hud_title_flag">
+			<span class="hud_title_indicator">
+				<span class="hud_title_icon hud_title_icon_airplane">
+					<svg aria-hidden="true" class="symbol symbol_airplane symbol_white">
+						<use xlink:href="#airplane"></use>
+					</svg>
+				</span>
+			</span>
+		</span>
+		<h2 class="hud_title">Flight Status</h2>
+	</header>
+	<div class="hud_flights">
+		<input class="hud_flight_input" name="flight" type="search" placeholder="Search by Flight #" aria-label="Enter Flight Number" />
+		<div class="fs-dropdown_wrapper hud_flight_date hud_flight_dropdown_wrapper">
+			<select name="date" class="js-dropdown hud_flight_dropdown">
+				<option value="">Select a Date</option>
+				{% for i in range(-5, 20) %}
+				<option value="{{ date("+" ~ i ~ " days")|date("Ymd") }}"{% if i == 0 %} selected{% endif %}>{{ date("+" ~ i ~ " days")|date("D, M j") }}</option>
+				{% endfor %}
+			</select>
+			<span class="fs-dropdown_icon hud_flight_dropdown_icon">
+				<svg aria-hidden="true" class="symbol symbol_caret_down symbol_red">
+					<use xlink:href="#caret_down"></use>
+				</svg>
+			</span>
+		</div>
+	</div>
+
+	<footer class="hud_links">
+		<button type="submit" class="hud_link">
+			<span>Find Flight</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</button>
+		<a class="hud_link hud_link_lg" href="{{ content.field_link[0]["#url"] }}#schedule">
+			<span>All Flights</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+		<a class="hud_link hud_link_sm" href="{{ content.field_arrivals_link[0]["#url"] }}#schedule">
+			<span>View Arrivals</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+		<a class="hud_link hud_link_sm" href="{{ content.field_departures_link[0]["#url"] }}#schedule">
+			<span>View Departures</span>
+			<svg aria-hidden="true" class="symbol symbol_arrow_right symbol_gray">
+				<use xlink:href="#arrow_right"></use>
+			</svg>
+		</a>
+	</footer>
+	<p class="hud_help">View all flights, <em>without a flight #</em>, by clicking on the "All Flights" link above.</p>
+</form>

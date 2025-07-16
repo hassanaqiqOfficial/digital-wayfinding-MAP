@@ -1,0 +1,222 @@
+{% extends "_base.twig" %}
+
+{% block page_feature %}
+	{% include '../partials/components/feature/spotlight.twig' with {
+		image: 8,
+		title: "Flying With Us",
+		caption: "Find out how easy it is to get in and get going."
+	} %}
+{% endblock %}
+
+{% set pageTitle = "Style Guide Full Width" %}
+
+{% block typography %}
+	<p>Traveling through BWI Marshall is terrifically easy, both <a href="">arriving</a> and <a href="">departing</a>. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+
+	<p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+{% endblock %}
+
+{% block full_width_callouts %}
+	<h4>Blockquote</h4>
+	{% include '../partials/components/full-width/blockquote.twig' with {
+		description: "Terrific! BWI makes flying much easier than it often is. It's easy to get there, easy to find things, and security is the fastest and most logical I've ever seen.",
+		image: 9,
+		name: "James Perring",
+		position: "Attorney"
+	} %}
+
+	<h4>2 Column Topic Row</h4>
+	{% include '../partials/components/full-width/callouts.twig' with {
+		callouts: [
+			{
+				title: "Flights",
+				image: 4,
+				caption: "Check the status of all arrivals and departures.",
+				link: "Flight Information"
+			},
+			{
+				title: "Security",
+				image: 5,
+				caption: "Learn how to expedite your screening experience when traveling at participating airports.",
+				link: "TSA PreCheck"
+			}
+		]
+	} %}
+
+	<h4>Destination Promo</h4>
+	{% include '../partials/components/full-width/destinations.twig' with {
+		class: "framed",
+		background: 3,
+		title: "Inspiring Destinations",
+		caption: "and the convenient non-stop flights you’re looking for.",
+		link: "Exciting Destinations",
+		subCaption: "<a href>London</a> is a diverse and exciting city with some of the world's best sights, attractions and activities."
+	} %}
+
+	<h4>3 Column Callouts</h4>
+	{% include '../partials/components/full-width/facts.twig' with {
+		title: "Did you know?",
+		caption: "The latest news, facts, and press at BWI Marshall Airport.",
+		facts: [
+			{
+				image: 1,
+				title: "You Can Now Rent a Bike to Enjoy Our 12.5 Mile Scenic Outdoor Bike Trail",
+				caption: "Stretch your legs outside before your flight.",
+				link: "About the Trail"
+			},
+			{
+				image: 2,
+				title: "The Website Thrillist Found BWI to be a #1 Airport in America",
+				caption: "<a href>The Thrillist</a> website found that BWI Marshall is <em>“surprisingly, refreshingly great, offering opportunities for fitness, rest, relaxation, cultural enrichment, even outdoor activities.”</em>",
+				link: "Read More"
+			},
+			{
+				image: 3,
+				title: "BWI’s SPAGnVOLA Rated a Top 10 World’s Best Chocolate Shop",
+				caption: "National Geographic rated chocolatier SPAGnVOLA as as a top 10 contender in the world of chocolate.",
+				link: "Read More"
+			}
+		]
+	} %}
+
+	<h4>Map Query</h4>
+	{% include '../partials/components/full-width/info.twig' with {
+		class: "framed",
+		dimension: img.square.xsml,
+		image: 2,
+		symbol: "traveler",
+		title: "Find What’s Nearby",
+		caption: "There’s a lot to do at BWI Marshall Airport. Get the lay of the land and make the most out of your journey.",
+		dropdown: [
+			"Select Your Concourse"
+		]
+	} %}
+
+	<h4>Topic Rows</h4>
+	{% include '../partials/components/full-width/listing.twig' with {
+		listings: [
+			{
+				title: "Parking Options",
+				caption: "Our four parking options are ready to serve you depending on your budget and timeframe — try our Hourly Garage, Daily Garage, Express Parking or Long Term Parking.",
+				link: "Parking Information"
+			},
+			{
+				title: "Picking Up",
+				caption: "If you’re picking someone up, we recommend our Cell Phone Lot to pick someone up curbside, or our Hourly Garage to meet them at their exit to Baggage Claim.",
+				link: "Arriving at BWI"
+			},
+			{
+				title: "Dropping Off",
+				caption: "Drop-offs are easy at the airline entrances on our Upper Level. Just follow the signs for Departures as you approach the airport, then find the right airline sign.",
+				link: "Departing from BWI"
+			}
+		]
+	} %}
+
+	<h4>Parking Options & Availability</h4>
+	{% include '../partials/components/full-width/parking.twig' with {
+		title: "Parking Options and Availability",
+		titleLabel: "* as of 3:45pm",
+		caption: "It’s easier to park than ever. We have four great options to provide you with the most convenient fit!",
+		parking: [
+			{
+				number: 0,
+				type: "Hourly",
+				status: "Lot Full",
+				cost: "$4 per hour / $22 a day",
+				caption: "Our closest parking option, this covered garage allows you to use the Pay-n-Go System to exit efficiently."
+			},
+			{
+				number: 55,
+				type: "Daily",
+				status: "Available",
+				cost: "$12 a day",
+				caption: "Our Daily Garage allows for covered parking and frequent shuttles between the terminal and garage."
+			},
+			{
+				number: 17,
+				type: "Express",
+				status: "Mostly Full",
+				cost: "$10 a day",
+				caption: "Express Parking provides shuttles that pick you up and drop you off right at your parking space."
+			},
+			{
+				number: 90,
+				type: "Long - Term",
+				status: "Mostly Open",
+				cost: "$8 a day",
+				caption: "Long Term Parking is the most economical, providing frequent shuttles and covered shelter stops."
+			}
+		]
+	} %}
+
+	<h4>Static Statistic Panel</h4>
+	{% include '../partials/components/full-width/planning.twig' with {
+		title: "Estimated Shuttle Times",
+		titleLabel: "* as of 3:45pm",
+		symbol: "clock",
+		items: [
+			{
+				title: "From Daily Parking",
+				caption: "Every 5 Minutes"
+			},
+			{
+				title: "From Long-Term Parking",
+				caption: "Every 15 Minutes"
+			},
+			{
+				title: "From Express Parking",
+				caption: "Every 10 Minutes"
+			}
+		],
+		caption: "Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus."
+	} %}
+
+	<h4>Link List</h4>
+	{% include '../partials/components/full-width/services.twig' with {
+		title: "Services",
+		background: 10,
+		services: [
+			{
+				title: "Baggage",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Lost & Found",
+				caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium."
+			},
+			{
+				title: "International Travelers",
+				caption: "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In mal."
+			},
+			{
+				title: "Accessibility",
+				caption: "Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec vive."
+			},
+			{
+				title: "Corporate & General Aviation",
+				caption: "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget lib."
+			},
+			{
+				title: "About BWI",
+				caption: "Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamco."
+			}
+		]
+	} %}
+
+	<h4>Facts & Stats</h4>
+	{% include '../partials/components/full-width/stats.twig' with {
+		title: "Facts & Stats",
+		caption: "Donec ullamcorper nulla non metus auctor fringilla.",
+		stats: [
+			{
+				number: "22.5M",
+				caption: "Passengers traveling through BWI Marshall in 2014."
+			},
+			{
+				number: "70",
+				caption: "Direct flights. It’s easy to just go at BWI Thurgood Marshall."
+			}
+		]
+	} %}
+{% endblock %}
