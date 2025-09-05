@@ -38,3 +38,41 @@ The project is developed using the following technologies:
 ├── index.html     # Entry point of the application
 └── README.md      # Project documentation
 
+⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/bwi-wayfinding-map.git
+
+
+Navigate into the project directory:
+
+cd bwi-wayfinding-map
+
+
+Open index.html in your browser or use a local server for development.
+Example with Python:
+
+python3 -m http.server 8080
+
+📌 Usage
+
+Open the map on your digital device.
+
+Use interactive elements to search and navigate airport facilities.
+
+Enjoy a seamless wayfinding experience with real-time data updates.
+
+🔒 Security & Performance
+
+Optimized for cross-device performance (desktop, tablet, mobile).
+
+Built with modular CSS/JS structure for maintainability.
+
+Regular updates for bug fixes and feature enhancements.
+
+📄 License
+
+This project is proprietary and developed for BWI Marshall Airport. Unauthorized redistribution is not permitted.
+
+✈️ A real-time digital wayfinding solution enhancing the airport experience for travelers worldwide.
